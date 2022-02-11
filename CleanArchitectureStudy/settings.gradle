@@ -1,0 +1,9 @@
+rootProject.name = "CleanArchitectureStudy"
+include ':main'
+include ':local'
+include ':core'
+include ':api'
+include ':util'
+include ':moviesearch'
+include ':entity'
+include ':di'
