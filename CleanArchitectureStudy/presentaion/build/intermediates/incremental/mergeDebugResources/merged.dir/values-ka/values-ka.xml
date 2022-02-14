@@ -84,6 +84,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">შეეხეთ დღის არჩევაზე გადასართავად</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">ტექსტის შეყვანის რეჟიმზე გადართვა</string>
     <string name="mtrl_picker_toggle_to_year_selection">შეეხეთ წლის არჩევაზე გადასართავად</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"ზემოთ გადასვლა"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"ნავიგაციის უჯრის გახსნა"</string>
     <string name="password_toggle_content_description">პაროლის ჩვენება</string>
     <string msgid="6264217191555673260" name="search_menu_title">"ძიება"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>

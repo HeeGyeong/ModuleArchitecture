@@ -84,6 +84,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">दिवस निवडण्यासाठी स्विच करा वर टॅप करा</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">मजकूर इनपुट मोडवर स्विच करा</string>
     <string name="mtrl_picker_toggle_to_year_selection">वर्ष निवडण्यासाठी स्विच करा वर टॅप करा</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"वर नेव्‍हिगेट करा"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"नेव्हिगेशन ड्रॉवर उघडा"</string>
     <string name="password_toggle_content_description">पासवर्ड दाखवा</string>
     <string msgid="6264217191555673260" name="search_menu_title">"शोध"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"९९९+"</string>

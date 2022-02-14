@@ -13,6 +13,9 @@ com/example/moviesearch/databinding/ItemMovieBinding.java
  com.example.moviesearch.databinding.ItemMovieBinding
 com/example/moviesearch/DataBindingTriggerClass.java
  com.example.moviesearch.DataBindingTriggerClass
+com/example/moviesearch/generated/callback/OnClickListener.java
+ com.example.moviesearch.generated.callback.OnClickListener
+ com.example.moviesearch.generated.callback.OnClickListener$Listener
 com/example/moviesearch/BR.java
  com.example.moviesearch.BR
 androidx/databinding/library/baseAdapters/BR.java

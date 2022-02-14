@@ -84,6 +84,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">탭하여 요일 선택으로 전환</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">텍스트 입력 모드로 전환</string>
     <string name="mtrl_picker_toggle_to_year_selection">탭하여 연도 선택으로 전환</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"위로 이동"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"탐색 창 열기"</string>
     <string name="password_toggle_content_description">비밀번호 표시</string>
     <string msgid="6264217191555673260" name="search_menu_title">"검색"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>

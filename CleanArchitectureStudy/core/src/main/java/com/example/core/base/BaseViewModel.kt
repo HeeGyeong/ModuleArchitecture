@@ -26,7 +26,6 @@ abstract class BaseViewModel(private val navi: Navigation) : ViewModel() {
         _isLoading.value = false
     }
 
-
     fun changeToActivity(context: Context, fromActivity: FromActivity) {
         Log.d("StartLogCheck" , "baseActivity changeToActivity $context -> $fromActivity")
         navi(context, fromActivity)

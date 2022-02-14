@@ -5,7 +5,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.view.View;
 @SuppressWarnings("unchecked")
-public class ActivityMovieSearchBindingImpl extends ActivityMovieSearchBinding  {
+public class ActivityMovieSearchBindingImpl extends ActivityMovieSearchBinding implements com.example.moviesearch.generated.callback.OnClickListener.Listener {
 
     @Nullable
     private static final androidx.databinding.ViewDataBinding.IncludedLayouts sIncludes;
@@ -14,13 +14,15 @@ public class ActivityMovieSearchBindingImpl extends ActivityMovieSearchBinding  
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.guideline, 4);
-        sViewsWithIds.put(R.id.btn_search, 5);
+        sViewsWithIds.put(R.id.guideline, 5);
+        sViewsWithIds.put(R.id.move_btn, 6);
     }
     // views
     @NonNull
     private final androidx.constraintlayout.widget.ConstraintLayout mboundView0;
     // variables
+    @Nullable
+    private final android.view.View.OnClickListener mCallback1;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -63,16 +65,18 @@ public class ActivityMovieSearchBindingImpl extends ActivityMovieSearchBinding  
     };
 
     public ActivityMovieSearchBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 6, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 7, sIncludes, sViewsWithIds));
     }
     private ActivityMovieSearchBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 3
-            , (android.widget.Button) bindings[5]
+            , (android.widget.Button) bindings[2]
             , (android.widget.EditText) bindings[1]
-            , (androidx.constraintlayout.widget.Guideline) bindings[4]
-            , (android.widget.ProgressBar) bindings[3]
-            , (androidx.recyclerview.widget.RecyclerView) bindings[2]
+            , (androidx.constraintlayout.widget.Guideline) bindings[5]
+            , (android.widget.Button) bindings[6]
+            , (android.widget.ProgressBar) bindings[4]
+            , (androidx.recyclerview.widget.RecyclerView) bindings[3]
             );
+        this.btnSearch.setTag(null);
         this.etInput.setTag(null);
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView0.setTag(null);
@@ -80,6 +84,7 @@ public class ActivityMovieSearchBindingImpl extends ActivityMovieSearchBinding  
         this.rvMovies.setTag(null);
         setRootTag(root);
         // listeners
+        mCallback1 = new com.example.moviesearch.generated.callback.OnClickListener(this, 1);
         invalidateAll();
     }
 
@@ -242,15 +247,16 @@ public class ActivityMovieSearchBindingImpl extends ActivityMovieSearchBinding  
             }
         }
         // batch finished
+        if ((dirtyFlags & 0x10L) != 0) {
+            // api target 1
+
+            this.btnSearch.setOnClickListener(mCallback1);
+            androidx.databinding.adapters.TextViewBindingAdapter.setTextWatcher(this.etInput, (androidx.databinding.adapters.TextViewBindingAdapter.BeforeTextChanged)null, (androidx.databinding.adapters.TextViewBindingAdapter.OnTextChanged)null, (androidx.databinding.adapters.TextViewBindingAdapter.AfterTextChanged)null, etInputandroidTextAttrChanged);
+        }
         if ((dirtyFlags & 0x1cL) != 0) {
             // api target 1
 
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.etInput, vmQueryGetValue);
-        }
-        if ((dirtyFlags & 0x10L) != 0) {
-            // api target 1
-
-            androidx.databinding.adapters.TextViewBindingAdapter.setTextWatcher(this.etInput, (androidx.databinding.adapters.TextViewBindingAdapter.BeforeTextChanged)null, (androidx.databinding.adapters.TextViewBindingAdapter.OnTextChanged)null, (androidx.databinding.adapters.TextViewBindingAdapter.AfterTextChanged)null, etInputandroidTextAttrChanged);
         }
         if ((dirtyFlags & 0x1aL) != 0) {
             // api target 1
@@ -270,6 +276,22 @@ public class ActivityMovieSearchBindingImpl extends ActivityMovieSearchBinding  
     }
     // Listener Stub Implementations
     // callback impls
+    public final void _internalCallbackOnClick(int sourceId , android.view.View callbackArg_0) {
+        // localize variables for thread safety
+        // vm != null
+        boolean vmJavaLangObjectNull = false;
+        // vm
+        com.example.moviesearch.search.MovieSearchViewModel vm = mVm;
+
+
+
+        vmJavaLangObjectNull = (vm) != (null);
+        if (vmJavaLangObjectNull) {
+
+
+            vm.requestMovie();
+        }
+    }
     // dirty flag
     private  long mDirtyFlags = 0xffffffffffffffffL;
     /* flag mapping

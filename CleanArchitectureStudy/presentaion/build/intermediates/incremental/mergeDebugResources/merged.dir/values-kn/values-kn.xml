@@ -84,6 +84,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">ದಿನವನ್ನು ಆಯ್ಕೆಗಾಗಿ ಬದಲಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">ಪಠ್ಯ ಇನ್‌ಪುಟ್ ಮೋಡ್‌ಗೆ ಬದಲಿಸಿ</string>
     <string name="mtrl_picker_toggle_to_year_selection">ವರ್ಷವನ್ನು ಆಯ್ಕೆಗಾಗಿ ಬದಲಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"ಮೇಲಕ್ಕೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"ನ್ಯಾವಿಗೇಶನ್ ಡ್ರಾವರ್ ಅನ್ನು ತೆರೆಯಿರಿ"</string>
     <string name="password_toggle_content_description">ಪಾಸ್‌ವರ್ಡ್ ತೋರಿಸಿ</string>
     <string msgid="6264217191555673260" name="search_menu_title">"ಹುಡುಕಿ"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>

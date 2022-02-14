@@ -84,6 +84,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">Sakatu eguna hautatzeko modura aldatzeko</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Aldatu testua idazteko modura</string>
     <string name="mtrl_picker_toggle_to_year_selection">Sakatu urtea hautatzeko modura aldatzeko</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Joan gora"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Ireki nabigazio-panel lerrakorra"</string>
     <string name="password_toggle_content_description">Erakutsi pasahitza</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Bilatu"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>

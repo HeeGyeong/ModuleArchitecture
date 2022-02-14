@@ -2649,6 +2649,7 @@ int id month_navigation_next 0x0
 int id month_navigation_previous 0x0
 int id month_title 0x0
 int id motion_base 0x0
+int id move_btn 0x0
 int id mtrl_anchor_parent 0x0
 int id mtrl_calendar_day_selector_frame 0x0
 int id mtrl_calendar_days_of_week 0x0

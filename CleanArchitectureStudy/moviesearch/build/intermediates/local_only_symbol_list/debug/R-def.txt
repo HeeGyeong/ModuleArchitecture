@@ -13,6 +13,7 @@ id btn_search
 id et_input
 id guideline
 id iv_poster
+id move_btn
 id pb_loading
 id rb_rating
 id rv_movies

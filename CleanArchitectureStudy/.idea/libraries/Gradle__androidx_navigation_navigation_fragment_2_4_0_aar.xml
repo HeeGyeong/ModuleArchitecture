@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.navigation:navigation-fragment:2.4.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6db9b85cec1e9c4a671a321b7fe450bb/navigation-fragment-2.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6db9b85cec1e9c4a671a321b7fe450bb/navigation-fragment-2.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6db9b85cec1e9c4a671a321b7fe450bb/navigation-fragment-2.4.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/6db9b85cec1e9c4a671a321b7fe450bb/navigation-fragment-2.4.0/res" />
+      <root url="jar://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/6db9b85cec1e9c4a671a321b7fe450bb/navigation-fragment-2.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/6db9b85cec1e9c4a671a321b7fe450bb/navigation-fragment-2.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.navigation/navigation-fragment/2.4.0/83eb9ba36f36f08cb87db7db2cf0cf37523aad1b/navigation-fragment-2.4.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/modules-2/files-2.1/androidx.navigation/navigation-fragment/2.4.0/83eb9ba36f36f08cb87db7db2cf0cf37523aad1b/navigation-fragment-2.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

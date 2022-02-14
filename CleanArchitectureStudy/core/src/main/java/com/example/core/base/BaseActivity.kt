@@ -1,15 +1,11 @@
 package com.example.core.base
 
-import android.content.Context
 import android.os.Bundle
-import android.util.Log
 import android.widget.Toast
 import androidx.annotation.LayoutRes
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
-import com.example.core.base.navi.Navigation
-import com.example.core.base.navi.NavigationInterface
 import io.reactivex.disposables.CompositeDisposable
 
 

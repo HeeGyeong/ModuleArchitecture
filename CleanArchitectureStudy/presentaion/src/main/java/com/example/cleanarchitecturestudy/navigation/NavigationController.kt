@@ -23,7 +23,7 @@ class NavigationController: NavigationInterface {
                 context.startActivity(Intent(context, MoveActivity::class.java))
             }
             else -> {
-
+                Log.d("StartLogCheck" , "in Else .. insert value ? $fromActivity")
             }
         }
     }

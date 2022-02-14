@@ -86,6 +86,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">Нажмите, чтобы перейти к выбору дня</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Перейти в режим ввода текста</string>
     <string name="mtrl_picker_toggle_to_year_selection">Нажмите, чтобы перейти к выбору года</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Перейти вверх"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Открыть панель навигации"</string>
     <string name="password_toggle_content_description">Показать пароль</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Поиск"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">">999"</string>
