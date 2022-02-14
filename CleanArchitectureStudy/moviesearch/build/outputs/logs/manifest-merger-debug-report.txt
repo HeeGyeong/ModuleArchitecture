@@ -1,0 +1,49 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml:2:1-20:12
+	package
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml:3:5-38
+		INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml
+		INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml:6:22-64
+application
+ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml:8:5-18:19
+	android:supportsRtl
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml:14:9-60
+activity#com.example.moviesearch.search.MovieSearchActivity
+ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml:15:9-17:39
+	android:windowSoftInputMode
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml:16:13-56
+	android:exported
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml:15:19-61
+uses-sdk
+INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml
+INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml
+		INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml

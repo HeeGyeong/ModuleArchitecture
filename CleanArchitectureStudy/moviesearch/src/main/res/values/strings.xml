@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">moviesearch</string>
 
+
     <string name="search_input_query_msg">검색어를 입력해주세요</string>
     <string name="network_error_msg">네트워크를 연결해주세요.</string>
     <string name="load_movie_success_msg">영화를 불러왔습니다.</string>

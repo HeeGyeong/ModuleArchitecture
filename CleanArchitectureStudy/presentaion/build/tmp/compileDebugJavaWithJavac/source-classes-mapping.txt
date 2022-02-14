@@ -1,0 +1,26 @@
+com/example/move/BR.java
+ com.example.move.BR
+com/example/cleanarchitecturestudy/BR.java
+ com.example.cleanarchitecturestudy.BR
+com/example/cleanarchitecturestudy/DataBinderMapperImpl.java
+ com.example.cleanarchitecturestudy.DataBinderMapperImpl
+ com.example.cleanarchitecturestudy.DataBinderMapperImpl$InnerBrLookup
+ com.example.cleanarchitecturestudy.DataBinderMapperImpl$InnerLayoutIdLookup
+com/example/cleanarchitecturestudy/BuildConfig.java
+ com.example.cleanarchitecturestudy.BuildConfig
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+com/example/cleanarchitecturestudy/databinding/ActivityMainBindingImpl.java
+ com.example.cleanarchitecturestudy.databinding.ActivityMainBindingImpl
+com/example/cleanarchitecturestudy/databinding/ActivityMainBinding.java
+ com.example.cleanarchitecturestudy.databinding.ActivityMainBinding
+com/example/moviesearch/BR.java
+ com.example.moviesearch.BR
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+com/example/cleanarchitecturestudy/DataBindingTriggerClass.java
+ com.example.cleanarchitecturestudy.DataBindingTriggerClass
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+com/example/core/BR.java
+ com.example.core.BR

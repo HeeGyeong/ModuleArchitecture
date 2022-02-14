@@ -5,7 +5,7 @@
     <data>
         <variable
             name="movie"
-            type="com.example.entity.entity.Movie" />
+            type="com.example.domain.model.Movie" />
     </data>
 
     <androidx.appcompat.widget.LinearLayoutCompat
