@@ -4,22 +4,21 @@ import android.content.Context
 import android.content.Intent
 import android.util.Log
 import com.example.cleanarchitecturestudy.view.MainActivity
-import com.example.core.base.BaseViewModel
 import com.example.core.base.navi.NavigationInterface
 import com.example.move.MoveActivity
 import com.example.moviesearch.search.MovieSearchActivity
 
 class NavigationController: NavigationInterface {
-    override fun changeActivity(context: Context, fromActivity: BaseViewModel.FromActivity) {
+    override fun changeActivity(context: Context, fromActivity: String?) {
         Log.d("StartLogCheck" , "NavigationController $context -> $fromActivity")
         when(fromActivity) {
-            BaseViewModel.FromActivity.MAIN -> {
+            "MAIN" -> {
                 context.startActivity(Intent(context, MainActivity::class.java))
             }
-            BaseViewModel.FromActivity.MOVIE -> {
+            "MOVIE" -> {
                 context.startActivity(Intent(context, MovieSearchActivity::class.java))
             }
-            BaseViewModel.FromActivity.MOVE -> {
+            "MOVE" -> {
                 context.startActivity(Intent(context, MoveActivity::class.java))
             }
             else -> {

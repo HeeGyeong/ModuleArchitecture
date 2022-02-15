@@ -4,5 +4,5 @@ import android.content.Context
 import com.example.core.base.BaseViewModel
 
 interface NavigationInterface {
-    fun changeActivity(context: Context, fromActivity: BaseViewModel.FromActivity)
+    fun changeActivity(context: Context, fromActivity: String?)
 }

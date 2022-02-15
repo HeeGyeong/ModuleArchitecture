@@ -24,10 +24,10 @@ class MainActivity: BaseActivity<ActivityMainBinding>(R.layout.activity_main)  {
     fun btnClick(view: View) {
         when(view.id) {
             R.id.search_btn -> {
-                viewModel.changeToActivity(this, BaseViewModel.FromActivity.MOVIE)
+                viewModel.changeToActivity(this, BaseViewModel.FromActivity.MOVE.activity("MOVIE"))
             }
             R.id.move_btn -> {
-                viewModel.changeToActivity(this, BaseViewModel.FromActivity.MOVE)
+                viewModel.changeToActivity(this, BaseViewModel.FromActivity.MOVE.activity("MOVE"))
             }
         }
     }

@@ -1,6 +1,5 @@
 package com.example.move
 
-import android.os.Bundle
 import android.view.View
 import androidx.navigation.findNavController
 import com.example.core.base.BaseActivity
@@ -14,10 +13,10 @@ class MoveActivity: BaseActivity<ActivityMoveBinding>(R.layout.activity_move) {
     fun btnClick(view: View) {
         when(view.id) {
             R.id.main_btn -> {
-                viewModel.changeToActivity(this, BaseViewModel.FromActivity.MAIN)
+                viewModel.changeToActivity(this, BaseViewModel.FromActivity.MOVE.activity("MAIN"))
             }
             R.id.search_btn -> {
-                viewModel.changeToActivity(this, BaseViewModel.FromActivity.MOVIE)
+                viewModel.changeToActivity(this, BaseViewModel.FromActivity.MOVE.activity("MOVIE"))
             }
 
             R.id.first_btn -> {

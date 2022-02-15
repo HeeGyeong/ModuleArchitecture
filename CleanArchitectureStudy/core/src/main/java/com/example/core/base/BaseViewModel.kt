@@ -11,7 +11,7 @@ import io.reactivex.disposables.CompositeDisposable
 /**
  * BaseViewModel
  */
-abstract class BaseViewModel(private val navi: Navigation) : ViewModel() {
+abstract class BaseViewModel(private val navigation: Navigation) : ViewModel() {
     protected val compositeDisposable = CompositeDisposable()
 
     // LiveData 를 사용하여 ProgressBar 를 On/Off 시킨다. 해당 변수를 사용하는 곳은 movie_search.xml
@@ -26,9 +26,9 @@ abstract class BaseViewModel(private val navi: Navigation) : ViewModel() {
         _isLoading.value = false
     }
 
-    fun changeToActivity(context: Context, fromActivity: FromActivity) {
+    fun changeToActivity(context: Context, fromActivity: String?) {
         Log.d("StartLogCheck" , "baseActivity changeToActivity $context -> $fromActivity")
-        navi(context, fromActivity)
+        navigation(context, fromActivity)
     }
 
     override fun onCleared() {
@@ -36,9 +36,8 @@ abstract class BaseViewModel(private val navi: Navigation) : ViewModel() {
         super.onCleared()
     }
 
-    enum class FromActivity {
-        MAIN,
-        MOVIE,
-        MOVE
+    enum class FromActivity(val activity: (String?) -> String?) {
+        MOVE({ it }),
+        BACK({ it })
     }
 }
