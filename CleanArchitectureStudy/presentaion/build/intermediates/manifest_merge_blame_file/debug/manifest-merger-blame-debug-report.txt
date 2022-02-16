@@ -6,7 +6,7 @@
 6        android:minSdkVersion="23"
 6-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentaion/src/main/AndroidManifest.xml
 7        android:targetSdkVersion="31" />
-7-->[androidx.navigation:navigation-fragment-ktx:2.4.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/f8f2f6bd4898d830e5dc458fa92209c4/navigation-fragment-ktx-2.4.0/AndroidManifest.xml:22:9-38
+7-->[androidx.navigation:navigation-fragment-ktx:2.4.1] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/43c75c3de7e3e737cecbcb89e6d90e3a/navigation-fragment-ktx-2.4.1/AndroidManifest.xml:22:9-38
 8
 9    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 9-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentaion/src/main/AndroidManifest.xml:5:5-79

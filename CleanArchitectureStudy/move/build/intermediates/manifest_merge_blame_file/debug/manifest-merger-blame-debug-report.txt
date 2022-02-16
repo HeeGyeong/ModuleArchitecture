@@ -1,0 +1,39 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.move" >
+4
+5    <uses-sdk android:minSdkVersion="23" />
+5-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/src/main/AndroidManifest.xml
+6
+7    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+7-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/src/main/AndroidManifest.xml:5:5-79
+7-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/src/main/AndroidManifest.xml:5:22-76
+8    <uses-permission android:name="android.permission.INTERNET" />
+8-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/src/main/AndroidManifest.xml:6:5-67
+8-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/src/main/AndroidManifest.xml:6:22-64
+9
+10    <application
+10-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/src/main/AndroidManifest.xml:8:5-18:19
+11        android:allowBackup="true"
+11-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/src/main/AndroidManifest.xml:9:9-35
+12        android:icon="@mipmap/ic_launcher"
+12-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/src/main/AndroidManifest.xml:10:9-43
+13        android:label="@string/app_name"
+13-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/src/main/AndroidManifest.xml:11:9-41
+14        android:roundIcon="@mipmap/ic_launcher_round"
+14-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/src/main/AndroidManifest.xml:12:9-54
+15        android:supportsRtl="true"
+15-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/src/main/AndroidManifest.xml:13:9-35
+16        android:theme="@style/Theme.CleanArchitectureStudy" >
+16-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/src/main/AndroidManifest.xml:14:9-60
+17        <activity
+17-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/src/main/AndroidManifest.xml:15:9-17:39
+18            android:name="com.example.move.MoveActivity"
+18-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/src/main/AndroidManifest.xml:15:19-47
+19            android:exported="false"
+19-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/src/main/AndroidManifest.xml:17:13-37
+20            android:windowSoftInputMode="adjustNothing" />
+20-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/src/main/AndroidManifest.xml:16:13-56
+21    </application>
+22
+23</manifest>
