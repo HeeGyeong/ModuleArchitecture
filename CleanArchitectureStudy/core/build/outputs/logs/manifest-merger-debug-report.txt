@@ -1,22 +1,24 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/src/main/AndroidManifest.xml:2:1-8:12
-INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/src/main/AndroidManifest.xml:2:1-8:12
-INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/src/main/AndroidManifest.xml:2:1-8:12
+ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/src/main/AndroidManifest.xml:2:1-9:12
 	package
-		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/src/main/AndroidManifest.xml:3:5-31
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/src/main/AndroidManifest.xml:4:5-31
 		INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/src/main/AndroidManifest.xml
 		INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/src/main/AndroidManifest.xml:3:5-51
 	xmlns:android
 		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/src/main/AndroidManifest.xml:6:5-79
+ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/src/main/AndroidManifest.xml:7:5-79
 	android:name
-		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/src/main/AndroidManifest.xml:6:22-76
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/src/main/AndroidManifest.xml:7:22-76
 uses-permission#android.permission.INTERNET
-ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/src/main/AndroidManifest.xml:7:5-67
+ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/src/main/AndroidManifest.xml:8:5-67
 	android:name
-		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/src/main/AndroidManifest.xml:7:22-64
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/src/main/AndroidManifest.xml:8:22-64
 uses-sdk
 INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/src/main/AndroidManifest.xml

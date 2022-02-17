@@ -13,6 +13,7 @@ id first_btn
 id first_fragment
 id fragment
 id frameLayout
+id get_data_store
 id main_btn
 id move_first_fragment
 id move_second_fragment
@@ -21,6 +22,7 @@ id nav_graph
 id search_btn
 id second_btn
 id second_fragment
+id set_data_store
 id third_btn
 id third_fragment
 layout activity_move

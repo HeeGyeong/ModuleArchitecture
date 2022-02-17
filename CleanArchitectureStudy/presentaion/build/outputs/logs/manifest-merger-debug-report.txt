@@ -4,7 +4,7 @@ ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/present
 INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentaion/src/main/AndroidManifest.xml:2:1-29:12
 MERGED from [:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-23:12
 MERGED from [:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-23:12
-MERGED from [:core] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-10:12
+MERGED from [:core] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.databinding:databinding-adapters:4.2.1] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/d5a94fddd41a7a03ff31ecf106d1163a/databinding-adapters-4.2.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.databinding:databinding-runtime:4.2.1] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/f9e6393c82819f1a38099af3870932a4/databinding-runtime-4.2.1/AndroidManifest.xml:17:1-22:12
 MERGED from [:data] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/data/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
@@ -100,8 +100,8 @@ MERGED from [:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitect
 MERGED from [:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-79
 MERGED from [:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-79
 MERGED from [:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-79
-MERGED from [:core] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-79
-MERGED from [:core] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-79
+MERGED from [:core] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-79
+MERGED from [:core] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-79
 	android:name
 		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentaion/src/main/AndroidManifest.xml:5:22-76
 uses-permission#android.permission.INTERNET
@@ -110,8 +110,8 @@ MERGED from [:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitect
 MERGED from [:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-67
 MERGED from [:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-67
 MERGED from [:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-67
-MERGED from [:core] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-67
-MERGED from [:core] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-67
+MERGED from [:core] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:core] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
 MERGED from [:data] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/data/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-67
 MERGED from [:data] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/data/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-67
 MERGED from [:domain] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/domain/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-67
@@ -169,7 +169,7 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/youheegyeong/AppUnif
 	android:theme
 		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentaion/src/main/AndroidManifest.xml:15:9-60
 	android:name
-		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentaion/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentaion/src/main/AndroidManifest.xml:9:9-61
 activity#com.example.cleanarchitecturestudy.view.MainActivity
 ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentaion/src/main/AndroidManifest.xml:20:9-26:20
 	android:exported
@@ -193,8 +193,8 @@ MERGED from [:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitect
 MERGED from [:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:core] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:core] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:core] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
+MERGED from [:core] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
 MERGED from [androidx.databinding:databinding-adapters:4.2.1] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/d5a94fddd41a7a03ff31ecf106d1163a/databinding-adapters-4.2.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:databinding-adapters:4.2.1] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/d5a94fddd41a7a03ff31ecf106d1163a/databinding-adapters-4.2.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:databinding-runtime:4.2.1] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/f9e6393c82819f1a38099af3870932a4/databinding-runtime-4.2.1/AndroidManifest.xml:20:5-44

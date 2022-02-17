@@ -15,16 +15,24 @@ import java.lang.Object;
 
 public abstract class ActivityMoveBinding extends ViewDataBinding {
   @NonNull
+  public final Button getDataStore;
+
+  @NonNull
   public final Button mainBtn;
 
   @NonNull
   public final Button searchBtn;
 
+  @NonNull
+  public final Button setDataStore;
+
   protected ActivityMoveBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      Button mainBtn, Button searchBtn) {
+      Button getDataStore, Button mainBtn, Button searchBtn, Button setDataStore) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.getDataStore = getDataStore;
     this.mainBtn = mainBtn;
     this.searchBtn = searchBtn;
+    this.setDataStore = setDataStore;
   }
 
   @NonNull

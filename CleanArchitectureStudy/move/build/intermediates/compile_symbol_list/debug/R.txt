@@ -2618,6 +2618,7 @@ int id forever 0x0
 int id fragment 0x0
 int id fragment_container_view_tag 0x0
 int id frameLayout 0x0
+int id get_data_store 0x0
 int id ghost_view 0x0
 int id ghost_view_holder 0x0
 int id gone 0x0
@@ -2779,6 +2780,7 @@ int id second_fragment 0x0
 int id select_dialog_listview 0x0
 int id selected 0x0
 int id selection_type 0x0
+int id set_data_store 0x0
 int id shortcut 0x0
 int id sin 0x0
 int id slide 0x0

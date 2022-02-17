@@ -17,8 +17,8 @@
 11
 12    <application
 12-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentaion/src/main/AndroidManifest.xml:8:5-27:19
-13        android:name="com.example.cleanarchitecturestudy.di.KoinApplication"
-13-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentaion/src/main/AndroidManifest.xml:9:9-43
+13        android:name="com.example.core.base.BaseApplication"
+13-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentaion/src/main/AndroidManifest.xml:9:9-61
 14        android:allowBackup="true"
 14-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentaion/src/main/AndroidManifest.xml:10:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"

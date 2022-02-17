@@ -16,6 +16,8 @@ public class ActivityMoveBindingImpl extends ActivityMoveBinding  {
         sViewsWithIds = new android.util.SparseIntArray();
         sViewsWithIds.put(R.id.main_btn, 1);
         sViewsWithIds.put(R.id.search_btn, 2);
+        sViewsWithIds.put(R.id.get_data_store, 3);
+        sViewsWithIds.put(R.id.set_data_store, 4);
     }
     // views
     @NonNull
@@ -26,12 +28,14 @@ public class ActivityMoveBindingImpl extends ActivityMoveBinding  {
     // Inverse Binding Event Handlers
 
     public ActivityMoveBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 3, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 5, sIncludes, sViewsWithIds));
     }
     private ActivityMoveBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
+            , (android.widget.Button) bindings[3]
             , (android.widget.Button) bindings[1]
             , (android.widget.Button) bindings[2]
+            , (android.widget.Button) bindings[4]
             );
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView0.setTag(null);
