@@ -15,7 +15,7 @@ import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import androidx.recyclerview.widget.RecyclerView;
 import com.example.moviesearch.R;
-import com.example.moviesearch.search.MovieSearchViewModel;
+import com.example.moviesearch.view.MovieSearchViewModel;
 import java.lang.Deprecated;
 import java.lang.Object;
 

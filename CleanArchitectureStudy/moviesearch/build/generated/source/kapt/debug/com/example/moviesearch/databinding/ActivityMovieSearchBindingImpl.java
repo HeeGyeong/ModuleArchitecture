@@ -36,7 +36,7 @@ public class ActivityMovieSearchBindingImpl extends ActivityMovieSearchBinding i
             // vm != null
             boolean vmJavaLangObjectNull = false;
             // vm
-            com.example.moviesearch.search.MovieSearchViewModel vm = mVm;
+            com.example.moviesearch.view.MovieSearchViewModel vm = mVm;
             // vm.query != null
             boolean vmQueryJavaLangObjectNull = false;
             // vm.query.getValue()
@@ -110,7 +110,7 @@ public class ActivityMovieSearchBindingImpl extends ActivityMovieSearchBinding i
     public boolean setVariable(int variableId, @Nullable Object variable)  {
         boolean variableSet = true;
         if (BR.vm == variableId) {
-            setVm((com.example.moviesearch.search.MovieSearchViewModel) variable);
+            setVm((com.example.moviesearch.view.MovieSearchViewModel) variable);
         }
         else {
             variableSet = false;
@@ -118,7 +118,7 @@ public class ActivityMovieSearchBindingImpl extends ActivityMovieSearchBinding i
             return variableSet;
     }
 
-    public void setVm(@Nullable com.example.moviesearch.search.MovieSearchViewModel Vm) {
+    public void setVm(@Nullable com.example.moviesearch.view.MovieSearchViewModel Vm) {
         this.mVm = Vm;
         synchronized(this) {
             mDirtyFlags |= 0x8L;
@@ -177,7 +177,7 @@ public class ActivityMovieSearchBindingImpl extends ActivityMovieSearchBinding i
         int vmIsLoadingViewVISIBLEViewGONE = 0;
         boolean androidxDatabindingViewDataBindingSafeUnboxVmIsLoadingGetValue = false;
         java.lang.String vmQueryGetValue = null;
-        com.example.moviesearch.search.MovieSearchViewModel vm = mVm;
+        com.example.moviesearch.view.MovieSearchViewModel vm = mVm;
         androidx.lifecycle.LiveData<java.util.List<com.example.domain.model.Movie>> vmMovieList = null;
         java.lang.Boolean vmIsLoadingGetValue = null;
         androidx.lifecycle.LiveData<java.lang.Boolean> vmIsLoading = null;
@@ -281,7 +281,7 @@ public class ActivityMovieSearchBindingImpl extends ActivityMovieSearchBinding i
         // vm != null
         boolean vmJavaLangObjectNull = false;
         // vm
-        com.example.moviesearch.search.MovieSearchViewModel vm = mVm;
+        com.example.moviesearch.view.MovieSearchViewModel vm = mVm;
 
 
 

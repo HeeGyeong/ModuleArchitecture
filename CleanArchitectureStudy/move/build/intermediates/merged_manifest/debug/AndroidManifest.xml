@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CleanArchitectureStudy" >
         <activity
-            android:name="com.example.move.MoveActivity"
+            android:name="com.example.move.view.MoveActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustNothing" />
     </application>

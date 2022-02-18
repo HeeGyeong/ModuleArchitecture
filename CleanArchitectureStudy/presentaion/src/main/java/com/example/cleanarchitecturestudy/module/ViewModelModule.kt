@@ -1,8 +1,8 @@
 package com.example.cleanarchitecturestudy.module
 
 import com.example.cleanarchitecturestudy.view.MainViewModel
-import com.example.move.MoveViewModel
-import com.example.moviesearch.search.MovieSearchViewModel
+import com.example.move.view.MoveViewModel
+import com.example.moviesearch.view.MovieSearchViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.core.module.Module
 import org.koin.dsl.module

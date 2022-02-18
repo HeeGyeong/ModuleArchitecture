@@ -62,16 +62,16 @@
 39        </activity>
 40        <activity
 40-->[:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-20:59
-41            android:name="com.example.moviesearch.search.MovieSearchActivity"
-41-->[:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-78
+41            android:name="com.example.moviesearch.view.MovieSearchActivity"
+41-->[:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-76
 42            android:exported="false"
 42-->[:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
 43            android:windowSoftInputMode="adjustNothing" />
 43-->[:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-56
 44        <activity
 44-->[:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-20:59
-45            android:name="com.example.move.MoveActivity"
-45-->[:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-57
+45            android:name="com.example.move.view.MoveActivity"
+45-->[:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-62
 46            android:exported="false"
 46-->[:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
 47            android:windowSoftInputMode="adjustNothing" />

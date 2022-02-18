@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CleanArchitectureStudy" >
         <activity
-            android:name="com.example.moviesearch.search.MovieSearchActivity"
+            android:name="com.example.moviesearch.view.MovieSearchActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustNothing" />
     </application>

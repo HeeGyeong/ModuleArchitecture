@@ -366,22 +366,22 @@ INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/pres
 		INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentaion/src/main/AndroidManifest.xml
 		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentaion/src/main/AndroidManifest.xml
 		INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentaion/src/main/AndroidManifest.xml
-activity#com.example.moviesearch.search.MovieSearchActivity
+activity#com.example.moviesearch.view.MovieSearchActivity
 ADDED from [:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-20:59
 	android:windowSoftInputMode
 		ADDED from [:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-56
 	android:exported
 		ADDED from [:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from [:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-78
-activity#com.example.move.MoveActivity
+		ADDED from [:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-76
+activity#com.example.move.view.MoveActivity
 ADDED from [:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-20:59
 	android:windowSoftInputMode
 		ADDED from [:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-56
 	android:exported
 		ADDED from [:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from [:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-57
+		ADDED from [:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-62
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/c18ff5fe07aaa8aa8d640b79780be5ef/window-1.0.0/AndroidManifest.xml:25:9-27:40
 	android:required

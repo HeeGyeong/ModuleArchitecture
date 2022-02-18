@@ -38,11 +38,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.moviesearch.search.MovieSearchActivity"
+            android:name="com.example.moviesearch.view.MovieSearchActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustNothing" />
         <activity
-            android:name="com.example.move.MoveActivity"
+            android:name="com.example.move.view.MoveActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustNothing" />
 

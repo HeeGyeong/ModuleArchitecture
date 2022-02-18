@@ -31,14 +31,14 @@ ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviese
 		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml:9:9-35
 	android:theme
 		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml:14:9-60
-activity#com.example.moviesearch.search.MovieSearchActivity
+activity#com.example.moviesearch.view.MovieSearchActivity
 ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml:15:9-17:39
 	android:windowSoftInputMode
 		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml:16:13-56
 	android:exported
 		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml:15:19-61
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml:15:19-59
 uses-sdk
 INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/src/main/AndroidManifest.xml

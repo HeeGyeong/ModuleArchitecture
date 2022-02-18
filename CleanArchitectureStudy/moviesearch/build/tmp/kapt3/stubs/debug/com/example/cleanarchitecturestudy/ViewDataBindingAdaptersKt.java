@@ -2,7 +2,7 @@ package com.example.cleanarchitecturestudy;
 
 import java.lang.System;
 
-@kotlin.Metadata(mv = {1, 6, 0}, k = 2, d1 = {"\u0000:\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010!\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\u001a\u001c\u0010\u0000\u001a\u00020\u0001*\u00020\u00022\u000e\u0010\u0003\u001a\n\u0012\u0004\u0012\u00020\u0005\u0018\u00010\u0004H\u0007\u001a\u0014\u0010\u0006\u001a\u00020\u0001*\u00020\u00022\u0006\u0010\u0007\u001a\u00020\bH\u0007\u001a\u0014\u0010\t\u001a\u00020\u0001*\u00020\n2\u0006\u0010\u000b\u001a\u00020\fH\u0007\u001a\u0014\u0010\r\u001a\u00020\u0001*\u00020\u000e2\u0006\u0010\u000f\u001a\u00020\fH\u0007\u001a\u0014\u0010\u0010\u001a\u00020\u0001*\u00020\u00112\u0006\u0010\u0012\u001a\u00020\fH\u0007\u00a8\u0006\u0013"}, d2 = {"setAdapterItems", "", "Landroidx/recyclerview/widget/RecyclerView;", "items", "", "Lcom/example/domain/model/Movie;", "setEndlessScroll", "viewModel", "Lcom/example/moviesearch/search/MovieSearchViewModel;", "setHtmlText", "Landroid/widget/TextView;", "html", "", "setMovieRating", "Landroid/widget/RatingBar;", "score", "setUrlImage", "Landroid/widget/ImageView;", "url", "moviesearch_debug"})
+@kotlin.Metadata(mv = {1, 6, 0}, k = 2, d1 = {"\u0000:\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010!\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\u001a\u001c\u0010\u0000\u001a\u00020\u0001*\u00020\u00022\u000e\u0010\u0003\u001a\n\u0012\u0004\u0012\u00020\u0005\u0018\u00010\u0004H\u0007\u001a\u0014\u0010\u0006\u001a\u00020\u0001*\u00020\u00022\u0006\u0010\u0007\u001a\u00020\bH\u0007\u001a\u0014\u0010\t\u001a\u00020\u0001*\u00020\n2\u0006\u0010\u000b\u001a\u00020\fH\u0007\u001a\u0014\u0010\r\u001a\u00020\u0001*\u00020\u000e2\u0006\u0010\u000f\u001a\u00020\fH\u0007\u001a\u0014\u0010\u0010\u001a\u00020\u0001*\u00020\u00112\u0006\u0010\u0012\u001a\u00020\fH\u0007\u00a8\u0006\u0013"}, d2 = {"setAdapterItems", "", "Landroidx/recyclerview/widget/RecyclerView;", "items", "", "Lcom/example/domain/model/Movie;", "setEndlessScroll", "viewModel", "Lcom/example/moviesearch/view/MovieSearchViewModel;", "setHtmlText", "Landroid/widget/TextView;", "html", "", "setMovieRating", "Landroid/widget/RatingBar;", "score", "setUrlImage", "Landroid/widget/ImageView;", "url", "moviesearch_debug"})
 public final class ViewDataBindingAdaptersKt {
     
     /**
@@ -35,6 +35,6 @@ public final class ViewDataBindingAdaptersKt {
     @androidx.databinding.BindingAdapter(value = {"endlessScroll"})
     public static final void setEndlessScroll(@org.jetbrains.annotations.NotNull()
     androidx.recyclerview.widget.RecyclerView $this$setEndlessScroll, @org.jetbrains.annotations.NotNull()
-    com.example.moviesearch.search.MovieSearchViewModel viewModel) {
+    com.example.moviesearch.view.MovieSearchViewModel viewModel) {
     }
 }
