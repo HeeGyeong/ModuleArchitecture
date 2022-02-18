@@ -1,6 +1,7 @@
 package com.example.moviesearch.databinding;
-import com.example.moviesearch.R;
 import com.example.moviesearch.BR;
+import com.example.moviesearch.ViewDataBindingAdaptersKt;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.view.View;
@@ -132,12 +133,12 @@ public class ItemMovieBindingImpl extends ItemMovieBinding  {
         if ((dirtyFlags & 0x3L) != 0) {
             // api target 1
 
-            com.example.cleanarchitecturestudy.ViewDataBindingAdaptersKt.setUrlImage(this.ivPoster, movieImage);
-            com.example.cleanarchitecturestudy.ViewDataBindingAdaptersKt.setMovieRating(this.rbRating, movieUserRating);
+            ViewDataBindingAdaptersKt.setUrlImage(this.ivPoster, movieImage);
+            ViewDataBindingAdaptersKt.setMovieRating(this.rbRating, movieUserRating);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.tvActor, movieActor);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.tvDirector, movieDirector);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.tvReleaseDate, moviePubDate);
-            com.example.cleanarchitecturestudy.ViewDataBindingAdaptersKt.setHtmlText(this.tvTitle, movieTitle);
+            ViewDataBindingAdaptersKt.setHtmlText(this.tvTitle, movieTitle);
         }
     }
     // Listener Stub Implementations

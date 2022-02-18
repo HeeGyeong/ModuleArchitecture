@@ -1,4 +1,4 @@
-package com.example.cleanarchitecturestudy
+package com.example.moviesearch
 
 import android.widget.ImageView
 import android.widget.RatingBar
@@ -10,12 +10,14 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.core.base.util.EndlessRecyclerViewScrollListener
 import com.example.domain.model.Movie
-import com.example.moviesearch.R
 import com.example.moviesearch.view.MovieAdapter
 import com.example.moviesearch.view.MovieSearchViewModel
 
 /**
- * DataBinding
+ * DataBinding 에 사용하는 Adapter.
+ *
+ * MovieSearch Module 에서만 사용되기 때문에,
+ * 다른 모듈에서 dataBinding 을 사용하기 위해서는 각 Module 에서 따로 선언하여 사용해야한다.
  */
 @BindingAdapter("setItems")
 fun RecyclerView.setAdapterItems(items: MutableList<Movie>?) {

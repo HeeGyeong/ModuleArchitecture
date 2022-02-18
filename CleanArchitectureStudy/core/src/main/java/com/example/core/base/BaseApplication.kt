@@ -10,6 +10,8 @@ import org.koin.core.context.startKoin
  * Koin 과 DataStore 를 Setting 해주고 있다.
  *
  * 해당 class 는 Manifest 에 선언하여 사용하기 때문에 별다른 호출부는 존재하지 않는다.
+ * Koin 만 사용할 때는 Presentation Module 에 존재해도 상관 없지만,
+ * DataStore 을 Application 단에서 생성하기 위하여 Core Module 로 옮겨서 사용한다.
  */
 class BaseApplication: Application() {
 

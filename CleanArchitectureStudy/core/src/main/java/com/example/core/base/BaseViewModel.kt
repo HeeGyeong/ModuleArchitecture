@@ -34,7 +34,7 @@ abstract class BaseViewModel(private val navigation: Navigation) : ViewModel() {
 
     // Navigator 를 사용한 Activity 이동
     fun changeToActivity(context: Context, fromActivity: String?) {
-        Log.d("StartLogCheck" , "baseActivity changeToActivity $context -> $fromActivity")
+        Log.d("changeToActivity" , "baseActivity changeToActivity $context -> $fromActivity")
         navigation(context, fromActivity)
     }
 
@@ -48,7 +48,7 @@ abstract class BaseViewModel(private val navigation: Navigation) : ViewModel() {
         BaseApplication.getInstance().getDataStore().dataStoreText.first()
     }.await()
 
-    // collect 를 사용하는 경우 이처럼 사용한다.
+    // collect 를 사용하는 경우 이처럼 사용한다. 실 사용부분은 아님.
     fun getDataStore2(): String {
         var save: String = ""
         CoroutineScope(Dispatchers.Main).launch {
@@ -74,6 +74,7 @@ abstract class BaseViewModel(private val navigation: Navigation) : ViewModel() {
         super.onCleared()
     }
 
+    // enum class 를 사용하는 이유는, 호출 부분에서 행동을 제한하기 위해서이다.
     enum class FromActivity(val activity: (String?) -> String?) {
         MOVE({ it }),
         BACK({ it })

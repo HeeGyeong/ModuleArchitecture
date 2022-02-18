@@ -5,6 +5,9 @@ import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.os.Build
 
+/**
+ * NetWork 의 연결 여부를 판단하는 Manager Class.
+ */
 class NetworkManager(private val context: Context) {
 
     fun checkNetworkState(): Boolean {

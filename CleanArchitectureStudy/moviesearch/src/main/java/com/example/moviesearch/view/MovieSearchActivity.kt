@@ -24,7 +24,7 @@ class MovieSearchActivity : BaseActivity<ActivityMovieSearchBinding>(R.layout.ac
 
 
         binding.moveBtn.setOnClickListener {
-            Log.d("StartLogCheck" , "moveBtn onClick")
+            Log.d("moveBtnClick" , "moveBtn onClick")
             viewModel.changeToActivity(this, BaseViewModel.FromActivity.MOVE.activity("MAIN")!!)
             //viewModel.changeToActivity(this, BaseViewModel.FromActivity.BACK.activity(null)!!)
         }

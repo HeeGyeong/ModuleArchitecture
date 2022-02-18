@@ -8,9 +8,16 @@ import com.example.core.base.navi.NavigationInterface
 import com.example.move.initializer.MoveInitializer
 import com.example.moviesearch.initializer.MovieSearchInitializer
 
+/**
+ * 외부 Module 을 호출하여 Activity 이동을 하기 위한 Coordinator.
+ *
+ * 각 화면을 Module 로 나눠두었기 때문에, Activity 의 이동을 Coordinator Pattern 을 사용하여 구현해보았다.
+ * Main 의 경우 같은 Module 이기 때문에 그대로 StartActivity 를 호출하였고,
+ * 다른 케이스의 경우 외두 Module 이기 때문에 해당 Module 을 사용할 수 있는 Initializer 를 통해 접근 하도록 하였다.
+ */
 class Coordinator: NavigationInterface {
     override fun changeActivity(context: Context, fromActivity: String?) {
-        Log.d("StartLogCheck" , "NavigationController $context -> $fromActivity")
+        Log.d("Coordinator" , "NavigationController $context -> $fromActivity")
         when(fromActivity) {
             "MAIN" -> {
                 context.startActivity(Intent(context, MainActivity::class.java))
@@ -22,7 +29,7 @@ class Coordinator: NavigationInterface {
                 MoveInitializer().startActivity(context)
             }
             else -> {
-                Log.d("StartLogCheck" , "in Else .. insert value ? $fromActivity")
+                Log.d("Coordinator" , "in else .. what u want ? $fromActivity")
             }
         }
     }

@@ -1,6 +1,8 @@
 package com.example.moviesearch.databinding;
 import com.example.moviesearch.R;
 import com.example.moviesearch.BR;
+import com.example.moviesearch.ViewDataBindingAdaptersKt;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.view.View;
@@ -266,12 +268,12 @@ public class ActivityMovieSearchBindingImpl extends ActivityMovieSearchBinding i
         if ((dirtyFlags & 0x18L) != 0) {
             // api target 1
 
-            com.example.cleanarchitecturestudy.ViewDataBindingAdaptersKt.setEndlessScroll(this.rvMovies, vm);
+            ViewDataBindingAdaptersKt.setEndlessScroll(this.rvMovies, vm);
         }
         if ((dirtyFlags & 0x19L) != 0) {
             // api target 1
 
-            com.example.cleanarchitecturestudy.ViewDataBindingAdaptersKt.setAdapterItems(this.rvMovies, vmMovieListGetValue);
+            ViewDataBindingAdaptersKt.setAdapterItems(this.rvMovies, vmMovieListGetValue);
         }
     }
     // Listener Stub Implementations

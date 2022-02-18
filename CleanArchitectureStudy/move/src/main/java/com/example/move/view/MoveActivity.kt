@@ -11,6 +11,13 @@ import com.example.move.databinding.ActivityMoveBinding
 import kotlinx.coroutines.launch
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
+/**
+ * 화면 이동에 대한 테스트를 위해 만든 Activity.
+ *
+ * Coordinator 를 사용한 Module 간의 이동.
+ * DataStore 를 사용한 Data 저장.
+ * AAC Navigation 을 사용한 Fragment 간의 이동.
+ */
 class MoveActivity: BaseActivity<ActivityMoveBinding>(R.layout.activity_move) {
     private val viewModel: MoveViewModel by viewModel()
 
