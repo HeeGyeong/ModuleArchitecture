@@ -7,6 +7,8 @@ import java.lang.System;
  * Koin 과 DataStore 를 Setting 해주고 있다.
  *
  * 해당 class 는 Manifest 에 선언하여 사용하기 때문에 별다른 호출부는 존재하지 않는다.
+ * Koin 만 사용할 때는 Presentation Module 에 존재해도 상관 없지만,
+ * DataStore 을 Application 단에서 생성하기 위하여 Core Module 로 옮겨서 사용한다.
  */
 @kotlin.Metadata(mv = {1, 6, 0}, k = 1, d1 = {"\u0000\u001c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u0002\n\u0002\b\u0002\u0018\u0000 \b2\u00020\u0001:\u0001\bB\u0005\u00a2\u0006\u0002\u0010\u0002J\u0006\u0010\u0005\u001a\u00020\u0004J\b\u0010\u0006\u001a\u00020\u0007H\u0016R\u000e\u0010\u0003\u001a\u00020\u0004X\u0082.\u00a2\u0006\u0002\n\u0000\u00a8\u0006\t"}, d2 = {"Lcom/example/core/base/BaseApplication;", "Landroid/app/Application;", "()V", "dataStore", "Lcom/example/core/base/util/DataStore;", "getDataStore", "onCreate", "", "Companion", "core_debug"})
 public final class BaseApplication extends android.app.Application {
