@@ -1,7 +1,6 @@
 package com.example.core.base.navi
 
 import android.content.Context
-import com.example.core.base.BaseViewModel
 
 /**
  * 화면 이동에 사용하는 Interface

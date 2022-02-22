@@ -5,6 +5,4 @@ import com.example.core.base.navi.Navigation
 
 class MainViewModel(
     private val navigation: Navigation
-) : BaseViewModel(navigation) {
-
-}
+) : BaseViewModel(navigation)

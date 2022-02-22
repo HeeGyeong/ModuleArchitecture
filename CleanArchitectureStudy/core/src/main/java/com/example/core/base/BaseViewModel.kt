@@ -34,7 +34,7 @@ abstract class BaseViewModel(private val navigation: Navigation) : ViewModel() {
 
     // Navigator 를 사용한 Activity 이동
     fun changeToActivity(context: Context, fromActivity: String?) {
-        Log.d("changeToActivity" , "baseActivity changeToActivity $context -> $fromActivity")
+        Log.d("changeToActivity", "baseActivity changeToActivity $context -> $fromActivity")
         navigation(context, fromActivity)
     }
 

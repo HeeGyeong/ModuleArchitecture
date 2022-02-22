@@ -23,5 +23,5 @@ class GetLocalMoviesUseCase(private val repository: MovieRepository) {
      */
     operator fun invoke(
         query: String
-    ) : Flowable<List<Movie>> = repository.getSearchMovies(query)
+    ): Flowable<List<Movie>> = repository.getSearchMovies(query)
 }

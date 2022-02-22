@@ -22,11 +22,10 @@ class MovieSearchActivity : BaseActivity<ActivityMovieSearchBinding>(R.layout.ac
         initViewModelCallback()
         initAdapter()
 
-
         binding.moveBtn.setOnClickListener {
-            Log.d("moveBtnClick" , "moveBtn onClick")
+            Log.d("moveBtnClick", "moveBtn onClick")
             viewModel.changeToActivity(this, BaseViewModel.FromActivity.MOVE.activity("MAIN")!!)
-            //viewModel.changeToActivity(this, BaseViewModel.FromActivity.BACK.activity(null)!!)
+            // viewModel.changeToActivity(this, BaseViewModel.FromActivity.BACK.activity(null)!!)
         }
     }
 
@@ -42,17 +41,20 @@ class MovieSearchActivity : BaseActivity<ActivityMovieSearchBinding>(R.layout.ac
     private fun initViewModelCallback() {
         with(viewModel) {
             // toastMsg 가 변경 시, 변경된 text 로 toast 를 띄워준다.
-            toastMsg.observe(this@MovieSearchActivity, Observer {
-                when (toastMsg.value) {
-                    MovieSearchViewModel.MessageSet.LAST_PAGE -> showToast(getString(R.string.last_page_msg))
-                    MovieSearchViewModel.MessageSet.EMPTY_QUERY -> showToast(getString(R.string.search_input_query_msg))
-                    MovieSearchViewModel.MessageSet.NETWORK_NOT_CONNECTED -> showToast(getString(R.string.network_error_msg))
-                    MovieSearchViewModel.MessageSet.SUCCESS -> showToast(getString(R.string.load_movie_success_msg))
-                    MovieSearchViewModel.MessageSet.NO_RESULT -> showToast(getString(R.string.no_movie_error_msg))
-                    MovieSearchViewModel.MessageSet.ERROR -> showToast(getString(R.string.error_msg))
-                    MovieSearchViewModel.MessageSet.LOCAL_SUCCESS -> showToast(getString(R.string.local_db_msg))
+            toastMsg.observe(
+                this@MovieSearchActivity,
+                Observer {
+                    when (toastMsg.value) {
+                        MovieSearchViewModel.MessageSet.LAST_PAGE -> showToast(getString(R.string.last_page_msg))
+                        MovieSearchViewModel.MessageSet.EMPTY_QUERY -> showToast(getString(R.string.search_input_query_msg))
+                        MovieSearchViewModel.MessageSet.NETWORK_NOT_CONNECTED -> showToast(getString(R.string.network_error_msg))
+                        MovieSearchViewModel.MessageSet.SUCCESS -> showToast(getString(R.string.load_movie_success_msg))
+                        MovieSearchViewModel.MessageSet.NO_RESULT -> showToast(getString(R.string.no_movie_error_msg))
+                        MovieSearchViewModel.MessageSet.ERROR -> showToast(getString(R.string.error_msg))
+                        MovieSearchViewModel.MessageSet.LOCAL_SUCCESS -> showToast(getString(R.string.local_db_msg))
+                    }
                 }
-            })
+            )
         }
     }
 }

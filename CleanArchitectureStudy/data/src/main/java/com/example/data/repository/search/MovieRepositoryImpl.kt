@@ -66,7 +66,7 @@ class MovieRepositoryImpl(
             }
     }
 
-    //영화 검색 후 스크롤 내리면 영화 더 불러오기
+    // 영화 검색 후 스크롤 내리면 영화 더 불러오기
     override fun getPagingMovies(
         query: String,
         offset: Int
@@ -84,5 +84,4 @@ class MovieRepositoryImpl(
             }
         }
     }
-
 }

@@ -22,5 +22,4 @@ class MovieLocalDataSourceImpl(private val movieDao: MovieDao) : MovieLocalDataS
         movieDao.getMoviesByTitle(title)
 
     override fun deleteAllMovies(): Completable = movieDao.deleteAllMovies()
-
 }

@@ -14,5 +14,4 @@ class GetMoviesUseCase(private val repository: MovieRepository) {
     operator fun invoke(
         query: String
     ): Flowable<List<Movie>> = repository.getSearchMovies(query)
-
 }

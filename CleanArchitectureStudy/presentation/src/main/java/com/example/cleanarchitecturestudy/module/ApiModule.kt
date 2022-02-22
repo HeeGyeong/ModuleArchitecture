@@ -29,7 +29,7 @@ val apiModule: Module = module {
 
     // Retrofit setting
     single<Retrofit> {
-        Log.d("useCase" , "call single<Retrofit>")
+        Log.d("useCase", "call single<Retrofit>")
         Retrofit.Builder()
             .baseUrl(ApiClient.BASE_URL)
             .client(get())
@@ -37,20 +37,20 @@ val apiModule: Module = module {
             .addConverterFactory(get<GsonConverterFactory>())
             .build()
     }
-    
+
     single<GsonConverterFactory> { GsonConverterFactory.create() }
 
     single<OkHttpClient> {
         OkHttpClient.Builder()
             .run {
-                Log.d("useCase" , "call single<OkHttpClient>")
+                Log.d("useCase", "call single<OkHttpClient>")
                 addInterceptor(get<Interceptor>()) // 하단에 선언한 Intercepter 를 주입
-                
+
                 // 통신 시 시간 관련 option 추가
                 connectTimeout(60, TimeUnit.SECONDS)
                 readTimeout(60, TimeUnit.SECONDS)
                 writeTimeout(60, TimeUnit.SECONDS)
-                
+
                 build()
             }
     }
@@ -58,7 +58,7 @@ val apiModule: Module = module {
     single<Interceptor> {
         Interceptor { chain ->
             with(chain) {
-                Log.d("useCase" , "call single<Interceptor>")
+                Log.d("useCase", "call single<Interceptor>")
 
                 // Api 통신 시, Header 에 추가할 값들.
                 val newRequest = request().newBuilder()

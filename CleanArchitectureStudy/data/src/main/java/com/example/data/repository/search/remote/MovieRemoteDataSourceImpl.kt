@@ -16,5 +16,4 @@ class MovieRemoteDataSourceImpl(private val apiInterface: ApiInterface) :
     override fun getSearchMovies(query: String, start: Int): Single<MovieResponse> {
         return apiInterface.getSearchMovie(query, start)
     }
-
 }

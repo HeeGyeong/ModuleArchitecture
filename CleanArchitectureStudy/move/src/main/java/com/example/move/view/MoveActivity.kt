@@ -18,11 +18,11 @@ import org.koin.androidx.viewmodel.ext.android.viewModel
  * DataStore 를 사용한 Data 저장.
  * AAC Navigation 을 사용한 Fragment 간의 이동.
  */
-class MoveActivity: BaseActivity<ActivityMoveBinding>(R.layout.activity_move) {
+class MoveActivity : BaseActivity<ActivityMoveBinding>(R.layout.activity_move) {
     private val viewModel: MoveViewModel by viewModel()
 
     fun btnClick(view: View) {
-        when(view.id) {
+        when (view.id) {
             R.id.main_btn -> {
                 viewModel.changeToActivity(this, BaseViewModel.FromActivity.MOVE.activity("MAIN"))
             }
@@ -34,7 +34,7 @@ class MoveActivity: BaseActivity<ActivityMoveBinding>(R.layout.activity_move) {
             }
             R.id.get_data_store -> {
                 lifecycleScope.launch {
-                    Log.d("DataStoreCheck" , "result ? ${viewModel.getDataStore()}")
+                    Log.d("DataStoreCheck", "result ? ${viewModel.getDataStore()}")
                 }
             }
 

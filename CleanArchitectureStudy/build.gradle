@@ -27,8 +27,31 @@ allprojects {
 }
 
 subprojects {
-    afterEvaluate {
+    configurations {
+        ktlint
+    }
+
+    afterEvaluate { project ->
+        check.dependsOn ktlint
         project.apply {"$rootDir/common.gradle"}
+    }
+
+    dependencies {
+        ktlint "com.pinterest:ktlint:0.42.1"
+    }
+
+    task ktlint(type: JavaExec, group: "verification") {
+        description = "Sample Description"
+        classpath = configurations.ktlint
+        main = "com.pinterest.ktlint.Main"
+        args "src/**/*.kt"
+    }
+
+    task ktlintFormat(type: JavaExec, group: "aaaa") {
+        description = "Fix Kotlin code style deviations."
+        classpath = configurations.ktlint
+        main = "com.pinterest.ktlint.Main"
+        args "-F", "src/**/*.kt"
     }
 }
 

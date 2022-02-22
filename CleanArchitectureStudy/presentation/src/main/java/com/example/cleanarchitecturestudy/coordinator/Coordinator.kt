@@ -15,10 +15,10 @@ import com.example.moviesearch.initializer.MovieSearchInitializer
  * Main 의 경우 같은 Module 이기 때문에 그대로 StartActivity 를 호출하였고,
  * 다른 케이스의 경우 외두 Module 이기 때문에 해당 Module 을 사용할 수 있는 Initializer 를 통해 접근 하도록 하였다.
  */
-class Coordinator: NavigationInterface {
+class Coordinator : NavigationInterface {
     override fun changeActivity(context: Context, fromActivity: String?) {
-        Log.d("Coordinator" , "NavigationController $context -> $fromActivity")
-        when(fromActivity) {
+        Log.d("Coordinator", "NavigationController $context -> $fromActivity")
+        when (fromActivity) {
             "MAIN" -> {
                 context.startActivity(Intent(context, MainActivity::class.java))
             }
@@ -29,7 +29,7 @@ class Coordinator: NavigationInterface {
                 MoveInitializer().startActivity(context)
             }
             else -> {
-                Log.d("Coordinator" , "in else .. what u want ? $fromActivity")
+                Log.d("Coordinator", "in else .. what u want ? $fromActivity")
             }
         }
     }

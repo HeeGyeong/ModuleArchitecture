@@ -13,13 +13,13 @@ import org.koin.core.context.startKoin
  * Koin 만 사용할 때는 Presentation Module 에 존재해도 상관 없지만,
  * DataStore 을 Application 단에서 생성하기 위하여 Core Module 로 옮겨서 사용한다.
  */
-class BaseApplication: Application() {
+class BaseApplication : Application() {
 
-    private lateinit var dataStore : DataStore
+    private lateinit var dataStore: DataStore
 
     companion object {
         private lateinit var application: BaseApplication
-        fun getInstance() : BaseApplication = application
+        fun getInstance(): BaseApplication = application
     }
 
     override fun onCreate() {
@@ -32,5 +32,5 @@ class BaseApplication: Application() {
         }
     }
 
-    fun getDataStore() : DataStore = dataStore
+    fun getDataStore(): DataStore = dataStore
 }
