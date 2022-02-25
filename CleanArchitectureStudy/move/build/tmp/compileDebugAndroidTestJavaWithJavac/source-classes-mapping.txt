@@ -1,0 +1,4 @@
+com/example/move/test/BuildConfig.java
+ com.example.move.test.BuildConfig
+com/example/move/test/DataBindingTriggerClass.java
+ com.example.move.test.DataBindingTriggerClass

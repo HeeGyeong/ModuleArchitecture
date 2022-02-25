@@ -57,7 +57,7 @@ dependencies {
     implementation("androidx.datastore:datastore-preferences:1.0.0")
     // optional - RxJava2 support
     implementation("androidx.datastore:datastore-preferences-rxjava2:1.0.0")
-
+    // other library
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
     implementation 'de.hdodenhof:circleimageview:3.1.0'
     implementation 'com.github.rubensousa:gravitysnaphelper:2.2.1'

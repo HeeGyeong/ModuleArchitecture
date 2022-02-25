@@ -41,5 +41,12 @@ if (isLibraryPlugin || isApplicationPlugin) {
         kotlinOptions {
             jvmTarget = '1.8'
         }
+
+        // Unit Test를 위한 Option
+        testOptions {
+            unitTests.includeAndroidResources = true
+            // return 시 exception 대신에 default Value 를 return 하도록 설정.
+            unitTests.returnDefaultValues = true
+        }
     }
 }
