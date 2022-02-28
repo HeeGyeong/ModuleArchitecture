@@ -4,6 +4,7 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import androidx.lifecycle.Observer
 import com.example.core.base.BaseActivity
 import com.example.core.base.BaseViewModel
@@ -25,15 +26,13 @@ class MovieSearchActivity : BaseActivity<ActivityMovieSearchBinding>(R.layout.ac
         binding.moveBtn.setOnClickListener {
             Log.d("moveBtnClick", "moveBtn onClick")
             viewModel.changeToActivity(this, BaseViewModel.FromActivity.MOVE.activity("MAIN")!!)
-            // viewModel.changeToActivity(this, BaseViewModel.FromActivity.BACK.activity(null)!!)
         }
     }
 
     private fun initAdapter() {
         movieAdapter = MovieAdapter { movie ->
-            Intent(Intent.ACTION_VIEW, Uri.parse(movie.link)).takeIf {
-                it.resolveActivity(packageManager) != null
-            }?.run(this::startActivity)
+            Log.d("clickSample" , "check movie ? .. $movie")
+            Intent(Intent.ACTION_VIEW, Uri.parse(movie.link)).run(this::startActivity)
         }
         binding.rvMovies.adapter = movieAdapter
     }

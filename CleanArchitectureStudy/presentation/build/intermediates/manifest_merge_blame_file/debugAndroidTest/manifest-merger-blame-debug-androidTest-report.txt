@@ -3,24 +3,24 @@
 3    package="com.example.cleanarchitecturestudy.test" >
 4
 5    <uses-sdk
-5-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger16894383678201909231.xml:5:5-74
+5-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger12642032058143411277.xml:5:5-74
 6        android:minSdkVersion="23"
-6-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger16894383678201909231.xml:5:15-41
+6-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger12642032058143411277.xml:5:15-41
 7        android:targetSdkVersion="23" />
-7-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger16894383678201909231.xml:5:42-71
+7-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger12642032058143411277.xml:5:42-71
 8
 9    <instrumentation
-9-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger16894383678201909231.xml:11:5-15:84
-10        android:name="android.test.InstrumentationTestRunner"
-10-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger16894383678201909231.xml:11:22-75
+9-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger12642032058143411277.xml:11:5-15:84
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger12642032058143411277.xml:11:22-76
 11        android:functionalTest="false"
-11-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger16894383678201909231.xml:14:22-52
+11-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger12642032058143411277.xml:14:22-52
 12        android:handleProfiling="false"
-12-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger16894383678201909231.xml:13:22-53
+12-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger12642032058143411277.xml:13:22-53
 13        android:label="Tests for com.example.cleanarchitecturestudy"
-13-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger16894383678201909231.xml:15:22-82
+13-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger12642032058143411277.xml:15:22-82
 14        android:targetPackage="com.example.cleanarchitecturestudy" />
-14-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger16894383678201909231.xml:12:22-80
+14-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger12642032058143411277.xml:12:22-80
 15
 16    <queries>
 16-->[androidx.test:runner:1.4.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/e4a89d7990a486f69371c872c0dca9b2/runner-1.4.0/AndroidManifest.xml:24:5-28:15
@@ -40,11 +40,11 @@
 22-->[androidx.test:core:1.4.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/9039cb4a5db2e5faf59551dacfd6890a/core-1.4.0/AndroidManifest.xml:24:22-69
 23
 24    <application android:debuggable="true" >
-24-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger16894383678201909231.xml:7:5-9:19
-24-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger16894383678201909231.xml:7:18-43
+24-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger12642032058143411277.xml:7:5-9:19
+24-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger12642032058143411277.xml:7:18-43
 25        <uses-library android:name="android.test.runner" />
-25-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger16894383678201909231.xml:8:9-60
-25-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger16894383678201909231.xml:8:23-57
+25-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger12642032058143411277.xml:8:9-60
+25-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger12642032058143411277.xml:8:23-57
 26
 27        <activity
 27-->[androidx.test:core:1.4.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/9039cb4a5db2e5faf59551dacfd6890a/core-1.4.0/AndroidManifest.xml:27:9-34:20
