@@ -10,7 +10,7 @@ import io.reactivex.Single
  *
  * @param repository Movie data 를 컨트롤 하는 Repository
  */
-class GetPagingMoviesUseCase(private val repository: MovieRepository) {
+open class GetPagingMoviesUseCase(private val repository: MovieRepository) {
     operator fun invoke(
         query: String,
         offset: Int

@@ -1,5 +1,6 @@
 package com.example.moviesearch.view
 
+import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.example.core.base.BaseViewModel
@@ -25,7 +26,7 @@ class MovieSearchViewModel(
     private val navigation: Navigation
 ) : BaseViewModel(navigation) {
 
-    private var currentQuery: String = "" // 현재 검색어
+    var currentQuery: String = "" // 현재 검색어
     val query = MutableLiveData<String>() // 검색어(EditText two-way binding)
 
     // 영화 리스트가 저장되는 변수. 해당 변수는 xml 에서 binding 되어 실제로 데이터를 뿌려주게 된다.
@@ -35,6 +36,16 @@ class MovieSearchViewModel(
     // 검색 결과에 따른 toast 메세지.
     private val _toastMsg = MutableLiveData<MessageSet>()
     val toastMsg: LiveData<MessageSet> get() = _toastMsg
+
+    var testString = "default"
+    fun unitTest(): String {
+        testString = "unitTest"
+        return testString
+    }
+
+    fun queryTest(): String {
+        return currentQuery
+    }
 
     // 영화 검색
     fun requestMovie() {

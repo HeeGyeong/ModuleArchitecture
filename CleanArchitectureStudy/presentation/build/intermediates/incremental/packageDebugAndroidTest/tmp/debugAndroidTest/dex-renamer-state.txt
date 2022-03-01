@@ -1,4 +1,4 @@
-#Mon Feb 28 19:58:16 KST 2022
+#Tue Mar 01 20:11:39 KST 2022
 base.2=/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/3/classes.dex
 path.2=3/classes.dex
 base.1=/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex

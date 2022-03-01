@@ -10,7 +10,7 @@ import io.reactivex.Flowable
  *
  * @param repository Movie data 를 컨트롤 하는 Repository
  */
-class GetMoviesUseCase(private val repository: MovieRepository) {
+open class GetMoviesUseCase(private val repository: MovieRepository) {
     operator fun invoke(
         query: String
     ): Flowable<List<Movie>> = repository.getSearchMovies(query)

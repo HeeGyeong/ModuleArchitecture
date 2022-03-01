@@ -1,5 +1,6 @@
 package com.example.cleanarchitecturestudy
 
+import androidx.lifecycle.MutableLiveData
 import androidx.test.espresso.Espresso
 import androidx.test.espresso.action.ViewActions
 import androidx.test.espresso.action.ViewActions.click
@@ -8,10 +9,19 @@ import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.rule.ActivityTestRule
 import com.example.cleanarchitecturestudy.view.MainActivity
+import com.example.core.base.navi.Navigation
+import com.example.core.base.util.NetworkManager
+import com.example.domain.usecase.movie.GetLocalMoviesUseCase
+import com.example.domain.usecase.movie.GetMoviesUseCase
+import com.example.domain.usecase.movie.GetPagingMoviesUseCase
 import com.example.moviesearch.view.MovieAdapter
+import com.example.moviesearch.view.MovieSearchViewModel
+import com.google.common.truth.Truth.assertThat
+import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
+import org.mockito.Mockito
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.TimeUnit
 
@@ -22,9 +32,39 @@ import java.util.concurrent.TimeUnit
  */
 @RunWith(AndroidJUnit4::class)
 class ExampleInstrumentedTest {
+    private lateinit var msViewModel: MovieSearchViewModel
 
     @get:Rule
     var activityRule = ActivityTestRule(MainActivity::class.java)
+
+    @Before
+    fun setUp() {
+        val gmUc: GetMoviesUseCase = Mockito.mock(GetMoviesUseCase::class.java)
+        val gpmUc: GetPagingMoviesUseCase = Mockito.mock(GetPagingMoviesUseCase::class.java)
+        val glmUc: GetLocalMoviesUseCase = Mockito.mock(GetLocalMoviesUseCase::class.java)
+        val nM: NetworkManager = Mockito.mock(NetworkManager::class.java)
+        val navi: Navigation = Mockito.mock(Navigation::class.java)
+        msViewModel = MovieSearchViewModel(gmUc, gpmUc, glmUc, nM, navi)
+        msViewModel.testString = "setUp"
+    }
+
+    @Test
+    fun test_vm() {
+        CountDownLatch(1).await(1, TimeUnit.SECONDS)
+        assertThat(msViewModel.query.value).isNull()
+        Espresso.onView(withId(R.id.search_btn))
+            .perform(click())
+        Espresso.onView(withId(R.id.et_input))
+            .perform(ViewActions.typeText("call"),
+                ViewActions.replaceText("bed")
+                ,ViewActions.closeSoftKeyboard())
+        assertThat(msViewModel.query.value).isNull()
+        Espresso.onView(withId(R.id.btn_search))
+            .perform(click())
+        CountDownLatch(1).await(3, TimeUnit.SECONDS)
+
+//        assertThat(msViewModel.query.value).isEqualTo("call")
+    }
 
     @Test
     fun test_recycler_click() {
@@ -42,7 +82,12 @@ class ExampleInstrumentedTest {
         Espresso.onView(withId(R.id.rv_movies))
             .perform(RecyclerViewActions.scrollToPosition<MovieAdapter.ViewHolder>(10))
         Espresso.onView(withId(R.id.rv_movies))
-            .perform(RecyclerViewActions.actionOnItemAtPosition<MovieAdapter.ViewHolder>(8, click()))
+            .perform(
+                RecyclerViewActions.actionOnItemAtPosition<MovieAdapter.ViewHolder>(
+                    8,
+                    click()
+                )
+            )
     }
 
     @Test

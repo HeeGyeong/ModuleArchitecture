@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.koin:koin-test-core:2.2.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/modules-2/files-2.1/org.koin/koin-test-core/2.2.2/c4697cb3025ef479e91286dc3ff17b25fc01762f/koin-test-core-2.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/modules-2/files-2.1/org.koin/koin-test-core/2.2.2/70b2835dd414f1be75c41be241f4926ecf41a3e3/koin-test-core-2.2.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/modules-2/files-2.1/org.koin/koin-test-core/2.2.2/d3056866cbde0eaf2ec9a1322988f07cc987b46a/koin-test-core-2.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
