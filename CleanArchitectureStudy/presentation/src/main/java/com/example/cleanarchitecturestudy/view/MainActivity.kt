@@ -1,19 +1,18 @@
 package com.example.cleanarchitecturestudy.view
 
+import android.Manifest
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
+import androidx.lifecycle.lifecycleScope
 import com.example.cleanarchitecturestudy.R
 import com.example.cleanarchitecturestudy.databinding.ActivityMainBinding
-import com.example.cleanarchitecturestudy.module.apiModule
-import com.example.cleanarchitecturestudy.module.localDataModule
-import com.example.cleanarchitecturestudy.module.navigationModule
-import com.example.cleanarchitecturestudy.module.networkModule
-import com.example.cleanarchitecturestudy.module.remoteDataModule
-import com.example.cleanarchitecturestudy.module.repositoryModule
-import com.example.cleanarchitecturestudy.module.useCaseModule
-import com.example.cleanarchitecturestudy.module.viewModelModule
+import com.example.cleanarchitecturestudy.module.*
 import com.example.core.base.BaseActivity
 import com.example.core.base.BaseViewModel
+import com.gun0912.tedpermission.PermissionListener
+import com.gun0912.tedpermission.normal.TedPermission
+import kotlinx.coroutines.launch
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import org.koin.core.context.loadKoinModules
 
@@ -40,6 +39,8 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
                 useCaseModule
             )
         )
+
+        permissionCheck()
     }
 
     fun btnClick(view: View) {
@@ -55,4 +56,51 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
             }
         }
     }
+
+    /**
+     * TedPermission Library 사용을 해보기 위해 추가.
+     */
+    private fun permissionCheck() {
+        lifecycleScope.launch {
+            if (!viewModel.getPermission()) {
+                val permissionListener: PermissionListener = object : PermissionListener {
+                    override fun onPermissionGranted() {
+                        Toast.makeText(this@MainActivity,
+                            "권한 설정 완료",
+                            Toast.LENGTH_SHORT
+                        ).show()
+                        viewModel.setPermission()
+                    }
+
+                    override fun onPermissionDenied(deniedPermissions: List<String>) {
+                        Toast.makeText(
+                            this@MainActivity,
+                            "권한 거부\n$deniedPermissions",
+                            Toast.LENGTH_SHORT
+                        ).show()
+                        viewModel.setPermission()
+                    }
+                }
+
+                TedPermission.create()
+                    .setPermissionListener(permissionListener)
+                    .setRationaleMessage("권한 설정 합시다.")
+                    .setRationaleTitle("권한 설정 받는 중")
+                    .setRationaleConfirmText("알겠습니다")
+
+                    .setDeniedTitle("권한 설정을 거절.")
+                    .setDeniedMessage("권한 설정 하려면 Setting 눌러서 직접 해주세요")
+                    .setDeniedCloseButtonText("닫기")
+
+                    .setGotoSettingButtonText("설정하러 가봅시다")
+                    .setPermissions(
+                        Manifest.permission.READ_EXTERNAL_STORAGE,
+                        Manifest.permission.READ_CONTACTS,
+                        Manifest.permission.ACCESS_FINE_LOCATION
+                    )
+                    .check()
+            }
+        }
+    }
+
 }

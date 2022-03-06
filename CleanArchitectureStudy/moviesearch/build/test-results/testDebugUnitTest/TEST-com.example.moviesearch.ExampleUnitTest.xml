@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.moviesearch.ExampleUnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-01T09:57:52" hostname="yuhuigyeong-ui-MacBookPro.local" time="0.651">
-  <properties/>
-  <testcase name="mock_vm" classname="com.example.moviesearch.ExampleUnitTest" time="0.651"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

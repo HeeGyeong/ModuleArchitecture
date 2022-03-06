@@ -1,13 +1,14 @@
-androidx/databinding/DataBindingComponent.java
- androidx.databinding.DataBindingComponent
+com/example/moviesearch/databinding/ActivityMovieSearchBinding.java
+ com.example.moviesearch.databinding.ActivityMovieSearchBinding
 com/example/moviesearch/DataBinderMapperImpl.java
  com.example.moviesearch.DataBinderMapperImpl
  com.example.moviesearch.DataBinderMapperImpl$InnerBrLookup
  com.example.moviesearch.DataBinderMapperImpl$InnerLayoutIdLookup
 com/example/moviesearch/BuildConfig.java
  com.example.moviesearch.BuildConfig
-com/example/core/BR.java
- com.example.core.BR
+com/example/moviesearch/databinding/ActivityMovieSearchBindingImpl.java
+ com.example.moviesearch.databinding.ActivityMovieSearchBindingImpl
+ com.example.moviesearch.databinding.ActivityMovieSearchBindingImpl$1
 com/example/moviesearch/databinding/ItemMovieBinding.java
  com.example.moviesearch.databinding.ItemMovieBinding
 com/example/moviesearch/DataBindingTriggerClass.java
@@ -19,10 +20,9 @@ com/example/moviesearch/BR.java
  com.example.moviesearch.BR
 androidx/databinding/library/baseAdapters/BR.java
  androidx.databinding.library.baseAdapters.BR
-com/example/moviesearch/databinding/ActivityMovieSearchBinding.java
- com.example.moviesearch.databinding.ActivityMovieSearchBinding
-com/example/moviesearch/databinding/ActivityMovieSearchBindingImpl.java
- com.example.moviesearch.databinding.ActivityMovieSearchBindingImpl
- com.example.moviesearch.databinding.ActivityMovieSearchBindingImpl$1
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+com/example/core/BR.java
+ com.example.core.BR
 com/example/moviesearch/databinding/ItemMovieBindingImpl.java
  com.example.moviesearch.databinding.ItemMovieBindingImpl

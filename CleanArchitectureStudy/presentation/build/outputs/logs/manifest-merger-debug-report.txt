@@ -1,7 +1,7 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:2:1-29:12
+ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:2:1-34:12
 MERGED from [:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-23:12
 MERGED from [:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-23:12
 MERGED from [:core] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
@@ -20,6 +20,8 @@ MERGED from [androidx.navigation:navigation-ui-ktx:2.4.1] /Users/youheegyeong/Ap
 MERGED from [androidx.navigation:navigation-ui:2.4.1] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/24c5353203d7542a40f34fd1782bc4d6/navigation-ui-2.4.1/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.5.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/746df9fd8b96e02597b983c492175aaf/material-1.5.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/392b73bc1d10dd54472f3983883bf94a/constraintlayout-2.1.2/AndroidManifest.xml:2:1-11:12
+MERGED from [io.github.ParkSangGwon:tedpermission-normal:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/219ec562c37d64a2158bbf95afa8a5e3/tedpermission-normal-3.3.0/AndroidManifest.xml:2:1-9:12
+MERGED from [io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:2:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/8bbdc3767cada498966792e658361a36/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/5833487578faa84eac9dca95e01aff19/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.4.1] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/1ae76c77b3a59b42eb677cceb66bd007/fragment-1.4.1/AndroidManifest.xml:17:1-24:12
@@ -87,7 +89,7 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/youheegyeong/AppUn
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/6866654f8b322dfdfc3f76b8bb83ce59/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/d73b2cba02ce1c8982b518c5e8a4eaaf/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/86d4bf051e97c8db85ed96c698c798be/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:3:5-49
 		INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml
@@ -118,8 +120,20 @@ MERGED from [:domain] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureSt
 MERGED from [:domain] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/domain/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-67
 	android:name
 		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:9:5-72
+	android:name
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:9:22-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:10:22-77
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:11:22-76
 application
-ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:8:5-27:19
+ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:13:5-32:19
 MERGED from [:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-21:19
 MERGED from [:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-21:19
 MERGED from [:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-21:19
@@ -136,6 +150,8 @@ MERGED from [com.google.android.material:material:1.5.0] /Users/youheegyeong/App
 MERGED from [com.google.android.material:material:1.5.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/746df9fd8b96e02597b983c492175aaf/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/392b73bc1d10dd54472f3983883bf94a/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/392b73bc1d10dd54472f3983883bf94a/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
+MERGED from [io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:9:5-20:19
+MERGED from [io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:9:5-20:19
 MERGED from [androidx.window:window:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/c18ff5fe07aaa8aa8d640b79780be5ef/window-1.0.0/AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/c18ff5fe07aaa8aa8d640b79780be5ef/window-1.0.0/AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.room:room-runtime:2.4.1] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/b2926c4798fe2811e6858dab53f982b4/room-runtime-2.4.1/AndroidManifest.xml:24:5-29:19
@@ -157,35 +173,35 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/youheegyeong/AppUnif
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/36082087862ec702802f306d6949e2ad/core-1.7.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:19:9-35
 	android:label
-		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:12:9-41
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:17:9-41
 	android:roundIcon
-		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:13:9-54
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:18:9-54
 	android:icon
-		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:11:9-43
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:16:9-43
 	android:allowBackup
-		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:15:9-35
 	android:theme
-		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:15:9-60
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:20:9-60
 	android:name
-		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:9:9-61
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:14:9-61
 activity#com.example.cleanarchitecturestudy.view.MainActivity
-ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:20:9-26:20
+ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:25:9-31:20
 	android:exported
-		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:21:13-36
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:26:13-36
 	android:name
-		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:20:19-52
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:25:19-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:22:13-25:29
+ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:27:13-30:29
 action#android.intent.action.MAIN
-ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:23:17-69
+ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:23:25-66
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:24:17-77
+ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:24:27-74
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:29:27-74
 uses-sdk
 INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml
@@ -225,6 +241,10 @@ MERGED from [com.google.android.material:material:1.5.0] /Users/youheegyeong/App
 MERGED from [com.google.android.material:material:1.5.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/746df9fd8b96e02597b983c492175aaf/material-1.5.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/392b73bc1d10dd54472f3983883bf94a/constraintlayout-2.1.2/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/392b73bc1d10dd54472f3983883bf94a/constraintlayout-2.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [io.github.ParkSangGwon:tedpermission-normal:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/219ec562c37d64a2158bbf95afa8a5e3/tedpermission-normal-3.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.github.ParkSangGwon:tedpermission-normal:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/219ec562c37d64a2158bbf95afa8a5e3/tedpermission-normal-3.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/8bbdc3767cada498966792e658361a36/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/8bbdc3767cada498966792e658361a36/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/5833487578faa84eac9dca95e01aff19/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
@@ -382,6 +402,24 @@ ADDED from [:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy
 		ADDED from [:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
 	android:name
 		ADDED from [:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-62
+activity#com.gun0912.tedpermission.TedPermissionActivity
+ADDED from [io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:10:9-14:67
+	android:screenOrientation
+		ADDED from [io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:13:13-52
+	android:configChanges
+		ADDED from [io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:12:13-144
+	android:theme
+		ADDED from [io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:14:13-64
+	android:name
+		ADDED from [io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:11:13-75
+provider#com.gun0912.tedpermission.provider.TedPermissionProvider
+ADDED from [io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:16:9-19:40
+	android:authorities
+		ADDED from [io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:18:13-73
+	android:exported
+		ADDED from [io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from [io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:17:13-84
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/c18ff5fe07aaa8aa8d640b79780be5ef/window-1.0.0/AndroidManifest.xml:25:9-27:40
 	android:required

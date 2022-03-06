@@ -3415,6 +3415,9 @@ string pw_empty_error_msg
 string search_input_query_msg
 string search_menu_title
 string status_bar_notification_info_overflow
+string tedpermission_close
+string tedpermission_confirm
+string tedpermission_setting
 string wait_toast
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
@@ -3990,6 +3993,7 @@ style Theme_MaterialComponents_Light_NoActionBar
 style Theme_MaterialComponents_Light_NoActionBar_Bridge
 style Theme_MaterialComponents_NoActionBar
 style Theme_MaterialComponents_NoActionBar_Bridge
+style Theme_Transparent_Permission
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
 style ThemeOverlay_AppCompat_Dark

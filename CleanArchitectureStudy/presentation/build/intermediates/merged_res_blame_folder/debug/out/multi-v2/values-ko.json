@@ -38,6 +38,23 @@
                     }
                 },
                 {
+                    "source": "/Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/res/values-ko/values-ko.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,106,159",
+                        "endColumns": "50,52,52",
+                        "endOffsets": "101,154,207"
+                    },
+                    "to": {
+                        "startLines": "91,92,93",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "7064,7115,7168",
+                        "endColumns": "50,52,52",
+                        "endOffsets": "7110,7163,7216"
+                    }
+                },
+                {
                     "source": "/Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/24c5353203d7542a40f34fd1782bc4d6/navigation-ui-2.4.1/res/values-ko/values-ko.xml",
                     "from": {
                         "startLines": "2,3",

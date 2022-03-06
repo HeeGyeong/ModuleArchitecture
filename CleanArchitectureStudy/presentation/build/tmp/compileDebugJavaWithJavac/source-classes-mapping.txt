@@ -2,8 +2,10 @@ com/example/move/BR.java
  com.example.move.BR
 com/example/cleanarchitecturestudy/BR.java
  com.example.cleanarchitecturestudy.BR
-com/example/core/BR.java
- com.example.core.BR
+com/example/cleanarchitecturestudy/DataBinderMapperImpl.java
+ com.example.cleanarchitecturestudy.DataBinderMapperImpl
+ com.example.cleanarchitecturestudy.DataBinderMapperImpl$InnerBrLookup
+ com.example.cleanarchitecturestudy.DataBinderMapperImpl$InnerLayoutIdLookup
 com/example/cleanarchitecturestudy/BuildConfig.java
  com.example.cleanarchitecturestudy.BuildConfig
 androidx/databinding/DataBinderMapperImpl.java
@@ -20,7 +22,5 @@ com/example/cleanarchitecturestudy/DataBindingTriggerClass.java
  com.example.cleanarchitecturestudy.DataBindingTriggerClass
 androidx/databinding/DataBindingComponent.java
  androidx.databinding.DataBindingComponent
-com/example/cleanarchitecturestudy/DataBinderMapperImpl.java
- com.example.cleanarchitecturestudy.DataBinderMapperImpl
- com.example.cleanarchitecturestudy.DataBinderMapperImpl$InnerBrLookup
- com.example.cleanarchitecturestudy.DataBinderMapperImpl$InnerLayoutIdLookup
+com/example/core/BR.java
+ com.example.core.BR

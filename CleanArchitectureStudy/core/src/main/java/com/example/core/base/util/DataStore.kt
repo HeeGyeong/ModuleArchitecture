@@ -1,6 +1,7 @@
 package com.example.core.base.util
 
 import android.content.Context
+import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.emptyPreferences
 import androidx.datastore.preferences.core.stringPreferencesKey
@@ -40,6 +41,26 @@ class DataStore(private val context: Context) {
     suspend fun setDataStoreText(text: String) {
         context.dataStore.edit { preferences ->
             preferences[stringKey] = text
+        }
+    }
+
+    private val permissionKey = booleanPreferencesKey("permissionCheck")
+
+    val dataStorePermission: Flow<Boolean> = context.dataStore.data
+        .catch { exception ->
+            if (exception is IOException) {
+                emit(emptyPreferences())
+            } else {
+                throw exception
+            }
+        }
+        .map { preferences ->
+            preferences[permissionKey] ?: false
+        }
+
+    suspend fun setDataStorePermission(isCheck: Boolean) {
+        context.dataStore.edit { preferences ->
+            preferences[permissionKey] = isCheck
         }
     }
 }
