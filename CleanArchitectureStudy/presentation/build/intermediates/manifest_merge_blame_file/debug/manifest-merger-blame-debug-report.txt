@@ -22,9 +22,9 @@
 14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 14-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:10:5-80
 14-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:10:22-77
-15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-15-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:11:5-79
-15-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:11:22-76
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:11:5-81
+15-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:11:22-78
 16
 17    <application
 17-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:13:5-32:19

@@ -84,8 +84,8 @@ class MovieSearchViewModel(
                 .doOnSubscribe { showProgress() }
                 .doAfterTerminate { hideProgress() }
                 .subscribe({ movies ->
-                    val pagingMovieList = _movieList.value
-                    pagingMovieList?.addAll(movies)
+                    val pagingMovieList = _movieList.value!!
+                    pagingMovieList.addAll(movies)
                     _movieList.value = pagingMovieList
                     _toastMsg.value = MessageSet.SUCCESS
                 }, {
