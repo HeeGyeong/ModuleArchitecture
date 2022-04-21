@@ -8,10 +8,14 @@ com/example/move/databinding/ActivityMoveBinding.java
  com.example.move.databinding.ActivityMoveBinding
 androidx/databinding/library/baseAdapters/BR.java
  androidx.databinding.library.baseAdapters.BR
+com/example/domain/BR.java
+ com.example.domain.BR
 com/example/core/BR.java
  com.example.core.BR
 com/example/move/databinding/FragmentMoveThirdBinding.java
  com.example.move.databinding.FragmentMoveThirdBinding
+com/example/data/BR.java
+ com.example.data.BR
 com/example/move/DataBindingTriggerClass.java
  com.example.move.DataBindingTriggerClass
 com/example/move/databinding/FragmentMoveSecondBinding.java

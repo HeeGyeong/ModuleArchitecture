@@ -2419,7 +2419,6 @@ int drawable mtrl_ic_cancel 0x0
 int drawable mtrl_ic_error 0x0
 int drawable mtrl_navigation_bar_item_background 0x0
 int drawable mtrl_popupmenu_background 0x0
-int drawable mtrl_popupmenu_background_dark 0x0
 int drawable mtrl_popupmenu_background_overlay 0x0
 int drawable mtrl_tabs_default_indicator 0x0
 int drawable navigation_empty_icon 0x0

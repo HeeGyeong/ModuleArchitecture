@@ -1,0 +1,60 @@
+def isLibraryPlugin = pluginManager.hasPlugin("com.android.library")
+def isApplicationPlugin = pluginManager.hasPlugin("com.android.application")
+
+if (isLibraryPlugin || isApplicationPlugin) {
+
+    android {
+        compileSdkVersion compileSdk_Version
+        buildToolsVersion buildTools_Version
+
+        defaultConfig {
+            if(isApplicationPlugin) {
+                applicationId "com.android.application"
+            }
+            minSdkVersion minSdk_Version
+            targetSdkVersion targetSdk_Version
+            versionCode versionCode
+            versionName versionName
+
+            testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        }
+
+        dataBinding {
+            enabled = true
+        }
+
+        buildTypes {
+            debug {
+                if(isApplicationPlugin){
+                    shrinkResources true
+                }
+                minifyEnabled true
+                proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            }
+
+            release {
+                if(isApplicationPlugin){
+                    shrinkResources true
+                }
+                minifyEnabled true
+                proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            }
+        }
+
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+
+        kotlinOptions {
+            jvmTarget = '1.8'
+        }
+
+        // Unit Test를 위한 Option
+        testOptions {
+            unitTests.includeAndroidResources = true
+            // return 시 exception 대신에 default Value 를 return 하도록 설정.
+            unitTests.returnDefaultValues = true
+        }
+    }
+}

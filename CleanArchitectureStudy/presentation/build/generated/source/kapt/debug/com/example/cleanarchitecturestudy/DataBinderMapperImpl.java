@@ -80,9 +80,11 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   @Override
   public List<DataBinderMapper> collectDependencies() {
-    ArrayList<DataBinderMapper> result = new ArrayList<DataBinderMapper>(4);
+    ArrayList<DataBinderMapper> result = new ArrayList<DataBinderMapper>(6);
     result.add(new androidx.databinding.library.baseAdapters.DataBinderMapperImpl());
     result.add(new com.example.core.DataBinderMapperImpl());
+    result.add(new com.example.data.DataBinderMapperImpl());
+    result.add(new com.example.domain.DataBinderMapperImpl());
     result.add(new com.example.move.DataBinderMapperImpl());
     result.add(new com.example.moviesearch.DataBinderMapperImpl());
     return result;

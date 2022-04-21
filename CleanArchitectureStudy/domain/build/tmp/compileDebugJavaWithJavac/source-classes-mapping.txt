@@ -1,2 +1,4 @@
 com/example/domain/BuildConfig.java
  com.example.domain.BuildConfig
+com/example/domain/DataBindingTriggerClass.java
+ com.example.domain.DataBindingTriggerClass

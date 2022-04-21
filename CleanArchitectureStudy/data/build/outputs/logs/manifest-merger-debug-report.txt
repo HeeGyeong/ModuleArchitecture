@@ -17,6 +17,12 @@ uses-sdk
 INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/data/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/data/src/main/AndroidManifest.xml
 INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/data/src/main/AndroidManifest.xml
+INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/data/src/main/AndroidManifest.xml
+INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/data/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/data/src/main/AndroidManifest.xml
+		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/data/src/main/AndroidManifest.xml
+		INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/data/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/data/src/main/AndroidManifest.xml
 		ADDED from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/data/src/main/AndroidManifest.xml

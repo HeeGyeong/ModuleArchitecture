@@ -1,5 +1,9 @@
+com/example/data/BR.java
+ com.example.data.BR
 com/example/data/BuildConfig.java
  com.example.data.BuildConfig
+com/example/data/DataBindingTriggerClass.java
+ com.example.data.DataBindingTriggerClass
 com/example/data/db/movie/MovieDao_Impl.java
  com.example.data.db.movie.MovieDao_Impl
  com.example.data.db.movie.MovieDao_Impl$1
@@ -8,6 +12,16 @@ com/example/data/db/movie/MovieDao_Impl.java
  com.example.data.db.movie.MovieDao_Impl$4
  com.example.data.db.movie.MovieDao_Impl$5
  com.example.data.db.movie.MovieDao_Impl$6
+com/example/data/DataBinderMapperImpl.java
+ com.example.data.DataBinderMapperImpl
+ com.example.data.DataBinderMapperImpl$InnerBrLookup
+ com.example.data.DataBinderMapperImpl$InnerLayoutIdLookup
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
 com/example/data/db/movie/MovieDatabase_Impl.java
  com.example.data.db.movie.MovieDatabase_Impl
  com.example.data.db.movie.MovieDatabase_Impl$1
+com/example/domain/BR.java
+ com.example.domain.BR

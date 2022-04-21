@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.example.cleanarchitecturestudy",
+  "applicationId": "com.android.application",
   "variantName": "debug",
   "elements": [
     {

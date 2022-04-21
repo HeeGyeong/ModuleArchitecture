@@ -1,0 +1,28 @@
+
+
+dependencies {
+    // Truth
+    testImplementation "com.google.truth:truth:$truthVersion"
+    androidTestImplementation "com.google.truth:truth:$truthVersion"
+    // Mockito
+    testImplementation "org.mockito:mockito-core:$mockitoVersion"
+    testImplementation "org.mockito:mockito-inline:$mockitoVersion"
+    androidTestImplementation "org.mockito:mockito-android:$mockitoVersion"
+    // Test Implement
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test:runner:1.4.0'
+    androidTestImplementation 'androidx.test:rules:1.4.0'
+
+    // Espresso
+    androidTestImplementation "androidx.test.espresso:espresso-core:$espressoVersion"
+    // Espresso-contrib for DatePicker, RecyclerView, Drawer actions, Accessibility checks, CountingIdlingResource
+    androidTestImplementation("androidx.test.espresso:espresso-contrib:$espressoVersion") {
+        // duplicate 에러가 발생하기 때문에 해당 라인을 추가해준다.
+        // Truth 를 사용하지 않으면 duplicate 에러가 발생하지 않는다. 즉, 해당 라인을 추가하지 않고 Truth 를 제거해도 해결된다.
+        exclude group: 'org.checkerframework', module: 'checker'
+    }
+
+    // Koin Test
+    testImplementation "org.koin:koin-test:$koinVersion"
+}

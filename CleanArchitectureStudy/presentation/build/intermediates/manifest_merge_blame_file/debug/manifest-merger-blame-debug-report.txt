@@ -1,12 +1,12 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.cleanarchitecturestudy" >
+3    package="com.android.application" >
 4
 5    <uses-sdk
 6        android:minSdkVersion="23"
 6-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml
 7        android:targetSdkVersion="31" />
-7-->[androidx.navigation:navigation-fragment-ktx:2.4.1] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/43c75c3de7e3e737cecbcb89e6d90e3a/navigation-fragment-ktx-2.4.1/AndroidManifest.xml:22:9-38
+7-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml
 8
 9    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 9-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:5:5-79
@@ -22,9 +22,9 @@
 14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 14-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:10:5-80
 14-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:10:22-77
-15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-15-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:11:5-81
-15-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:11:22-78
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:11:5-79
+15-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:11:22-76
 16
 17    <application
 17-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:13:5-32:19
@@ -72,21 +72,21 @@
 43            </intent-filter>
 44        </activity>
 45        <activity
-45-->[:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-20:59
+45-->[:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-22:59
 46            android:name="com.example.moviesearch.view.MovieSearchActivity"
-46-->[:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-76
+46-->[:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-76
 47            android:exported="false"
-47-->[:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+47-->[:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
 48            android:windowSoftInputMode="adjustNothing" />
-48-->[:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-56
+48-->[:moviesearch] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/moviesearch/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-56
 49        <activity
-49-->[:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-20:59
+49-->[:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-22:59
 50            android:name="com.example.move.view.MoveActivity"
-50-->[:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-62
+50-->[:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-62
 51            android:exported="false"
-51-->[:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+51-->[:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
 52            android:windowSoftInputMode="adjustNothing" />
-52-->[:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-56
+52-->[:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-56
 53        <activity
 53-->[io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:10:9-14:67
 54            android:name="com.gun0912.tedpermission.TedPermissionActivity"
@@ -102,7 +102,7 @@
 59-->[io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:16:9-19:40
 60            android:name="com.gun0912.tedpermission.provider.TedPermissionProvider"
 60-->[io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:17:13-84
-61            android:authorities="com.example.cleanarchitecturestudy.tedpermissionprovider"
+61            android:authorities="com.android.application.tedpermissionprovider"
 61-->[io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:18:13-73
 62            android:exported="false" />
 62-->[io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:19:13-37
@@ -121,19 +121,19 @@
 69-->[androidx.window:window:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/c18ff5fe07aaa8aa8d640b79780be5ef/window-1.0.0/AndroidManifest.xml:30:13-37
 70
 71        <service
-71-->[androidx.room:room-runtime:2.4.1] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/b2926c4798fe2811e6858dab53f982b4/room-runtime-2.4.1/AndroidManifest.xml:25:9-28:40
+71-->[androidx.room:room-runtime:2.4.2] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/d8ac9e3cd79fbfce8a66947316cceb7d/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
 72            android:name="androidx.room.MultiInstanceInvalidationService"
-72-->[androidx.room:room-runtime:2.4.1] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/b2926c4798fe2811e6858dab53f982b4/room-runtime-2.4.1/AndroidManifest.xml:26:13-74
+72-->[androidx.room:room-runtime:2.4.2] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/d8ac9e3cd79fbfce8a66947316cceb7d/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
 73            android:directBootAware="true"
-73-->[androidx.room:room-runtime:2.4.1] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/b2926c4798fe2811e6858dab53f982b4/room-runtime-2.4.1/AndroidManifest.xml:27:13-43
+73-->[androidx.room:room-runtime:2.4.2] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/d8ac9e3cd79fbfce8a66947316cceb7d/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
 74            android:exported="false" />
-74-->[androidx.room:room-runtime:2.4.1] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/b2926c4798fe2811e6858dab53f982b4/room-runtime-2.4.1/AndroidManifest.xml:28:13-37
+74-->[androidx.room:room-runtime:2.4.2] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/d8ac9e3cd79fbfce8a66947316cceb7d/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
 75
 76        <provider
 76-->[androidx.emoji2:emoji2:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/3378fea79defdcaaa9659164ba3cae69/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
 77            android:name="androidx.startup.InitializationProvider"
 77-->[androidx.emoji2:emoji2:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/3378fea79defdcaaa9659164ba3cae69/emoji2-1.0.0/AndroidManifest.xml:27:13-67
-78            android:authorities="com.example.cleanarchitecturestudy.androidx-startup"
+78            android:authorities="com.android.application.androidx-startup"
 78-->[androidx.emoji2:emoji2:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/3378fea79defdcaaa9659164ba3cae69/emoji2-1.0.0/AndroidManifest.xml:28:13-68
 79            android:exported="false" >
 79-->[androidx.emoji2:emoji2:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/3378fea79defdcaaa9659164ba3cae69/emoji2-1.0.0/AndroidManifest.xml:29:13-37

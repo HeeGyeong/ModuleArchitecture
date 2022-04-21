@@ -2420,7 +2420,6 @@ drawable mtrl_ic_cancel
 drawable mtrl_ic_error
 drawable mtrl_navigation_bar_item_background
 drawable mtrl_popupmenu_background
-drawable mtrl_popupmenu_background_dark
 drawable mtrl_popupmenu_background_overlay
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.cleanarchitecturestudy" >
+    package="com.android.application" >
 
     <uses-sdk
         android:minSdkVersion="23"
@@ -12,7 +12,7 @@
     <!-- Permission Check 용도 -->
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:name="com.example.core.base.BaseApplication"
@@ -58,7 +58,7 @@
 
         <provider
             android:name="com.gun0912.tedpermission.provider.TedPermissionProvider"
-            android:authorities="com.example.cleanarchitecturestudy.tedpermissionprovider"
+            android:authorities="com.android.application.tedpermissionprovider"
             android:exported="false" />
 
         <uses-library
@@ -75,7 +75,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.example.cleanarchitecturestudy.androidx-startup"
+            android:authorities="com.android.application.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

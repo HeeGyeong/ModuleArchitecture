@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e877049b-fad6-4d1e-b623-693196473fee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_4_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_4_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_4_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_4_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_1_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_7_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_7_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_adapters_4_2_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_common_4_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_runtime_4_2_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_viewbinding_4_2_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_3_6_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_4_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_4_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_common_2_4_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_common_ktx_2_4_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_2_4_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_ktx_2_4_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_2_4_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_ktx_2_4_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_ui_2_4_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_ui_ktx_2_4_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_common_2_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_ktx_2_4_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_migration_2_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_runtime_2_4_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_rxjava2_2_4_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_testing_2_4_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_startup_startup_runtime_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_4_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_5_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_5_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_5_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_5_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_6_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_5_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_6_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/CleanArchitectureStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/CleanArchitectureStudy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/core/CleanArchitectureStudy.core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/core/CleanArchitectureStudy.core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/data/CleanArchitectureStudy.data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/data/CleanArchitectureStudy.data.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/domain/CleanArchitectureStudy.domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/domain/CleanArchitectureStudy.domain.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/move/CleanArchitectureStudy.move.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/move/CleanArchitectureStudy.move.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/moviesearch/CleanArchitectureStudy.moviesearch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/moviesearch/CleanArchitectureStudy.moviesearch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/presentation/CleanArchitectureStudy.presentation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/presentation/CleanArchitectureStudy.presentation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/core/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/intermediates/compile_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/intermediates/compile_library_classes_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/intermediates/runtime_library_classes_dir/debug/com/example/core/base/util/NetworkManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/intermediates/runtime_library_classes_dir/debug/com/example/core/base/util/NetworkManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/kotlin/compileDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/kotlin/compileDebugKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/kotlin/compileDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/kotlin/compileDebugKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/kotlin/kaptGenerateStubsDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/kotlin/kaptGenerateStubsDebugKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/kotlin/kaptGenerateStubsDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/kotlin/kaptGenerateStubsDebugKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/tmp/kapt3/incApCache/debug/classpath-entries.bin" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/tmp/kapt3/incApCache/debug/classpath-entries.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/tmp/kapt3/incApCache/debug/classpath-structure.bin" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/tmp/kapt3/incApCache/debug/classpath-structure.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/tmp/kotlin-classes/debug/com/example/core/base/util/NetworkManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/tmp/kotlin-classes/debug/com/example/core/base/util/NetworkManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/data/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/build/intermediates/compile_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/intermediates/compile_library_classes_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/build/intermediates/compile_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/intermediates/compile_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/build/intermediates/compile_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/intermediates/compile_symbol_list/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/build/kotlin/compileDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/kotlin/compileDebugKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/build/kotlin/compileDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/kotlin/compileDebugKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/build/tmp/kapt3/incApCache/debug/classpath-entries.bin" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/tmp/kapt3/incApCache/debug/classpath-entries.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/build/tmp/kapt3/incApCache/debug/classpath-structure.bin" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/tmp/kapt3/incApCache/debug/classpath-structure.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/build/intermediates/compile_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/intermediates/compile_library_classes_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/build/intermediates/compile_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/intermediates/compile_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/build/intermediates/compile_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/intermediates/compile_symbol_list/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/build/kotlin/compileDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/kotlin/compileDebugKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/build/kotlin/compileDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/kotlin/compileDebugKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/move/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/move/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/move/build/intermediates/compile_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/move/build/intermediates/compile_library_classes_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/move/build/intermediates/compile_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/move/build/intermediates/compile_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/move/build/intermediates/compile_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/move/build/intermediates/compile_symbol_list/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/move/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/move/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/move/build/kotlin/compileDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/move/build/kotlin/compileDebugKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/move/build/kotlin/compileDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/move/build/kotlin/compileDebugKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/move/build/kotlin/kaptGenerateStubsDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/move/build/kotlin/kaptGenerateStubsDebugKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/move/build/kotlin/kaptGenerateStubsDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/move/build/kotlin/kaptGenerateStubsDebugKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/move/build/tmp/kapt3/incApCache/debug/classpath-entries.bin" beforeDir="false" afterPath="$PROJECT_DIR$/move/build/tmp/kapt3/incApCache/debug/classpath-entries.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/move/build/tmp/kapt3/incApCache/debug/classpath-structure.bin" beforeDir="false" afterPath="$PROJECT_DIR$/move/build/tmp/kapt3/incApCache/debug/classpath-structure.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesearch/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/moviesearch/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesearch/build/intermediates/compile_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/moviesearch/build/intermediates/compile_library_classes_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesearch/build/intermediates/compile_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/moviesearch/build/intermediates/compile_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesearch/build/intermediates/compile_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/moviesearch/build/intermediates/compile_symbol_list/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesearch/build/intermediates/runtime_library_classes_dir/debug/com/example/moviesearch/view/MovieSearchViewModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moviesearch/build/intermediates/runtime_library_classes_dir/debug/com/example/moviesearch/view/MovieSearchViewModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesearch/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/moviesearch/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesearch/build/kotlin/compileDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/moviesearch/build/kotlin/compileDebugKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesearch/build/kotlin/compileDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/moviesearch/build/kotlin/compileDebugKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesearch/build/kotlin/kaptGenerateStubsDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/moviesearch/build/kotlin/kaptGenerateStubsDebugKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesearch/build/kotlin/kaptGenerateStubsDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/moviesearch/build/kotlin/kaptGenerateStubsDebugKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesearch/build/tmp/kapt3/incApCache/debug/classpath-entries.bin" beforeDir="false" afterPath="$PROJECT_DIR$/moviesearch/build/tmp/kapt3/incApCache/debug/classpath-entries.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesearch/build/tmp/kapt3/incApCache/debug/classpath-structure.bin" beforeDir="false" afterPath="$PROJECT_DIR$/moviesearch/build/tmp/kapt3/incApCache/debug/classpath-structure.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesearch/build/tmp/kapt3/stubs/debug/com/example/moviesearch/view/MovieSearchViewModel.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/moviesearch/build/tmp/kapt3/stubs/debug/com/example/moviesearch/view/MovieSearchViewModel.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesearch/build/tmp/kotlin-classes/debug/com/example/moviesearch/view/MovieSearchViewModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moviesearch/build/tmp/kotlin-classes/debug/com/example/moviesearch/view/MovieSearchViewModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/dex/debug/mergeLibDexDebug/7/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/dex/debug/mergeLibDexDebug/7/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/dex/debug/mergeLibDexDebug/8/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/dex/debug/mergeLibDexDebug/8/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/dex/debug/mergeProjectDexDebug/8/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/dex/debug/mergeProjectDexDebug/8/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+eonz4CnyzI+xzIBN9AOJPThbtU=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+eonz4CnyzI+xzIBN9AOJPThbtU=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+whGNPsGBBh7QtiIN6XKOlJwCaw=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+whGNPsGBBh7QtiIN6XKOlJwCaw=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/0upYHt0dYGVp6bK52g5WzhaUkVI=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/0upYHt0dYGVp6bK52g5WzhaUkVI=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/0yEDGHQCUVmoVu3NzJ09lSERD2w=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/0yEDGHQCUVmoVu3NzJ09lSERD2w=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/1Cl7PES1XdyG8t5qPAC1bhpqexA=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/1Cl7PES1XdyG8t5qPAC1bhpqexA=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/1dEQneVPAmRX9XGKOuA_3igb6jg=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/1dEQneVPAmRX9XGKOuA_3igb6jg=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/3UHMNs5bG3KcjjCWMPc+YzsOhgA=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/3UHMNs5bG3KcjjCWMPc+YzsOhgA=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/40VTL38UsnRx9648xSQxS9Nd5P4=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/40VTL38UsnRx9648xSQxS9Nd5P4=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/4z2J0XRK16G3YLfGYIRlizqt1e0=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/4z2J0XRK16G3YLfGYIRlizqt1e0=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/5SVT1AaTDinSQajDEnt+3XEuJUw=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/5SVT1AaTDinSQajDEnt+3XEuJUw=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/6VD8tNQC6_TzZLn9VdD7RHeMT9c=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/6VD8tNQC6_TzZLn9VdD7RHeMT9c=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/7dgKw4sjDdxrSBO5Dm5nu0hNaQE=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/7dgKw4sjDdxrSBO5Dm5nu0hNaQE=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/A4c0SKBEYig3vKWCD6MkFlTNyC4=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/A4c0SKBEYig3vKWCD6MkFlTNyC4=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Ak7bKy1_ybGU+sHIgaEwFf_yM7M=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Ak7bKy1_ybGU+sHIgaEwFf_yM7M=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/C1n4nESf+uoqYvAWzgMWd14vk3A=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/C1n4nESf+uoqYvAWzgMWd14vk3A=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/CAGjmMjdSK_19PeeFSdvgKoruM0=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/CAGjmMjdSK_19PeeFSdvgKoruM0=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/F4Kvn+acscYtBb6orJuxngFdbUc=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/F4Kvn+acscYtBb6orJuxngFdbUc=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/FELUSYLb1e53T687w25Xif4nkFU=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/FELUSYLb1e53T687w25Xif4nkFU=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/GDJ3G_kn1u8OrJbGd2SdKfVotM8=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/GDJ3G_kn1u8OrJbGd2SdKfVotM8=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Gy6Ho+_neNg2LSqUkPukWHV3ZaU=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Gy6Ho+_neNg2LSqUkPukWHV3ZaU=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/HCsnmH45TGs50HEWCC+fJkJe1Nk=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/HCsnmH45TGs50HEWCC+fJkJe1Nk=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/I3S1qsxEJPoNncoVw8aM+TGeipo=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/I3S1qsxEJPoNncoVw8aM+TGeipo=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/KMgZS_BmZ1siyfGH5bP6DGXOpIE=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/KMgZS_BmZ1siyfGH5bP6DGXOpIE=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/MVARV5VnrukCFHaoM0ukSOMRCS8=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/MVARV5VnrukCFHaoM0ukSOMRCS8=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/PNlcgaZqFqO4Z6MUUg+eSIn4jZU=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/PNlcgaZqFqO4Z6MUUg+eSIn4jZU=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Q6DijgLb8gtE6Mrdmd6lADDXLH4=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Q6DijgLb8gtE6Mrdmd6lADDXLH4=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/QNEWnzG7Cgo418DZBya8Ux6ghsM=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/QNEWnzG7Cgo418DZBya8Ux6ghsM=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/SAzVFWdJl8FBqkzc3ulms693nRQ=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/SAzVFWdJl8FBqkzc3ulms693nRQ=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/SkV9FWfu1kpPbxi2avdh9P_XBm0=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/SkV9FWfu1kpPbxi2avdh9P_XBm0=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Ue9OaPpzOYbs5Cs8BJMdA7AEPXs=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Ue9OaPpzOYbs5Cs8BJMdA7AEPXs=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/UsNB7SdkZ7dZRxd23UJgKbgXBJA=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/UsNB7SdkZ7dZRxd23UJgKbgXBJA=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/VTBDaQlnDNbqfydPlCaYYohNc2I=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/VTBDaQlnDNbqfydPlCaYYohNc2I=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/YDlBv9a6gE7amdXiAi6vWWnoOS8=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/YDlBv9a6gE7amdXiAi6vWWnoOS8=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/YcqhTkB2GYCjpqRd9bD5ImQNQp4=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/YcqhTkB2GYCjpqRd9bD5ImQNQp4=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ZPh6KjTQjiRC38urZJc_SqqaqZc=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ZPh6KjTQjiRC38urZJc_SqqaqZc=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ZkaRDGhiNcA9y4DBOzoSS0KQNw8=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ZkaRDGhiNcA9y4DBOzoSS0KQNw8=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/_6pGRUvWFEpL6Iekv8FWC5DUiCs=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/_6pGRUvWFEpL6Iekv8FWC5DUiCs=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/_UxagLBQLFGy727pmYEyXslUbNo=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/_UxagLBQLFGy727pmYEyXslUbNo=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/aMubg58MAYZfQOx3_4uUHu_E6Wk=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/aMubg58MAYZfQOx3_4uUHu_E6Wk=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/cklzqB47PSQwLG9maYsroWz1r0A=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/cklzqB47PSQwLG9maYsroWz1r0A=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fdyrpaHrkOr6_EmxVZV4h7wb++k=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fdyrpaHrkOr6_EmxVZV4h7wb++k=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fh4qgB3vnpr1f3jZguo5uldX+wg=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fh4qgB3vnpr1f3jZguo5uldX+wg=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/hV4i+WaFUOUeDQYKhqwtFipmAwA=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/hV4i+WaFUOUeDQYKhqwtFipmAwA=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/i1n6Q2AvMa62+tz6f3n8PZI3LL4=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/i1n6Q2AvMa62+tz6f3n8PZI3LL4=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/iNYzAjr7kb7rwOeBr8i1FRXypBs=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/iNYzAjr7kb7rwOeBr8i1FRXypBs=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/iu_XBeaRuBVlRFmwf8WTAJYodx8=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/iu_XBeaRuBVlRFmwf8WTAJYodx8=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/jnEvjyOuy740J32Qo1NmvWV6C_E=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/jnEvjyOuy740J32Qo1NmvWV6C_E=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/keuiknUeTLwXboQUrEoaD1+M2R8=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/keuiknUeTLwXboQUrEoaD1+M2R8=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/lbGOmooW0m3ed5_H0g4GkpFDZWo=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/lbGOmooW0m3ed5_H0g4GkpFDZWo=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/m1+BSEOglmFQqoQ3fYvKst0b4GI=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/m1+BSEOglmFQqoQ3fYvKst0b4GI=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/nCalleKwnh9kzusgMnptaJtd8hA=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/nCalleKwnh9kzusgMnptaJtd8hA=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/nElyig3qI9yZMfKFdI1TLCBVubc=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/nElyig3qI9yZMfKFdI1TLCBVubc=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/nbh+ZqkFd1k2dCNLLzOSOE911EE=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/nbh+ZqkFd1k2dCNLLzOSOE911EE=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/p90sNMZFBv5A7SYEgj28O7FNOQI=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/p90sNMZFBv5A7SYEgj28O7FNOQI=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/pZV6PFhTfkReM3g2+Ljd9XBrdTc=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/pZV6PFhTfkReM3g2+Ljd9XBrdTc=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/pomGJj8LOSz0oE3jhzYOserDbfU=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/pomGJj8LOSz0oE3jhzYOserDbfU=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/rzUzTP4Gtd6uou9sikkyI14zBhI=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/rzUzTP4Gtd6uou9sikkyI14zBhI=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/sP7o_pc+jo6W6PwPdKdQScdHNTo=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/sP7o_pc+jo6W6PwPdKdQScdHNTo=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/tOCAI6v0IVZ7xAweYk96vqtm1IA=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/tOCAI6v0IVZ7xAweYk96vqtm1IA=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/udgIZjbTiKaYk_hwlHqkLouvuwg=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/udgIZjbTiKaYk_hwlHqkLouvuwg=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/unQx0CEpVlGqVi8NlE2IEFHSnXY=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/unQx0CEpVlGqVi8NlE2IEFHSnXY=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/vFKwzee8lkkoYKY0V3X+huW6BDU=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/vFKwzee8lkkoYKY0V3X+huW6BDU=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/vb5+6_2qlTLpn0hEjsd2MNB+uus=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/vb5+6_2qlTLpn0hEjsd2MNB+uus=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/vhnmgiyuXFG2UYOqzdLfX3A77xE=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/vhnmgiyuXFG2UYOqzdLfX3A77xE=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/vuwhAkKK0795ncwCFU58ZOPCIV8=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/vuwhAkKK0795ncwCFU58ZOPCIV8=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/w+rmwm4KRY6g_8dsdmQx9EDAXWo=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/w+rmwm4KRY6g_8dsdmQx9EDAXWo=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/wFp6DfkIGVNaz9seok3tpUzTP1c=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/wFp6DfkIGVNaz9seok3tpUzTP1c=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/wX4mWsXTr4nSCYjJ46sfMYPK2Ak=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/wX4mWsXTr4nSCYjJ46sfMYPK2Ak=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/wzEJsvGfyFQ4bOKDbGfil7LUvTg=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/wzEJsvGfyFQ4bOKDbGfil7LUvTg=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/xIGDdCPpXVFEmRUQJqe75HniH0U=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/xIGDdCPpXVFEmRUQJqe75HniH0U=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/yyhWgXeKzqP4ziuaOmjIDeH3iUY=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/yyhWgXeKzqP4ziuaOmjIDeH3iUY=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/0+ixaq_8YKFvpI8x6y57MAwrxUg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/r4FalfVIiS9XVU15d9KKofZ8ytU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/ssYOMwCxyfb++vNL2RSUlNuPYKk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/xV2VbMElzxS8lm0qj5gzHmbVi7w=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/com/example/cleanarchitecturestudy/databinding/ActivityMainBindingImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/com/example/cleanarchitecturestudy/databinding/ActivityMainBindingImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/merged_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/merged_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/project_dex_archive/debug/out/70879573c4c055125a374557804e0896f1a72107634cf576716ca01228bea859_0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/project_dex_archive/debug/out/70879573c4c055125a374557804e0896f1a72107634cf576716ca01228bea859_1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/project_dex_archive/debug/out/70879573c4c055125a374557804e0896f1a72107634cf576716ca01228bea859_2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/project_dex_archive/debug/out/70879573c4c055125a374557804e0896f1a72107634cf576716ca01228bea859_3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/project_dex_archive/debug/out/70879573c4c055125a374557804e0896f1a72107634cf576716ca01228bea859_4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/project_dex_archive/debug/out/com/example/cleanarchitecturestudy/databinding/ActivityMainBindingImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/project_dex_archive/debug/out/com/example/cleanarchitecturestudy/databinding/ActivityMainBindingImpl.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/project_dex_archive/debug/out/com/example/cleanarchitecturestudy/view/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/project_dex_archive/debug/out/com/example/cleanarchitecturestudy/view/MainActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/kotlin/compileDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/kotlin/compileDebugKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/kotlin/compileDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/kotlin/compileDebugKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/kotlin/kaptGenerateStubsDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/kotlin/kaptGenerateStubsDebugKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/kotlin/kaptGenerateStubsDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/kotlin/kaptGenerateStubsDebugKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/outputs/apk/debug/presentation-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/outputs/apk/debug/presentation-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/tmp/kapt3/incApCache/debug/classpath-entries.bin" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/tmp/kapt3/incApCache/debug/classpath-entries.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/tmp/kapt3/incApCache/debug/classpath-structure.bin" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/tmp/kapt3/incApCache/debug/classpath-structure.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/build/tmp/kotlin-classes/debug/com/example/cleanarchitecturestudy/view/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/tmp/kotlin-classes/debug/com/example/cleanarchitecturestudy/view/MainActivity.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[adb-R3CN20FXRWP-KvSy7Y._adb-tls-connect._tcp.]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CleanArchitectureStudy" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="3" />
+  </component>
+  <component name="ProjectId" id="25iboaBZtZpILMrqiZ3NQPOIV50" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1646045321970" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2741117" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RunManager" selected="Android App.presentation">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="presentation" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="CleanArchitectureStudy.presentation" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleInstrumentedT..." type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="CleanArchitectureStudy.presentation" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="com.example.cleanarchitecturestudy.ExampleInstrumentedTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="RETENTION_ENABLED" value="No" />
+      <option name="RETENTION_MAX_SNAPSHOTS" value="2" />
+      <option name="RETENTION_COMPRESS_SNAPSHOTS" value="false" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_vm()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="CleanArchitectureStudy.presentation" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="METHOD_NAME" value="test_vm" />
+      <option name="CLASS_NAME" value="com.example.cleanarchitecturestudy.ExampleInstrumentedTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="RETENTION_ENABLED" value="No" />
+      <option name="RETENTION_MAX_SNAPSHOTS" value="2" />
+      <option name="RETENTION_COMPRESS_SNAPSHOTS" value="false" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleUnitTest.late_init_vm" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.example.moviesearch.ExampleUnitTest.late_init_vm&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":moviesearch:testDebugUnitTest" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ExampleUnitTest.mock_vm" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.example.moviesearch.ExampleUnitTest.mock_vm&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":moviesearch:testDebugUnitTest" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ExampleUnitTest.test_viewModel" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.example.moviesearch.ExampleUnitTest.test_viewModel&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":moviesearch:testDebugUnitTest" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android Instrumented Tests.test_vm()" />
+        <item itemvalue="Android Instrumented Tests.ExampleInstrumentedT..." />
+        <item itemvalue="Gradle.ExampleUnitTest.mock_vm" />
+        <item itemvalue="Gradle.ExampleUnitTest.late_init_vm" />
+        <item itemvalue="Gradle.ExampleUnitTest.test_viewModel" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e877049b-fad6-4d1e-b623-693196473fee" name="Default Changelist" comment="" />
+      <created>1646013031629</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646013031629</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
