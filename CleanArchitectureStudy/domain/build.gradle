@@ -1,7 +1,5 @@
-plugins {
-    id ("com.android.library") // 모듈의경우 application 에서 library 로 변경해준다.
-    id 'kotlin-android'
-}
+apply plugin : 'com.android.library' // 모듈의경우 application 에서 library 로 변경해준다.
+apply plugin : 'kotlin-android'
 
 apply from : '../android.gradle'
 apply from : '../core-dependencies.gradle'
