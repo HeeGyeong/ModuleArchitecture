@@ -22,4 +22,4 @@ android.gradle에서는 compile, buildTools, targetSdk 등 기본적인 android 
 ## Blog
 Modular Architecture에 대한 설명은 다음 블로그에 작성해 두었습니다.
 
-<https://heegs.tistory.com/69?category=915533>
+[Tistory Blog](https://heegs.tistory.com/69?category=915533, "Modular Architecture Example")
