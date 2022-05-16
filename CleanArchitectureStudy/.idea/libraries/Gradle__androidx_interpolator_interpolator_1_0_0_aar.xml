@@ -1,9 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.interpolator:interpolator:1.0.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/8f6d59c5d4557f840cc771f6534e35b1/interpolator-1.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/8f6d59c5d4557f840cc771f6534e35b1/interpolator-1.0.0/res" />
-      <root url="file://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/8f6d59c5d4557f840cc771f6534e35b1/interpolator-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/d9ddd2b9ca8d9b5b93f52a9862e74162/transformed/interpolator-1.0.0/res" />
+      <root url="jar://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/69a4388af68bad3cfd5a877ec530d9c8/transformed/interpolator-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/69a4388af68bad3cfd5a877ec530d9c8/transformed/interpolator-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/69a4388af68bad3cfd5a877ec530d9c8/transformed/interpolator-1.0.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

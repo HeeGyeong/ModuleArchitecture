@@ -1,4 +1,4 @@
-# The proguard configuration file for the following section is /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/proguard-files/proguard-android-optimize.txt-4.2.1
+# The proguard configuration file for the following section is /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-7.1.2
 # This is a configuration file for ProGuard.
 # http://proguard.sourceforge.net/index.html#manual/usage.html
 #
@@ -22,7 +22,13 @@
 -verbose
 
 # Preserve some attributes that may be required for reflection.
--keepattributes *Annotation*,Signature,InnerClasses,EnclosingMethod
+-keepattributes AnnotationDefault,
+                EnclosingMethod,
+                InnerClasses,
+                RuntimeVisibleAnnotations,
+                RuntimeVisibleParameterAnnotations,
+                RuntimeVisibleTypeAnnotations,
+                Signature
 
 -keep public class com.google.vending.licensing.ILicensingService
 -keep public class com.android.vending.licensing.ILicensingService
@@ -111,7 +117,7 @@
 # These classes are duplicated between android.jar and core-lambda-stubs.jar.
 -dontnote java.lang.invoke.**
 
-# End of content from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/proguard-files/proguard-android-optimize.txt-4.2.1
+# End of content from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-7.1.2
 # The proguard configuration file for the following section is /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/proguard-rules.pro
 # Add project specific ProGuard rules here.
 # You can control the set of applied configuration files using the
@@ -247,7 +253,7 @@
 
 
 # End of content from /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/aapt_proguard_file/debug/aapt_rules.txt
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/f9e6393c82819f1a38099af3870932a4/databinding-runtime-4.2.1/proguard.txt
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/8a900d0b214cd8513cc300e2fd544434/transformed/databinding-runtime-7.1.2/proguard.txt
 -dontwarn androidx.databinding.ViewDataBinding
 -dontwarn androidx.databinding.ViewDataBinding$LiveDataListener
 
@@ -255,8 +261,8 @@
 -keep public class * extends androidx.databinding.DataBinderMapper
 
 
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/f9e6393c82819f1a38099af3870932a4/databinding-runtime-4.2.1/proguard.txt
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/b33b489d5a5d983d119b00ce0e0b04c2/navigation-ui-2.4.2/proguard.txt
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/8a900d0b214cd8513cc300e2fd544434/transformed/databinding-runtime-7.1.2/proguard.txt
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/9d6718cb44028028b596e8f8527d7bb3/transformed/navigation-ui-2.4.2/proguard.txt
 # Copyright (C) 2019 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -276,8 +282,8 @@
     void setProgress(float);
 }
 
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/b33b489d5a5d983d119b00ce0e0b04c2/navigation-ui-2.4.2/proguard.txt
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/746df9fd8b96e02597b983c492175aaf/material-1.5.0/proguard.txt
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/9d6718cb44028028b596e8f8527d7bb3/transformed/navigation-ui-2.4.2/proguard.txt
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/5423c65485a974611bfb437c61e9a2e1/transformed/material-1.5.0/proguard.txt
 # Copyright (C) 2015 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -325,8 +331,8 @@
 }
 
 
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/746df9fd8b96e02597b983c492175aaf/material-1.5.0/proguard.txt
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/8bbdc3767cada498966792e658361a36/appcompat-1.4.1/proguard.txt
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/5423c65485a974611bfb437c61e9a2e1/transformed/material-1.5.0/proguard.txt
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/d2be0a07ac682004ffbddd9c163a1cf7/transformed/appcompat-1.4.1/proguard.txt
 # Copyright (C) 2018 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -350,8 +356,8 @@
   <methods>;
 }
 
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/8bbdc3767cada498966792e658361a36/appcompat-1.4.1/proguard.txt
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/5b96dcce3a40ab5f0b7a1224409833d7/glide-4.11.0/proguard.txt
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/d2be0a07ac682004ffbddd9c163a1cf7/transformed/appcompat-1.4.1/proguard.txt
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/013244e9521760f36b03e9881e5e4d4a/transformed/glide-4.11.0/proguard.txt
 -keep public class * implements com.bumptech.glide.module.GlideModule
 -keep class * extends com.bumptech.glide.module.AppGlideModule {
  <init>(...);
@@ -364,8 +370,8 @@
 # Uncomment for DexGuard only
 #-keepresourcexmlelements manifest/application/meta-data@value=GlideModule
 
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/5b96dcce3a40ab5f0b7a1224409833d7/glide-4.11.0/proguard.txt
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/1ae76c77b3a59b42eb677cceb66bd007/fragment-1.4.1/proguard.txt
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/013244e9521760f36b03e9881e5e4d4a/transformed/glide-4.11.0/proguard.txt
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/7fdb3f38d730d22bb43997ce53405114/transformed/fragment-1.4.1/proguard.txt
 # Copyright (C) 2020 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -386,8 +392,8 @@
     public <init>();
 }
 
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/1ae76c77b3a59b42eb677cceb66bd007/fragment-1.4.1/proguard.txt
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/0679fe5aa2ec7e7c0132b53a19853e43/navigation-common-2.4.2/proguard.txt
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/7fdb3f38d730d22bb43997ce53405114/transformed/fragment-1.4.1/proguard.txt
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/0288e9d7a15f82cd0a3e41a4864ed8ea/transformed/navigation-common-2.4.2/proguard.txt
 # Copyright (C) 2019 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -417,13 +423,13 @@
 -keepattributes RuntimeVisibleAnnotations
 -keep,allowobfuscation,allowshrinking class * extends androidx.navigation.Navigator
 
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/0679fe5aa2ec7e7c0132b53a19853e43/navigation-common-2.4.2/proguard.txt
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/3f2b86159a6c62d0d5b85031ec8a3717/datastore-preferences-1.0.0/proguard.txt
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/0288e9d7a15f82cd0a3e41a4864ed8ea/transformed/navigation-common-2.4.2/proguard.txt
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/2b7ad40bcbe24ca0d371a7e442aaf5b8/transformed/datastore-preferences-1.0.0/proguard.txt
 -keepclassmembers class * extends androidx.datastore.preferences.protobuf.GeneratedMessageLite {
     <fields>;
 }
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/3f2b86159a6c62d0d5b85031ec8a3717/datastore-preferences-1.0.0/proguard.txt
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/c18ff5fe07aaa8aa8d640b79780be5ef/window-1.0.0/proguard.txt
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/2b7ad40bcbe24ca0d371a7e442aaf5b8/transformed/datastore-preferences-1.0.0/proguard.txt
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/57df4ce2d08a22f066cf859cac9a3e30/transformed/window-1.0.0/proguard.txt
 # Copyright (C) 2020 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -449,8 +455,8 @@
   public onDeviceStateChanged(androidx.window.sidecar.SidecarDeviceState);
   public onWindowLayoutChanged(android.os.IBinder, androidx.window.sidecar.SidecarWindowLayoutInfo);
 }
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/c18ff5fe07aaa8aa8d640b79780be5ef/window-1.0.0/proguard.txt
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/4b39a3e2e241c9ecca7316d4c4730da7/rules/lib/META-INF/com.android.tools/r8-from-1.6.0/coroutines.pro
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/57df4ce2d08a22f066cf859cac9a3e30/transformed/window-1.0.0/proguard.txt
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/b7767e220ad9add49d4870fa4d7901f7/transformed/rules/lib/META-INF/com.android.tools/r8-from-1.6.0/coroutines.pro
 # Allow R8 to optimize away the FastServiceLoader.
 # Together with ServiceLoader optimization in R8
 # this results in direct instantiation when loading Dispatchers.Main
@@ -475,8 +481,8 @@
     boolean getDEBUG() return false;
     boolean getRECOVER_STACK_TRACES() return false;
 }
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/4b39a3e2e241c9ecca7316d4c4730da7/rules/lib/META-INF/com.android.tools/r8-from-1.6.0/coroutines.pro
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/90a8582d75e96550c1bcdba917250ee5/rules/lib/META-INF/proguard/coroutines.pro
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/b7767e220ad9add49d4870fa4d7901f7/transformed/rules/lib/META-INF/com.android.tools/r8-from-1.6.0/coroutines.pro
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/c96be6e919d1814d7777cfa0801afe8a/transformed/rules/lib/META-INF/proguard/coroutines.pro
 # ServiceLoader support
 -keepnames class kotlinx.coroutines.internal.MainDispatcherFactory {}
 -keepnames class kotlinx.coroutines.CoroutineExceptionHandler {}
@@ -498,16 +504,16 @@
 -dontwarn java.lang.instrument.Instrumentation
 -dontwarn sun.misc.Signal
 
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/90a8582d75e96550c1bcdba917250ee5/rules/lib/META-INF/proguard/coroutines.pro
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/88bbb059ba7325fc242bb53d9df5f330/rules/lib/META-INF/proguard/rxjava2.pro
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/c96be6e919d1814d7777cfa0801afe8a/transformed/rules/lib/META-INF/proguard/coroutines.pro
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/951b10eaf8f67cdceed1ab0ae1419ee2/transformed/rules/lib/META-INF/proguard/rxjava2.pro
 -dontwarn java.util.concurrent.Flow*
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/88bbb059ba7325fc242bb53d9df5f330/rules/lib/META-INF/proguard/rxjava2.pro
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/d8ac9e3cd79fbfce8a66947316cceb7d/room-runtime-2.4.2/proguard.txt
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/951b10eaf8f67cdceed1ab0ae1419ee2/transformed/rules/lib/META-INF/proguard/rxjava2.pro
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/ea026cc092deeba5c0a77622813dd84b/transformed/room-runtime-2.4.2/proguard.txt
 -keep class * extends androidx.room.RoomDatabase
 -dontwarn androidx.room.paging.**
 
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/d8ac9e3cd79fbfce8a66947316cceb7d/room-runtime-2.4.2/proguard.txt
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/5174e447999d7b98b0b1dce5c8e8f60b/coordinatorlayout-1.1.0/proguard.txt
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/ea026cc092deeba5c0a77622813dd84b/transformed/room-runtime-2.4.2/proguard.txt
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/2537510cd9d1f9cd971695449a7cf1ff/transformed/coordinatorlayout-1.1.0/proguard.txt
 # Copyright (C) 2016 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -531,8 +537,8 @@
 # Make sure we keep annotations for CoordinatorLayout's DefaultBehavior and ViewPager's DecorView
 -keepattributes *Annotation*
 
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/5174e447999d7b98b0b1dce5c8e8f60b/coordinatorlayout-1.1.0/proguard.txt
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/93c9eb97dbb5b4b8ee6b20714cc542c0/vectordrawable-animated-1.1.0/proguard.txt
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/2537510cd9d1f9cd971695449a7cf1ff/transformed/coordinatorlayout-1.1.0/proguard.txt
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/3e95cf769ad47224fc976447c9a19c83/transformed/vectordrawable-animated-1.1.0/proguard.txt
 # Copyright (C) 2016 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -553,8 +559,8 @@
    *** get*();
 }
 
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/93c9eb97dbb5b4b8ee6b20714cc542c0/vectordrawable-animated-1.1.0/proguard.txt
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/0158918086519b94cf6207e983fc1137/recyclerview-1.1.0/proguard.txt
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/3e95cf769ad47224fc976447c9a19c83/transformed/vectordrawable-animated-1.1.0/proguard.txt
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/e9deb67a89ab8947a2a3af3afa4c656b/transformed/recyclerview-1.1.0/proguard.txt
 # Copyright (C) 2015 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -580,8 +586,8 @@
     public void suppressLayout(boolean);
     public boolean isLayoutSuppressed();
 }
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/0158918086519b94cf6207e983fc1137/recyclerview-1.1.0/proguard.txt
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/9661afa2562bd8b07941d32171708173/transition-1.4.1/proguard.txt
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/e9deb67a89ab8947a2a3af3afa4c656b/transformed/recyclerview-1.1.0/proguard.txt
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/b0e4419b52689e801a3ce4ce6f48b67b/transformed/transition-1.4.1/proguard.txt
 # Copyright (C) 2017 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -601,8 +607,8 @@
   androidx.transition.ChangeBounds$ViewBounds mViewBounds;
 }
 
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/9661afa2562bd8b07941d32171708173/transition-1.4.1/proguard.txt
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/36082087862ec702802f306d6949e2ad/core-1.7.0/proguard.txt
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/b0e4419b52689e801a3ce4ce6f48b67b/transformed/transition-1.4.1/proguard.txt
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/adacc4bbdca3c037c01e5031782c646c/transformed/core-1.7.0/proguard.txt
 # Never inline methods, but allow shrinking and obfuscation.
 -keepclassmembernames,allowobfuscation,allowshrinking class androidx.core.view.ViewCompat$Api* {
   <methods>;
@@ -620,12 +626,19 @@
   <methods>;
 }
 
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/36082087862ec702802f306d6949e2ad/core-1.7.0/proguard.txt
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/7521be55f61a482be341ee33faa93b27/lifecycle-process-2.4.0/proguard.txt
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/adacc4bbdca3c037c01e5031782c646c/transformed/core-1.7.0/proguard.txt
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/f402c227810f854944e859f834a3003b/transformed/versionedparcelable-1.1.1/proguard.txt
+-keep class * implements androidx.versionedparcelable.VersionedParcelable
+-keep public class android.support.**Parcelizer { *; }
+-keep public class androidx.**Parcelizer { *; }
+-keep public class androidx.versionedparcelable.ParcelImpl
+
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/f402c227810f854944e859f834a3003b/transformed/versionedparcelable-1.1.1/proguard.txt
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/c4217aea2ca3d9a23241dc893df048d3/transformed/lifecycle-process-2.4.0/proguard.txt
 # this rule is need to work properly when app is compiled with api 28, see b/142778206
 -keepclassmembers class * extends androidx.lifecycle.EmptyActivityLifecycleCallbacks { *; }
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/7521be55f61a482be341ee33faa93b27/lifecycle-process-2.4.0/proguard.txt
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/c4d927c04073a746d1f6adcbef36a0e2/lifecycle-runtime-2.4.0/proguard.txt
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/c4217aea2ca3d9a23241dc893df048d3/transformed/lifecycle-process-2.4.0/proguard.txt
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/46678b274d19ceaa2ace84fd4677d921/transformed/lifecycle-runtime-2.4.0/proguard.txt
 -keepattributes AnnotationDefault,
                 RuntimeVisibleAnnotations,
                 RuntimeVisibleParameterAnnotations,
@@ -649,15 +662,8 @@
 # this rule is need to work properly when app is compiled with api 28, see b/142778206
 # Also this rule prevents registerIn from being inlined.
 -keepclassmembers class androidx.lifecycle.ReportFragment$LifecycleCallbacks { *; }
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/c4d927c04073a746d1f6adcbef36a0e2/lifecycle-runtime-2.4.0/proguard.txt
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/7fb4046ccba21fa7af016c35d77ea822/versionedparcelable-1.1.1/proguard.txt
--keep class * implements androidx.versionedparcelable.VersionedParcelable
--keep public class android.support.**Parcelizer { *; }
--keep public class androidx.**Parcelizer { *; }
--keep public class androidx.versionedparcelable.ParcelImpl
-
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/7fb4046ccba21fa7af016c35d77ea822/versionedparcelable-1.1.1/proguard.txt
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/040ff2f7bab64484bbd7e3f2e6a1f743/lifecycle-viewmodel-savedstate-2.3.1/proguard.txt
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/46678b274d19ceaa2ace84fd4677d921/transformed/lifecycle-runtime-2.4.0/proguard.txt
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/f2eb3a69421f6430dc602772315e353d/transformed/lifecycle-viewmodel-savedstate-2.3.1/proguard.txt
 -keepclassmembers,allowobfuscation class * extends androidx.lifecycle.ViewModel {
     <init>(androidx.lifecycle.SavedStateHandle);
 }
@@ -666,8 +672,8 @@
     <init>(android.app.Application,androidx.lifecycle.SavedStateHandle);
 }
 
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/040ff2f7bab64484bbd7e3f2e6a1f743/lifecycle-viewmodel-savedstate-2.3.1/proguard.txt
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/cd69ea68c5bb937620da687c1385b667/savedstate-1.1.0/proguard.txt
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/f2eb3a69421f6430dc602772315e353d/transformed/lifecycle-viewmodel-savedstate-2.3.1/proguard.txt
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/5ed40bfc20b2e83196608eb19810b347/transformed/savedstate-1.1.0/proguard.txt
 # Copyright (C) 2019 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -686,8 +692,8 @@
     <init>();
 }
 
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/cd69ea68c5bb937620da687c1385b667/savedstate-1.1.0/proguard.txt
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/f9197219f6a6d6470dc11a587711c5bb/lifecycle-viewmodel-2.3.1/proguard.txt
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/5ed40bfc20b2e83196608eb19810b347/transformed/savedstate-1.1.0/proguard.txt
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/1ac93c5e760a99df0791676ab0dd2c8b/transformed/lifecycle-viewmodel-2.3.1/proguard.txt
 -keepclassmembers,allowobfuscation class * extends androidx.lifecycle.ViewModel {
     <init>();
 }
@@ -696,8 +702,8 @@
     <init>(android.app.Application);
 }
 
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/f9197219f6a6d6470dc11a587711c5bb/lifecycle-viewmodel-2.3.1/proguard.txt
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/ebee36e0220698936f9d88265df22e63/startup-runtime-1.0.0/proguard.txt
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/1ac93c5e760a99df0791676ab0dd2c8b/transformed/lifecycle-viewmodel-2.3.1/proguard.txt
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/5f6791cabcf7ae297e8689ef537c9936/transformed/startup-runtime-1.0.0/proguard.txt
 # This Proguard rule ensures that ComponentInitializers are are neither shrunk nor obfuscated.
 # This is because they are discovered and instantiated during application initialization.
 -keep class * extends androidx.startup.Initializer {
@@ -707,8 +713,8 @@
 
 -assumenosideeffects class androidx.startup.StartupLogger
 
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/ebee36e0220698936f9d88265df22e63/startup-runtime-1.0.0/proguard.txt
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/65a47a6cee9e45c63e0c7342554ad7fd/rules/lib/META-INF/proguard/androidx-annotations.pro
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/5f6791cabcf7ae297e8689ef537c9936/transformed/startup-runtime-1.0.0/proguard.txt
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/5a3daa170e937913261d0ab094b98b1b/transformed/rules/lib/META-INF/proguard/androidx-annotations.pro
 -keep,allowobfuscation @interface androidx.annotation.Keep
 -keep @androidx.annotation.Keep class * {*;}
 
@@ -728,8 +734,8 @@
   @androidx.annotation.DoNotInline <methods>;
 }
 
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/65a47a6cee9e45c63e0c7342554ad7fd/rules/lib/META-INF/proguard/androidx-annotations.pro
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/86d4bf051e97c8db85ed96c698c798be/annotation-experimental-1.1.0/proguard.txt
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/5a3daa170e937913261d0ab094b98b1b/transformed/rules/lib/META-INF/proguard/androidx-annotations.pro
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/fa71066934ce7b959416ab07c2d56d3b/transformed/annotation-experimental-1.1.0/proguard.txt
 # Copyright (C) 2020 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -754,8 +760,8 @@
 -dontwarn kotlin.annotation.Retention
 -dontwarn kotlin.annotation.Target
 
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/86d4bf051e97c8db85ed96c698c798be/annotation-experimental-1.1.0/proguard.txt
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/55e3389e1cb68292aefaccf4674004fb/rules/lib/META-INF/proguard/retrofit2.pro
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/fa71066934ce7b959416ab07c2d56d3b/transformed/annotation-experimental-1.1.0/proguard.txt
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/ab42a27ec202c3339b03e175871108ac/transformed/rules/lib/META-INF/proguard/retrofit2.pro
 # Retrofit does reflection on generic parameters. InnerClasses is required to use Signature and
 # EnclosingMethod is required to use InnerClasses.
 -keepattributes Signature, InnerClasses, EnclosingMethod
@@ -786,8 +792,8 @@
 -if interface * { @retrofit2.http.* <methods>; }
 -keep,allowobfuscation interface <1>
 
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/55e3389e1cb68292aefaccf4674004fb/rules/lib/META-INF/proguard/retrofit2.pro
-# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/ad76dc8a75960d4ab148fd96e8607ff8/rules/lib/META-INF/proguard/okhttp3.pro
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/ab42a27ec202c3339b03e175871108ac/transformed/rules/lib/META-INF/proguard/retrofit2.pro
+# The proguard configuration file for the following section is /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/62d0a19c08da92eee2484a4b525f6774/transformed/rules/lib/META-INF/proguard/okhttp3.pro
 # JSR 305 annotations are for embedding nullability information.
 -dontwarn javax.annotation.**
 
@@ -800,7 +806,7 @@
 # OkHttp platform used only on JVM and when Conscrypt dependency is available.
 -dontwarn okhttp3.internal.platform.ConscryptPlatform
 
-# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/ad76dc8a75960d4ab148fd96e8607ff8/rules/lib/META-INF/proguard/okhttp3.pro
+# End of content from /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/62d0a19c08da92eee2484a4b525f6774/transformed/rules/lib/META-INF/proguard/okhttp3.pro
 # The proguard configuration file for the following section is <unknown>
 -ignorewarnings
 # End of content from <unknown>

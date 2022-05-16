@@ -13,15 +13,17 @@ android.support.v4.os.ResultReceiver
 androidx.activity.ActivityViewModelLazyKt$viewModels$1
 androidx.activity.ActivityViewModelLazyKt$viewModels$factoryPromise$1
 androidx.activity.ActivityViewModelLazyKt
+androidx.activity.Api19Impl
+androidx.activity.Api26Impl
 androidx.activity.ComponentActivity$2$1
 androidx.activity.ComponentActivity$2$2
 androidx.activity.ComponentActivity$2:
     public void onLaunch(int,androidx.activity.result.contract.ActivityResultContract,java.lang.Object,androidx.core.app.ActivityOptionsCompat)
+androidx.activity.ComponentActivity$Api19Impl:
+    private void <init>()
 androidx.activity.ComponentActivity:
     private static final java.lang.String ACTIVITY_RESULT_TAG
-    private androidx.lifecycle.ViewModelProvider$Factory mDefaultFactory
     public void <init>(int)
-    public androidx.lifecycle.ViewModelProvider$Factory getDefaultViewModelProviderFactory()
     public java.lang.Object getLastCustomNonConfigurationInstance()
     public android.content.Context peekAvailableContext()
     public final androidx.activity.result.ActivityResultLauncher registerForActivityResult(androidx.activity.result.contract.ActivityResultContract,androidx.activity.result.ActivityResultCallback)
@@ -37,34 +39,21 @@ androidx.activity.OnBackPressedDispatcher:
     public boolean hasEnabledCallbacks()
 androidx.activity.OnBackPressedDispatcherKt$addCallback$callback$1
 androidx.activity.OnBackPressedDispatcherKt
-androidx.activity.R$attr
-androidx.activity.R$color
-androidx.activity.R$dimen
-androidx.activity.R$drawable
-androidx.activity.R$id
-androidx.activity.R$integer
-androidx.activity.R$layout
-androidx.activity.R$string
-androidx.activity.R$style
-androidx.activity.R$styleable
+androidx.activity.PipHintTrackerKt$trackPipAnimationHintView$$inlined$collect$1
+androidx.activity.PipHintTrackerKt$trackPipAnimationHintView$flow$1$1
+androidx.activity.PipHintTrackerKt$trackPipAnimationHintView$flow$1$attachStateChangeListener$1
+androidx.activity.PipHintTrackerKt$trackPipAnimationHintView$flow$1$layoutChangeListener$1
+androidx.activity.PipHintTrackerKt$trackPipAnimationHintView$flow$1$scrollChangeListener$1
+androidx.activity.PipHintTrackerKt$trackPipAnimationHintView$flow$1
+androidx.activity.PipHintTrackerKt
 androidx.activity.R
 androidx.activity.contextaware.ContextAware
 androidx.activity.contextaware.ContextAwareHelper:
     public android.content.Context peekAvailableContext()
     public void removeOnContextAvailableListener(androidx.activity.contextaware.OnContextAvailableListener)
-androidx.activity.contextaware.ContextAwareKt$withContextAvailable$$inlined$suspendCancellableCoroutine$lambda$1
-androidx.activity.contextaware.ContextAwareKt$withContextAvailable$$inlined$suspendCancellableCoroutine$lambda$2
+androidx.activity.contextaware.ContextAwareKt$withContextAvailable$2$1
+androidx.activity.contextaware.ContextAwareKt$withContextAvailable$2$listener$1
 androidx.activity.contextaware.ContextAwareKt
-androidx.activity.ktx.R$attr
-androidx.activity.ktx.R$color
-androidx.activity.ktx.R$dimen
-androidx.activity.ktx.R$drawable
-androidx.activity.ktx.R$id
-androidx.activity.ktx.R$integer
-androidx.activity.ktx.R$layout
-androidx.activity.ktx.R$string
-androidx.activity.ktx.R$style
-androidx.activity.ktx.R$styleable
 androidx.activity.ktx.R
 androidx.activity.result.ActivityResultCaller
 androidx.activity.result.ActivityResultCallerKt$registerForActivityResult$resultLauncher$1
@@ -106,6 +95,7 @@ androidx.activity.result.contract.ActivityResultContract$SynchronousResult
 androidx.activity.result.contract.ActivityResultContract:
     public abstract android.content.Intent createIntent(android.content.Context,java.lang.Object)
     public androidx.activity.result.contract.ActivityResultContract$SynchronousResult getSynchronousResult(android.content.Context,java.lang.Object)
+androidx.activity.result.contract.ActivityResultContracts$CaptureVideo
 androidx.activity.result.contract.ActivityResultContracts$CreateDocument
 androidx.activity.result.contract.ActivityResultContracts$GetContent
 androidx.activity.result.contract.ActivityResultContracts$GetMultipleContents
@@ -4606,7 +4596,6 @@ androidx.core.app.BundleCompat
 androidx.core.app.ComponentActivity$ExtraData
 androidx.core.app.ComponentActivity:
     public androidx.core.app.ComponentActivity$ExtraData getExtraData(java.lang.Class)
-    public androidx.lifecycle.Lifecycle getLifecycle()
     public void putExtraData(androidx.core.app.ComponentActivity$ExtraData)
 androidx.core.app.DialogCompat
 androidx.core.app.FrameMetricsAggregator$FrameMetricsApi24Impl$1
@@ -6603,6 +6592,8 @@ androidx.databinding.ObservableMap$OnMapChangedCallback:
     public abstract void onMapChanged(androidx.databinding.ObservableMap,java.lang.Object)
 androidx.databinding.ObservableParcelable$1
 androidx.databinding.ObservableParcelable
+androidx.databinding.ObservableReference:
+    public abstract androidx.databinding.WeakListener getListener()
 androidx.databinding.ObservableShort$1
 androidx.databinding.ObservableShort
 androidx.databinding.PropertyChangeRegistry:
@@ -6611,8 +6602,6 @@ androidx.databinding.Untaggable
 androidx.databinding.ViewDataBinding$IncludedLayouts:
     public void <init>(int)
     public void setIncludes(int,java.lang.String[],int[],int[])
-androidx.databinding.ViewDataBinding$ObservableReference:
-    public abstract androidx.databinding.ViewDataBinding$WeakListener getListener()
 androidx.databinding.ViewDataBinding$PropertyChangedInverseListener
 androidx.databinding.ViewDataBinding$WeakListListener:
     public void onChanged(androidx.databinding.ObservableList)
@@ -6699,6 +6688,11 @@ androidx.databinding.ViewDataBinding:
     protected boolean updateRegistration(int,androidx.databinding.Observable)
     protected boolean updateRegistration(int,androidx.databinding.ObservableList)
     protected boolean updateRegistration(int,androidx.databinding.ObservableMap)
+androidx.databinding.ViewDataBindingKtx$CREATE_STATE_FLOW_LISTENER$1
+androidx.databinding.ViewDataBindingKtx$StateFlowListener$startCollection$1$invokeSuspend$$inlined$collect$1
+androidx.databinding.ViewDataBindingKtx$StateFlowListener$startCollection$1
+androidx.databinding.ViewDataBindingKtx$StateFlowListener
+androidx.databinding.ViewDataBindingKtx
 androidx.databinding.ViewStubProxy$1
 androidx.databinding.ViewStubProxy
 androidx.databinding.adapters.AbsListViewBindingAdapter$1
@@ -6811,12 +6805,59 @@ androidx.databinding.adapters.ViewGroupBindingAdapter$OnChildViewRemoved
 androidx.databinding.adapters.ViewGroupBindingAdapter
 androidx.databinding.adapters.ViewStubBindingAdapter
 androidx.databinding.adapters.ZoomControlsBindingAdapter
+androidx.databinding.ktx.BuildConfig
+androidx.databinding.ktx.R$anim
+androidx.databinding.ktx.R$attr
+androidx.databinding.ktx.R$color
+androidx.databinding.ktx.R$dimen
+androidx.databinding.ktx.R$drawable
+androidx.databinding.ktx.R$id
+androidx.databinding.ktx.R$integer
+androidx.databinding.ktx.R$layout
+androidx.databinding.ktx.R$string
+androidx.databinding.ktx.R$style
+androidx.databinding.ktx.R$styleable
+androidx.databinding.ktx.R
 androidx.databinding.library.BuildConfig
+androidx.databinding.library.R$anim
 androidx.databinding.library.R$attr
 androidx.databinding.library.R$color
 androidx.databinding.library.R$dimen
 androidx.databinding.library.R$drawable
 androidx.databinding.library.R$id:
+    public static final int accessibility_action_clickable_span
+    public static final int accessibility_custom_action_0
+    public static final int accessibility_custom_action_1
+    public static final int accessibility_custom_action_10
+    public static final int accessibility_custom_action_11
+    public static final int accessibility_custom_action_12
+    public static final int accessibility_custom_action_13
+    public static final int accessibility_custom_action_14
+    public static final int accessibility_custom_action_15
+    public static final int accessibility_custom_action_16
+    public static final int accessibility_custom_action_17
+    public static final int accessibility_custom_action_18
+    public static final int accessibility_custom_action_19
+    public static final int accessibility_custom_action_2
+    public static final int accessibility_custom_action_20
+    public static final int accessibility_custom_action_21
+    public static final int accessibility_custom_action_22
+    public static final int accessibility_custom_action_23
+    public static final int accessibility_custom_action_24
+    public static final int accessibility_custom_action_25
+    public static final int accessibility_custom_action_26
+    public static final int accessibility_custom_action_27
+    public static final int accessibility_custom_action_28
+    public static final int accessibility_custom_action_29
+    public static final int accessibility_custom_action_3
+    public static final int accessibility_custom_action_30
+    public static final int accessibility_custom_action_31
+    public static final int accessibility_custom_action_4
+    public static final int accessibility_custom_action_5
+    public static final int accessibility_custom_action_6
+    public static final int accessibility_custom_action_7
+    public static final int accessibility_custom_action_8
+    public static final int accessibility_custom_action_9
     public static final int action_container
     public static final int action_divider
     public static final int action_image
@@ -6826,8 +6867,10 @@ androidx.databinding.library.R$id:
     public static final int blocking
     public static final int bottom
     public static final int chronometer
+    public static final int dialog_button
     public static final int end
     public static final int forever
+    public static final int fragment_container_view_tag
     public static final int icon
     public static final int icon_group
     public static final int info
@@ -6844,6 +6887,11 @@ androidx.databinding.library.R$id:
     public static final int right_icon
     public static final int right_side
     public static final int start
+    public static final int tag_accessibility_actions
+    public static final int tag_accessibility_clickable_spans
+    public static final int tag_accessibility_heading
+    public static final int tag_accessibility_pane_title
+    public static final int tag_screen_reader_focusable
     public static final int tag_transition_group
     public static final int tag_unhandled_key_event_manager
     public static final int tag_unhandled_key_listeners
@@ -6852,6 +6900,7 @@ androidx.databinding.library.R$id:
     public static final int time
     public static final int title
     public static final int top
+    public static final int visible_removing_fragment_view_tag
     private void <init>()
 androidx.databinding.library.R$integer
 androidx.databinding.library.R$layout
@@ -6873,6 +6922,39 @@ androidx.databinding.library.baseAdapters.R$color
 androidx.databinding.library.baseAdapters.R$dimen
 androidx.databinding.library.baseAdapters.R$drawable
 androidx.databinding.library.baseAdapters.R$id:
+    public static final int accessibility_action_clickable_span
+    public static final int accessibility_custom_action_0
+    public static final int accessibility_custom_action_1
+    public static final int accessibility_custom_action_10
+    public static final int accessibility_custom_action_11
+    public static final int accessibility_custom_action_12
+    public static final int accessibility_custom_action_13
+    public static final int accessibility_custom_action_14
+    public static final int accessibility_custom_action_15
+    public static final int accessibility_custom_action_16
+    public static final int accessibility_custom_action_17
+    public static final int accessibility_custom_action_18
+    public static final int accessibility_custom_action_19
+    public static final int accessibility_custom_action_2
+    public static final int accessibility_custom_action_20
+    public static final int accessibility_custom_action_21
+    public static final int accessibility_custom_action_22
+    public static final int accessibility_custom_action_23
+    public static final int accessibility_custom_action_24
+    public static final int accessibility_custom_action_25
+    public static final int accessibility_custom_action_26
+    public static final int accessibility_custom_action_27
+    public static final int accessibility_custom_action_28
+    public static final int accessibility_custom_action_29
+    public static final int accessibility_custom_action_3
+    public static final int accessibility_custom_action_30
+    public static final int accessibility_custom_action_31
+    public static final int accessibility_custom_action_4
+    public static final int accessibility_custom_action_5
+    public static final int accessibility_custom_action_6
+    public static final int accessibility_custom_action_7
+    public static final int accessibility_custom_action_8
+    public static final int accessibility_custom_action_9
     public static final int action_bar
     public static final int action_bar_activity_content
     public static final int action_bar_container
@@ -6907,11 +6989,13 @@ androidx.databinding.library.baseAdapters.R$id:
     public static final int dataBinding
     public static final int decor_content_parent
     public static final int default_activity_button
+    public static final int dialog_button
     public static final int edit_query
     public static final int end
     public static final int expand_activities_button
     public static final int expanded_menu
     public static final int forever
+    public static final int fragment_container_view_tag
     public static final int group_divider
     public static final int home
     public static final int icon
@@ -6965,6 +7049,11 @@ androidx.databinding.library.baseAdapters.R$id:
     public static final int submenuarrow
     public static final int submit_area
     public static final int tabMode
+    public static final int tag_accessibility_actions
+    public static final int tag_accessibility_clickable_spans
+    public static final int tag_accessibility_heading
+    public static final int tag_accessibility_pane_title
+    public static final int tag_screen_reader_focusable
     public static final int tag_transition_group
     public static final int tag_unhandled_key_event_manager
     public static final int tag_unhandled_key_listeners
@@ -6980,6 +7069,7 @@ androidx.databinding.library.baseAdapters.R$id:
     public static final int topPanel
     public static final int uniform
     public static final int up
+    public static final int visible_removing_fragment_view_tag
     public static final int wrap_content
     private void <init>()
 androidx.databinding.library.baseAdapters.R$integer
@@ -9505,8 +9595,6 @@ androidx.lifecycle.ComputableLiveData$1
 androidx.lifecycle.ComputableLiveData$2
 androidx.lifecycle.ComputableLiveData$3
 androidx.lifecycle.ComputableLiveData
-androidx.lifecycle.DefaultLifecycleObserver:
-    public void onResume(androidx.lifecycle.LifecycleOwner)
 androidx.lifecycle.DispatchQueue$dispatchAndEnqueue$$inlined$with$lambda$1
 androidx.lifecycle.DispatchQueue:
     private boolean finished
@@ -9595,6 +9683,9 @@ androidx.lifecycle.SavedStateViewModelFactory:
     public void <init>(android.app.Application,androidx.savedstate.SavedStateRegistryOwner)
 androidx.lifecycle.ServiceLifecycleDispatcher$DispatchRunnable
 androidx.lifecycle.ServiceLifecycleDispatcher
+androidx.lifecycle.StateViewModelFactory:
+    public final org.koin.androidx.viewmodel.ViewModelParameter getParameters()
+    public final org.koin.core.scope.Scope getScope()
 androidx.lifecycle.Transformations$1
 androidx.lifecycle.Transformations$2$1
 androidx.lifecycle.Transformations$2
@@ -9602,7 +9693,8 @@ androidx.lifecycle.Transformations$3
 androidx.lifecycle.Transformations
 androidx.lifecycle.ViewKt
 androidx.lifecycle.ViewModelKt
-androidx.lifecycle.ViewModelLazy
+androidx.lifecycle.ViewModelLazy:
+    public boolean isInitialized()
 androidx.lifecycle.ViewModelProvider:
     private static final java.lang.String DEFAULT_KEY
     public void <init>(androidx.lifecycle.ViewModelStoreOwner)
@@ -11827,6 +11919,7 @@ androidx.versionedparcelable.VersionedParcelize
 androidx.viewbinding.BuildConfig
 androidx.viewbinding.R
 androidx.viewbinding.ViewBinding
+androidx.viewbinding.ViewBindings
 androidx.viewpager.R$attr
 androidx.viewpager.R$color
 androidx.viewpager.R$dimen
@@ -13193,11 +13286,6 @@ com.example.data.model.movie.MovieEntity:
     public final com.example.data.model.movie.MovieEntity copy(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
     public static synthetic com.example.data.model.movie.MovieEntity copy$default(com.example.data.model.movie.MovieEntity,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.Object)
 com.example.data.model.movie.MovieResponse:
-    private final int display
-    private final java.lang.String lastBuildDate
-    private final java.util.List movies
-    private final int start
-    private final int total
     public void <init>(int,java.util.List,java.lang.String,int,int)
     public final int component1()
     public final java.util.List component2()
@@ -13206,12 +13294,9 @@ com.example.data.model.movie.MovieResponse:
     public final int component5()
     public final com.example.data.model.movie.MovieResponse copy(int,java.util.List,java.lang.String,int,int)
     public static synthetic com.example.data.model.movie.MovieResponse copy$default(com.example.data.model.movie.MovieResponse,int,java.util.List,java.lang.String,int,int,int,java.lang.Object)
-    public boolean equals(java.lang.Object)
     public final int getDisplay()
     public final java.lang.String getLastBuildDate()
     public final int getTotal()
-    public int hashCode()
-    public java.lang.String toString()
 com.example.data.repository.search.MovieRepositoryImpl:
     public io.reactivex.Flowable getLocalSearchMovies(java.lang.String)
     private static final java.util.List getLocalSearchMovies$lambda-4(java.lang.Throwable)
@@ -25475,13 +25560,16 @@ kotlin.Lazy:
     public abstract boolean isInitialized()
 kotlin.LazyKt:
     private void <init>()
+kotlin.LazyKt__LazyJVMKt$WhenMappings
 kotlin.LazyKt__LazyJVMKt:
     public void <init>()
     public static final kotlin.Lazy lazy(java.lang.Object,kotlin.jvm.functions.Function0)
+    public static final kotlin.Lazy lazy(kotlin.LazyThreadSafetyMode,kotlin.jvm.functions.Function0)
 kotlin.LazyKt__LazyKt:
     public void <init>()
     private static final java.lang.Object getValue(kotlin.Lazy,java.lang.Object,kotlin.reflect.KProperty)
     public static final kotlin.Lazy lazyOf(java.lang.Object)
+kotlin.LazyThreadSafetyMode
 kotlin.Metadata$DefaultImpls
 kotlin.Metadata
 kotlin.NoWhenBranchMatchedException:
@@ -25540,8 +25628,8 @@ kotlin.ResultKt:
     private static final java.lang.Object recoverCatching(java.lang.Object,kotlin.jvm.functions.Function1)
     private static final java.lang.Object runCatching(java.lang.Object,kotlin.jvm.functions.Function1)
     private static final java.lang.Object runCatching(kotlin.jvm.functions.Function0)
-kotlin.SafePublicationLazyImpl:
-    private final java.lang.Object writeReplace()
+kotlin.SafePublicationLazyImpl$Companion
+kotlin.SafePublicationLazyImpl
 kotlin.SinceKotlin
 kotlin.StandardKt
 kotlin.StandardKt__StandardKt
@@ -25585,8 +25673,7 @@ kotlin.UShortKt
 kotlin.UninitializedPropertyAccessException:
     public void <init>(java.lang.String,java.lang.Throwable)
     public void <init>(java.lang.Throwable)
-kotlin.UnsafeLazyImpl:
-    private final java.lang.Object writeReplace()
+kotlin.UnsafeLazyImpl
 kotlin.UnsafeVariance
 kotlin.UnsignedKt
 kotlin.UseExperimental
@@ -25668,7 +25755,6 @@ kotlin.collections.ArrayDeque:
     private final java.lang.Object internalGet(int)
     private final int internalIndex(int)
     public final void internalStructure$kotlin_stdlib(kotlin.jvm.functions.Function2)
-    public final java.lang.Object removeFirstOrNull()
     public final java.lang.Object removeLastOrNull()
     public final java.lang.Object[] testToArray$kotlin_stdlib()
     public final java.lang.Object[] testToArray$kotlin_stdlib(java.lang.Object[])
@@ -27806,6 +27892,8 @@ kotlin.collections.CollectionsKt___CollectionsKt:
     public static final synthetic java.util.List filterIsInstance(java.lang.Iterable)
     public static final synthetic java.util.Collection filterIsInstanceTo(java.lang.Iterable,java.util.Collection)
     public static final java.util.List filterNot(java.lang.Iterable,kotlin.jvm.functions.Function1)
+    public static final java.util.List filterNotNull(java.lang.Iterable)
+    public static final java.util.Collection filterNotNullTo(java.lang.Iterable,java.util.Collection)
     public static final java.util.Collection filterNotTo(java.lang.Iterable,java.util.Collection,kotlin.jvm.functions.Function1)
     public static final java.util.Collection filterTo(java.lang.Iterable,java.util.Collection,kotlin.jvm.functions.Function1)
     private static final java.lang.Object find(java.lang.Iterable,kotlin.jvm.functions.Function1)
@@ -29038,7 +29126,6 @@ kotlin.ranges.RangesKt___RangesKt:
     public static final double coerceIn(double,double,double)
     public static final float coerceIn(float,float,float)
     public static final int coerceIn(int,kotlin.ranges.ClosedRange)
-    public static final long coerceIn(long,long,long)
     public static final long coerceIn(long,kotlin.ranges.ClosedRange)
     public static final java.lang.Comparable coerceIn(java.lang.Comparable,java.lang.Comparable,java.lang.Comparable)
     public static final java.lang.Comparable coerceIn(java.lang.Comparable,kotlin.ranges.ClosedFloatingPointRange)
@@ -30194,10 +30281,7 @@ kotlin.text.jdk8.RegexExtensionsJDK8Kt
 kotlin.time.AbstractDoubleTimeSource$DoubleTimeMark
 kotlin.time.AbstractDoubleTimeSource
 kotlin.time.AbstractLongTimeSource$LongTimeMark:
-    public long elapsedNow-UwyO8pc()
     public kotlin.time.TimeMark plus-LRDsOJo(long)
-kotlin.time.AbstractLongTimeSource:
-    protected final kotlin.time.DurationUnit getUnit()
 kotlin.time.AdjustedTimeMark
 kotlin.time.Duration$Companion:
     public final double convert(double,kotlin.time.DurationUnit,kotlin.time.DurationUnit)
@@ -30274,7 +30358,6 @@ kotlin.time.Duration:
     private synthetic void <init>(long)
     public static final synthetic long access$getINFINITE$cp()
     public static final synthetic long access$getNEG_INFINITE$cp()
-    private static final long addValuesMixedRanges-UwyO8pc(long,long,long)
     public static final synthetic kotlin.time.Duration box-impl(long)
     public static final double div-LRDsOJo(long,long)
     public static final long div-UwyO8pc(long,double)
@@ -30301,10 +30384,7 @@ kotlin.time.Duration:
     public static synthetic void getNanosecondsComponent$annotations()
     public static synthetic void getSecondsComponent$annotations()
     private static final int getUnitDiscriminator-impl(long)
-    public static final boolean isFinite-impl(long)
     public static final boolean isPositive-impl(long)
-    public static final long minus-LRDsOJo(long,long)
-    public static final long plus-LRDsOJo(long,long)
     public static final long times-UwyO8pc(long,double)
     public static final long times-UwyO8pc(long,int)
     public static final java.lang.Object toComponents-impl(long,kotlin.jvm.functions.Function2)
@@ -30327,14 +30407,7 @@ kotlin.time.DurationKt:
     public static final long MAX_NANOS
     private static final long MAX_NANOS_IN_MILLIS
     public static final int NANOS_IN_MILLIS
-    public static final synthetic long access$durationOfMillisNormalized(long)
-    public static final synthetic long access$durationOfNanos(long)
-    public static final synthetic long access$durationOfNanosNormalized(long)
-    public static final synthetic long access$nanosToMillis(long)
     public static final synthetic long access$parseDuration(java.lang.String,boolean)
-    private static final long durationOfMillisNormalized(long)
-    private static final long durationOfNanos(long)
-    private static final long durationOfNanosNormalized(long)
     public static final long getDays(double)
     public static final long getDays(int)
     public static final long getDays(long)
@@ -30377,7 +30450,6 @@ kotlin.time.DurationKt:
     public static synthetic void getSeconds$annotations(double)
     public static synthetic void getSeconds$annotations(int)
     public static synthetic void getSeconds$annotations(long)
-    private static final long nanosToMillis(long)
     private static final long parseDuration(java.lang.String,boolean)
     private static final long parseOverLongIsoComponent(java.lang.String)
     private static final int skipWhile(java.lang.String,int,kotlin.jvm.functions.Function1)
@@ -30386,14 +30458,12 @@ kotlin.time.DurationKt:
     private static final long times-mvk6XK0(int,long)
     public static final long toDuration(double,kotlin.time.DurationUnit)
     public static final long toDuration(int,kotlin.time.DurationUnit)
-    public static final long toDuration(long,kotlin.time.DurationUnit)
 kotlin.time.DurationUnitKt:
     private void <init>()
 kotlin.time.DurationUnitKt__DurationUnitJvmKt$WhenMappings
 kotlin.time.DurationUnitKt__DurationUnitJvmKt:
     public void <init>()
     public static final double convertDurationUnit(double,kotlin.time.DurationUnit,kotlin.time.DurationUnit)
-    public static final long convertDurationUnitOverflow(long,kotlin.time.DurationUnit,kotlin.time.DurationUnit)
     public static final kotlin.time.DurationUnit toDurationUnit(java.util.concurrent.TimeUnit)
     public static final java.util.concurrent.TimeUnit toTimeUnit(kotlin.time.DurationUnit)
 kotlin.time.DurationUnitKt__DurationUnitKt$WhenMappings
@@ -30406,20 +30476,20 @@ kotlin.time.ExperimentalTime
 kotlin.time.MeasureTimeKt
 kotlin.time.TestTimeSource
 kotlin.time.TimeMark:
-    public abstract long elapsedNow-UwyO8pc()
     public final boolean hasNotPassedNow()
     public final boolean hasPassedNow()
     public kotlin.time.TimeMark minus-LRDsOJo(long)
     public kotlin.time.TimeMark plus-LRDsOJo(long)
+kotlin.time.TimeSource$Companion
+kotlin.time.TimeSource:
+    public static final kotlin.time.TimeSource$Companion Companion
+    static void <clinit>()
 kotlin.time.TimeSourceKt
 kotlin.time.TimedValue:
-    private void <init>(java.lang.Object,long)
-    public synthetic void <init>(java.lang.Object,long,kotlin.jvm.internal.DefaultConstructorMarker)
     public final java.lang.Object component1()
     public final long component2-UwyO8pc()
     public final kotlin.time.TimedValue copy-RFiDyg4(java.lang.Object,long)
     public static synthetic kotlin.time.TimedValue copy-RFiDyg4$default(kotlin.time.TimedValue,java.lang.Object,long,int,java.lang.Object)
-    public final long getDuration-UwyO8pc()
 kotlin.time.jdk8.DurationConversionsJDK8Kt
 kotlinx.coroutines.AbstractCoroutine:
     public static synthetic void getContext$annotations()
@@ -32818,17 +32888,26 @@ org.jetbrains.annotations.NotNull
 org.jetbrains.annotations.Nullable
 org.jetbrains.annotations.PropertyKey
 org.jetbrains.annotations.TestOnly
+org.koin.KoinApplicationExtKt
 org.koin.android.BuildConfig
+org.koin.android.R$anim
+org.koin.android.R$animator
+org.koin.android.R$attr
+org.koin.android.R$bool
+org.koin.android.R$color
+org.koin.android.R$dimen
+org.koin.android.R$drawable
+org.koin.android.R$id
+org.koin.android.R$integer
+org.koin.android.R$interpolator
+org.koin.android.R$layout
+org.koin.android.R$string
+org.koin.android.R$style
+org.koin.android.R$styleable
 org.koin.android.R
 org.koin.android.error.MissingAndroidContextException
 org.koin.android.ext.android.ComponentCallbackExtKt$inject$1
-org.koin.android.ext.android.ComponentCallbackExtKt:
-    public static final synthetic java.lang.Object bind(android.content.ComponentCallbacks,kotlin.jvm.functions.Function0)
-    public static synthetic java.lang.Object bind$default(android.content.ComponentCallbacks,kotlin.jvm.functions.Function0,int,java.lang.Object)
-    public static final synthetic java.lang.Object get(android.content.ComponentCallbacks,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0)
-    public static synthetic java.lang.Object get$default(android.content.ComponentCallbacks,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,int,java.lang.Object)
-    public static final synthetic kotlin.Lazy inject(android.content.ComponentCallbacks,org.koin.core.qualifier.Qualifier,kotlin.LazyThreadSafetyMode,kotlin.jvm.functions.Function0)
-    public static synthetic kotlin.Lazy inject$default(android.content.ComponentCallbacks,org.koin.core.qualifier.Qualifier,kotlin.LazyThreadSafetyMode,kotlin.jvm.functions.Function0,int,java.lang.Object)
+org.koin.android.ext.android.ComponentCallbackExtKt
 org.koin.android.ext.koin.KoinExtKt:
     public static final org.koin.core.KoinApplication androidFileProperties(org.koin.core.KoinApplication,java.lang.String)
     public static synthetic org.koin.core.KoinApplication androidFileProperties$default(org.koin.core.KoinApplication,java.lang.String,int,java.lang.Object)
@@ -32838,171 +32917,135 @@ org.koin.android.ext.koin.ModuleExtKt
 org.koin.android.java.KoinAndroidApplication
 org.koin.android.logger.AndroidLogger$WhenMappings
 org.koin.android.logger.AndroidLogger
-org.koin.androidx.scope.BuildConfig
-org.koin.androidx.scope.ComponentActivityExtKt$activityRetainedScope$$inlined$viewModels$1
-org.koin.androidx.scope.ComponentActivityExtKt$activityRetainedScope$$inlined$viewModels$2
+org.koin.android.scope.ComponentCallbacksExtKt$getOrCreateScope$1
+org.koin.android.scope.ComponentCallbacksExtKt$newScope$1
+org.koin.android.scope.ComponentCallbacksExtKt
+org.koin.android.scope.ScopeService
+org.koin.android.scope.ServiceExtKt$serviceScope$1
+org.koin.android.scope.ServiceExtKt
+org.koin.androidx.fragment.android.ActivityExtKt
+org.koin.androidx.fragment.android.KoinFragmentFactory
+org.koin.androidx.fragment.dsl.ModuleExtKt$fragment$1
+org.koin.androidx.fragment.dsl.ModuleExtKt
+org.koin.androidx.fragment.dsl.ScopeSetExtKt$fragment$1
+org.koin.androidx.fragment.dsl.ScopeSetExtKt
+org.koin.androidx.fragment.koin.KoinApplicationExtKt$fragmentFactoryModule$1$1
+org.koin.androidx.fragment.koin.KoinApplicationExtKt$fragmentFactoryModule$1
+org.koin.androidx.fragment.koin.KoinApplicationExtKt
 org.koin.androidx.scope.ComponentActivityExtKt
+org.koin.androidx.scope.FragmentExtKt$fragmentScope$1
 org.koin.androidx.scope.FragmentExtKt
 org.koin.androidx.scope.LifecycleOwnerExtKt
-org.koin.androidx.scope.R$anim
-org.koin.androidx.scope.R$attr
-org.koin.androidx.scope.R$bool
-org.koin.androidx.scope.R$color
-org.koin.androidx.scope.R$dimen
-org.koin.androidx.scope.R$drawable
-org.koin.androidx.scope.R$id
-org.koin.androidx.scope.R$integer
-org.koin.androidx.scope.R$interpolator
-org.koin.androidx.scope.R$layout
-org.koin.androidx.scope.R$string
-org.koin.androidx.scope.R$style
-org.koin.androidx.scope.R$styleable
-org.koin.androidx.scope.R
-org.koin.androidx.scope.ScopeActivity$inject$1
-org.koin.androidx.scope.ScopeActivity$scope$2
+org.koin.androidx.scope.LifecycleScopeDelegate$1
+org.koin.androidx.scope.LifecycleScopeDelegate$2:
+    void <init>(org.koin.androidx.scope.LifecycleScopeDelegate,org.koin.core.logger.Logger)
+org.koin.androidx.scope.LifecycleScopeDelegate:
+    public void <init>(androidx.lifecycle.LifecycleOwner,org.koin.core.Koin,kotlin.jvm.functions.Function1)
+    public synthetic void <init>(androidx.lifecycle.LifecycleOwner,org.koin.core.Koin,kotlin.jvm.functions.Function1,int,kotlin.jvm.internal.DefaultConstructorMarker)
+    public synthetic bridge java.lang.Object getValue(java.lang.Object,kotlin.reflect.KProperty)
+    public org.koin.core.scope.Scope getValue(androidx.lifecycle.LifecycleOwner,kotlin.reflect.KProperty)
+org.koin.androidx.scope.LifecycleScopeDelegateKt
+org.koin.androidx.scope.LifecycleViewModelScopeDelegate$1
+org.koin.androidx.scope.LifecycleViewModelScopeDelegate$3:
+    void <init>(org.koin.core.logger.Logger,org.koin.androidx.scope.LifecycleViewModelScopeDelegate)
+org.koin.androidx.scope.LifecycleViewModelScopeDelegate:
+    private final kotlin.jvm.functions.Function1 createScope
+    private final org.koin.core.Koin koin
+    private final androidx.lifecycle.LifecycleOwner lifecycleOwner
+    private final java.lang.String scopeId
+    public void <init>(androidx.lifecycle.LifecycleOwner,org.koin.core.Koin,kotlin.jvm.functions.Function1)
+    public synthetic void <init>(androidx.lifecycle.LifecycleOwner,org.koin.core.Koin,kotlin.jvm.functions.Function1,int,kotlin.jvm.internal.DefaultConstructorMarker)
+    public synthetic bridge java.lang.Object getValue(java.lang.Object,kotlin.reflect.KProperty)
+    public org.koin.core.scope.Scope getValue(androidx.lifecycle.LifecycleOwner,kotlin.reflect.KProperty)
 org.koin.androidx.scope.ScopeActivity
-org.koin.androidx.scope.ScopeFragment$inject$1
-org.koin.androidx.scope.ScopeFragment$scope$2
 org.koin.androidx.scope.ScopeFragment
-org.koin.androidx.scope.ScopeHandlerViewModel
-org.koin.androidx.scope.ScopeService$inject$1
-org.koin.androidx.scope.ScopeService$scope$2
-org.koin.androidx.scope.ScopeService
-org.koin.androidx.viewmodel.BuildConfig
-org.koin.androidx.viewmodel.R$anim
-org.koin.androidx.viewmodel.R$attr
-org.koin.androidx.viewmodel.R$bool
-org.koin.androidx.viewmodel.R$color
-org.koin.androidx.viewmodel.R$dimen
-org.koin.androidx.viewmodel.R$drawable
-org.koin.androidx.viewmodel.R$id
-org.koin.androidx.viewmodel.R$integer
-org.koin.androidx.viewmodel.R$interpolator
-org.koin.androidx.viewmodel.R$layout
-org.koin.androidx.viewmodel.R$string
-org.koin.androidx.viewmodel.R$style
-org.koin.androidx.viewmodel.R$styleable
-org.koin.androidx.viewmodel.R
 org.koin.androidx.viewmodel.ViewModelOwner$Companion:
-    public final org.koin.androidx.viewmodel.ViewModelOwner from(androidx.lifecycle.ViewModelStore,androidx.savedstate.SavedStateRegistryOwner)
-    public static synthetic org.koin.androidx.viewmodel.ViewModelOwner from$default(org.koin.androidx.viewmodel.ViewModelOwner$Companion,androidx.lifecycle.ViewModelStore,androidx.savedstate.SavedStateRegistryOwner,int,java.lang.Object)
+    public final org.koin.androidx.viewmodel.ViewModelOwner from(androidx.lifecycle.ViewModelStoreOwner)
     public static synthetic org.koin.androidx.viewmodel.ViewModelOwner from$default(org.koin.androidx.viewmodel.ViewModelOwner$Companion,androidx.lifecycle.ViewModelStoreOwner,androidx.savedstate.SavedStateRegistryOwner,int,java.lang.Object)
     public final org.koin.androidx.viewmodel.ViewModelOwner fromAny(java.lang.Object)
 org.koin.androidx.viewmodel.ViewModelOwner:
-    public synthetic void <init>(androidx.lifecycle.ViewModelStore,androidx.savedstate.SavedStateRegistryOwner,int,kotlin.jvm.internal.DefaultConstructorMarker)
+    public synthetic void <init>(androidx.lifecycle.ViewModelStoreOwner,androidx.savedstate.SavedStateRegistryOwner,int,kotlin.jvm.internal.DefaultConstructorMarker)
 org.koin.androidx.viewmodel.ViewModelOwnerKt
 org.koin.androidx.viewmodel.ViewModelParameter:
-    public synthetic void <init>(kotlin.reflect.KClass,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,android.os.Bundle,androidx.lifecycle.ViewModelStore,androidx.savedstate.SavedStateRegistryOwner,int,kotlin.jvm.internal.DefaultConstructorMarker)
-org.koin.androidx.viewmodel.compat.ScopeCompat$getViewModel$1
-org.koin.androidx.viewmodel.compat.ScopeCompat$viewModel$1$1
-org.koin.androidx.viewmodel.compat.ScopeCompat$viewModel$1
-org.koin.androidx.viewmodel.compat.ScopeCompat
-org.koin.androidx.viewmodel.compat.SharedViewModelCompat$getSharedViewModel$1
-org.koin.androidx.viewmodel.compat.SharedViewModelCompat$sharedViewModel$1
-org.koin.androidx.viewmodel.compat.SharedViewModelCompat
-org.koin.androidx.viewmodel.compat.ViewModelCompat$getViewModel$1
-org.koin.androidx.viewmodel.compat.ViewModelCompat$viewModel$1
-org.koin.androidx.viewmodel.compat.ViewModelCompat
-org.koin.androidx.viewmodel.dsl.ModuleExtKt:
-    public static final java.lang.String ATTRIBUTE_VIEW_MODEL
-    public static final boolean isViewModel(org.koin.core.definition.BeanDefinition)
-    public static final synthetic org.koin.core.definition.BeanDefinition viewModel(org.koin.core.module.Module,org.koin.core.qualifier.Qualifier,boolean,kotlin.jvm.functions.Function2)
-    public static synthetic org.koin.core.definition.BeanDefinition viewModel$default(org.koin.core.module.Module,org.koin.core.qualifier.Qualifier,boolean,kotlin.jvm.functions.Function2,int,java.lang.Object)
+    public synthetic void <init>(kotlin.reflect.KClass,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0,androidx.lifecycle.ViewModelStoreOwner,androidx.savedstate.SavedStateRegistryOwner,int,kotlin.jvm.internal.DefaultConstructorMarker)
+    public final androidx.lifecycle.ViewModelStoreOwner getViewModelStoreOwner()
+org.koin.androidx.viewmodel.ViewModelResolverKt:
+    public static final androidx.lifecycle.ViewModel resolveInstance(androidx.lifecycle.ViewModelProvider,org.koin.androidx.viewmodel.ViewModelParameter)
+org.koin.androidx.viewmodel.dsl.ModuleExtKt$viewModel$1
+org.koin.androidx.viewmodel.dsl.ModuleExtKt
+org.koin.androidx.viewmodel.dsl.ScopeSetExtKt$viewModel$1
 org.koin.androidx.viewmodel.dsl.ScopeSetExtKt
-org.koin.androidx.viewmodel.ext.android.ActivityExtKt$getViewModel$1
-org.koin.androidx.viewmodel.ext.android.ActivityExtKt$getViewModel$2
-org.koin.androidx.viewmodel.ext.android.ActivityExtKt$viewModel$1
-org.koin.androidx.viewmodel.ext.android.ActivityExtKt$viewModel$2
-org.koin.androidx.viewmodel.ext.android.ActivityExtKt$viewModel$3
-org.koin.androidx.viewmodel.ext.android.ActivityExtKt$viewModel$4
-org.koin.androidx.viewmodel.ext.android.ActivityExtKt:
-    public static final synthetic androidx.lifecycle.ViewModel getViewModel(androidx.activity.ComponentActivity,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0)
-    public static synthetic androidx.lifecycle.ViewModel getViewModel$default(androidx.activity.ComponentActivity,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0,int,java.lang.Object)
-    public static synthetic androidx.lifecycle.ViewModel getViewModel$default(androidx.activity.ComponentActivity,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0,kotlin.reflect.KClass,kotlin.jvm.functions.Function0,int,java.lang.Object)
-    public static final synthetic kotlin.Lazy viewModel(androidx.activity.ComponentActivity,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0)
-    public static final kotlin.Lazy viewModel(androidx.activity.ComponentActivity,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0,kotlin.reflect.KClass,kotlin.jvm.functions.Function0)
-    public static synthetic kotlin.Lazy viewModel$default(androidx.activity.ComponentActivity,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0,int,java.lang.Object)
-    public static synthetic kotlin.Lazy viewModel$default(androidx.activity.ComponentActivity,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0,kotlin.reflect.KClass,kotlin.jvm.functions.Function0,int,java.lang.Object)
-org.koin.androidx.viewmodel.ext.android.FragmentExtKt$getViewModel$1
-org.koin.androidx.viewmodel.ext.android.FragmentExtKt$getViewModel$2
-org.koin.androidx.viewmodel.ext.android.FragmentExtKt$viewModel$1
-org.koin.androidx.viewmodel.ext.android.FragmentExtKt$viewModel$2
-org.koin.androidx.viewmodel.ext.android.FragmentExtKt$viewModel$3
-org.koin.androidx.viewmodel.ext.android.FragmentExtKt$viewModel$4
-org.koin.androidx.viewmodel.ext.android.FragmentExtKt
-org.koin.androidx.viewmodel.ext.android.ScopeFragmentExtKt$getViewModel$1
-org.koin.androidx.viewmodel.ext.android.ScopeFragmentExtKt$getViewModel$2
-org.koin.androidx.viewmodel.ext.android.ScopeFragmentExtKt$viewModel$1
-org.koin.androidx.viewmodel.ext.android.ScopeFragmentExtKt$viewModel$2
-org.koin.androidx.viewmodel.ext.android.ScopeFragmentExtKt$viewModel$3
-org.koin.androidx.viewmodel.ext.android.ScopeFragmentExtKt$viewModel$4
-org.koin.androidx.viewmodel.ext.android.ScopeFragmentExtKt
-org.koin.androidx.viewmodel.ext.android.ScopeFragmentSharedViewModelExtKt$getSharedViewModel$1
-org.koin.androidx.viewmodel.ext.android.ScopeFragmentSharedViewModelExtKt$getSharedViewModel$2
-org.koin.androidx.viewmodel.ext.android.ScopeFragmentSharedViewModelExtKt$sharedViewModel$1
-org.koin.androidx.viewmodel.ext.android.ScopeFragmentSharedViewModelExtKt$sharedViewModel$2
-org.koin.androidx.viewmodel.ext.android.ScopeFragmentSharedViewModelExtKt$sharedViewModel$3
-org.koin.androidx.viewmodel.ext.android.ScopeFragmentSharedViewModelExtKt$sharedViewModel$4
-org.koin.androidx.viewmodel.ext.android.ScopeFragmentSharedViewModelExtKt
-org.koin.androidx.viewmodel.ext.android.ScopedActivityExtKt$getViewModel$1
-org.koin.androidx.viewmodel.ext.android.ScopedActivityExtKt$getViewModel$2
-org.koin.androidx.viewmodel.ext.android.ScopedActivityExtKt$viewModel$1
-org.koin.androidx.viewmodel.ext.android.ScopedActivityExtKt$viewModel$2
-org.koin.androidx.viewmodel.ext.android.ScopedActivityExtKt$viewModel$3
-org.koin.androidx.viewmodel.ext.android.ScopedActivityExtKt$viewModel$4
-org.koin.androidx.viewmodel.ext.android.ScopedActivityExtKt
-org.koin.androidx.viewmodel.ext.android.SharedViewModelExtKt$getSharedViewModel$1
-org.koin.androidx.viewmodel.ext.android.SharedViewModelExtKt$getSharedViewModel$2
-org.koin.androidx.viewmodel.ext.android.SharedViewModelExtKt$sharedViewModel$1
-org.koin.androidx.viewmodel.ext.android.SharedViewModelExtKt$sharedViewModel$2
-org.koin.androidx.viewmodel.ext.android.SharedViewModelExtKt$sharedViewModel$3
-org.koin.androidx.viewmodel.ext.android.SharedViewModelExtKt$sharedViewModel$4
-org.koin.androidx.viewmodel.ext.android.SharedViewModelExtKt
-org.koin.androidx.viewmodel.ext.android.ViewModelStoreOwnerExtKt$getViewModel$1
-org.koin.androidx.viewmodel.ext.android.ViewModelStoreOwnerExtKt$viewModel$1
-org.koin.androidx.viewmodel.ext.android.ViewModelStoreOwnerExtKt$viewModel$2
-org.koin.androidx.viewmodel.ext.android.ViewModelStoreOwnerExtKt
+org.koin.androidx.viewmodel.ext.android.ActivityStateVMKt$getStateViewModel$$inlined$stateViewModel$1$1
+org.koin.androidx.viewmodel.ext.android.ActivityStateVMKt$getStateViewModel$$inlined$stateViewModel$1
+org.koin.androidx.viewmodel.ext.android.ActivityStateVMKt$stateViewModel$$inlined$viewModels$1
+org.koin.androidx.viewmodel.ext.android.ActivityStateVMKt$stateViewModel$$inlined$viewModels$2
+org.koin.androidx.viewmodel.ext.android.ActivityStateVMKt$stateViewModel$1$owner$1
+org.koin.androidx.viewmodel.ext.android.ActivityStateVMKt$stateViewModel$1
+org.koin.androidx.viewmodel.ext.android.ActivityStateVMKt$stateViewModel$2
+org.koin.androidx.viewmodel.ext.android.ActivityStateVMKt$stateViewModel$3$owner$1
+org.koin.androidx.viewmodel.ext.android.ActivityStateVMKt$stateViewModel$3
+org.koin.androidx.viewmodel.ext.android.ActivityStateVMKt
+org.koin.androidx.viewmodel.ext.android.ActivityVMKt$getViewModel$$inlined$viewModel$1
+org.koin.androidx.viewmodel.ext.android.ActivityVMKt$getViewModel$1
+org.koin.androidx.viewmodel.ext.android.ActivityVMKt$viewModel$$inlined$viewModels$1
+org.koin.androidx.viewmodel.ext.android.ActivityVMKt$viewModel$$inlined$viewModels$2
+org.koin.androidx.viewmodel.ext.android.ActivityVMKt$viewModel$1
+org.koin.androidx.viewmodel.ext.android.ActivityVMKt$viewModel$2
+org.koin.androidx.viewmodel.ext.android.ActivityVMKt
+org.koin.androidx.viewmodel.ext.android.FragmentSharedStateVMKt$getSSharedStateViewModel$1
+org.koin.androidx.viewmodel.ext.android.FragmentSharedStateVMKt$getSharedStateViewModel$$inlined$sharedStateViewModel$1
+org.koin.androidx.viewmodel.ext.android.FragmentSharedStateVMKt$getSharedStateViewModel$1
+org.koin.androidx.viewmodel.ext.android.FragmentSharedStateVMKt$sharedStateViewModel$$inlined$viewModels$1
+org.koin.androidx.viewmodel.ext.android.FragmentSharedStateVMKt$sharedStateViewModel$1
+org.koin.androidx.viewmodel.ext.android.FragmentSharedStateVMKt$sharedStateViewModel$2
+org.koin.androidx.viewmodel.ext.android.FragmentSharedStateVMKt$sharedStateViewModel$3
+org.koin.androidx.viewmodel.ext.android.FragmentSharedStateVMKt$sharedStateViewModel$4
+org.koin.androidx.viewmodel.ext.android.FragmentSharedStateVMKt$sharedStateViewModel$5
+org.koin.androidx.viewmodel.ext.android.FragmentSharedStateVMKt$sharedStateViewModel$6
+org.koin.androidx.viewmodel.ext.android.FragmentSharedStateVMKt
+org.koin.androidx.viewmodel.ext.android.FragmentSharedVMKt$getSharedViewModel$$inlined$sharedViewModel$1
+org.koin.androidx.viewmodel.ext.android.FragmentSharedVMKt$getSharedViewModel$1
+org.koin.androidx.viewmodel.ext.android.FragmentSharedVMKt$sharedViewModel$$inlined$viewModel$1
+org.koin.androidx.viewmodel.ext.android.FragmentSharedVMKt$sharedViewModel$1
+org.koin.androidx.viewmodel.ext.android.FragmentSharedVMKt
+org.koin.androidx.viewmodel.ext.android.FragmentStateVMKt$getStateViewModel$$inlined$stateViewModel$1
+org.koin.androidx.viewmodel.ext.android.FragmentStateVMKt$getStateViewModel$1
+org.koin.androidx.viewmodel.ext.android.FragmentStateVMKt$getStateViewModel$2
+org.koin.androidx.viewmodel.ext.android.FragmentStateVMKt$stateViewModel$$inlined$viewModels$1
+org.koin.androidx.viewmodel.ext.android.FragmentStateVMKt$stateViewModel$1
+org.koin.androidx.viewmodel.ext.android.FragmentStateVMKt$stateViewModel$2
+org.koin.androidx.viewmodel.ext.android.FragmentStateVMKt$stateViewModel$3
+org.koin.androidx.viewmodel.ext.android.FragmentStateVMKt$stateViewModel$4
+org.koin.androidx.viewmodel.ext.android.FragmentStateVMKt$stateViewModel$5
+org.koin.androidx.viewmodel.ext.android.FragmentStateVMKt$stateViewModel$6
+org.koin.androidx.viewmodel.ext.android.FragmentStateVMKt
+org.koin.androidx.viewmodel.ext.android.FragmentVMKt$getViewModel$$inlined$viewModel$1
+org.koin.androidx.viewmodel.ext.android.FragmentVMKt$getViewModel$1
+org.koin.androidx.viewmodel.ext.android.FragmentVMKt$viewModel$$inlined$viewModels$1
+org.koin.androidx.viewmodel.ext.android.FragmentVMKt$viewModel$1
+org.koin.androidx.viewmodel.ext.android.FragmentVMKt$viewModel$2
+org.koin.androidx.viewmodel.ext.android.FragmentVMKt$viewModel$3
+org.koin.androidx.viewmodel.ext.android.FragmentVMKt
+org.koin.androidx.viewmodel.ext.android.GetViewModelFactoryKt
 org.koin.androidx.viewmodel.factory.DefaultViewModelFactory:
     public final org.koin.androidx.viewmodel.ViewModelParameter getParameters()
     public final org.koin.core.scope.Scope getScope()
-org.koin.androidx.viewmodel.factory.StateViewModelFactory:
-    public final org.koin.core.scope.Scope getScope()
-org.koin.androidx.viewmodel.koin.KoinExtKt$viewModel$1
-org.koin.androidx.viewmodel.koin.KoinExtKt:
-    public static final androidx.lifecycle.ViewModel getViewModel(org.koin.core.Koin,org.koin.androidx.viewmodel.ViewModelParameter)
-    public static final synthetic androidx.lifecycle.ViewModel getViewModel(org.koin.core.Koin,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0)
-    public static synthetic androidx.lifecycle.ViewModel getViewModel$default(org.koin.core.Koin,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0,int,java.lang.Object)
-    public static synthetic androidx.lifecycle.ViewModel getViewModel$default(org.koin.core.Koin,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0,kotlin.reflect.KClass,kotlin.jvm.functions.Function0,int,java.lang.Object)
-    public static final synthetic kotlin.Lazy viewModel(org.koin.core.Koin,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0,kotlin.LazyThreadSafetyMode,kotlin.jvm.functions.Function0)
-    public static synthetic kotlin.Lazy viewModel$default(org.koin.core.Koin,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0,kotlin.LazyThreadSafetyMode,kotlin.jvm.functions.Function0,int,java.lang.Object)
-org.koin.androidx.viewmodel.parameter.StateDefinitionParameter:
-    public synthetic void <init>(androidx.lifecycle.SavedStateHandle,java.util.List,int,kotlin.jvm.internal.DefaultConstructorMarker)
-    public final androidx.lifecycle.SavedStateHandle getState()
 org.koin.androidx.viewmodel.scope.ScopeExtKt$emptyState$1
-org.koin.androidx.viewmodel.scope.ScopeExtKt$viewModel$1
-org.koin.androidx.viewmodel.scope.ScopeExtKt:
-    public static final kotlin.jvm.functions.Function0 emptyState()
-    public static final synthetic androidx.lifecycle.ViewModel getViewModel(org.koin.core.scope.Scope,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0)
-    public static synthetic androidx.lifecycle.ViewModel getViewModel$default(org.koin.core.scope.Scope,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0,int,java.lang.Object)
-    public static synthetic androidx.lifecycle.ViewModel getViewModel$default(org.koin.core.scope.Scope,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0,kotlin.reflect.KClass,kotlin.jvm.functions.Function0,int,java.lang.Object)
-    public static final synthetic kotlin.Lazy viewModel(org.koin.core.scope.Scope,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0,kotlin.LazyThreadSafetyMode,kotlin.jvm.functions.Function0)
-    public static synthetic kotlin.Lazy viewModel$default(org.koin.core.scope.Scope,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0,kotlin.LazyThreadSafetyMode,kotlin.jvm.functions.Function0,int,java.lang.Object)
+org.koin.androidx.viewmodel.scope.ScopeExtKt
+org.koin.core.Koin$createScope$1
+org.koin.core.Koin$createScope$2
+org.koin.core.Koin$createScope$3
+org.koin.core.Koin$createScope$4
+org.koin.core.Koin$declare$$inlined$declare$1$1
+org.koin.core.Koin$declare$$inlined$declare$1
 org.koin.core.Koin$inject$$inlined$inject$1
-org.koin.core.Koin$inject$$inlined$inject$2
 org.koin.core.Koin$injectOrNull$$inlined$injectOrNull$1
-org.koin.core.Koin$injectOrNull$$inlined$injectOrNull$2
 org.koin.core.Koin:
-    public static final synthetic org.koin.core.logger.Logger access$getLogger$p(org.koin.core.Koin)
-    public static final synthetic void access$setLogger$p(org.koin.core.Koin,org.koin.core.logger.Logger)
-    public final synthetic java.lang.Object bind(kotlin.jvm.functions.Function0)
-    public final java.lang.Object bind(kotlin.reflect.KClass,kotlin.reflect.KClass,kotlin.jvm.functions.Function0)
-    public static synthetic java.lang.Object bind$default(org.koin.core.Koin,kotlin.jvm.functions.Function0,int,java.lang.Object)
-    public static synthetic java.lang.Object bind$default(org.koin.core.Koin,kotlin.reflect.KClass,kotlin.reflect.KClass,kotlin.jvm.functions.Function0,int,java.lang.Object)
     public final void close()
     public final synthetic org.koin.core.scope.Scope createScope(java.lang.String)
     public final synthetic org.koin.core.scope.Scope createScope(java.lang.String,java.lang.Object)
     public final org.koin.core.scope.Scope createScope(java.lang.String,org.koin.core.qualifier.Qualifier,java.lang.Object)
-    public final org.koin.core.scope.Scope createScope(org.koin.core.scope.KoinScopeComponent)
+    public final org.koin.core.scope.Scope createScope(org.koin.core.component.KoinScopeComponent)
     public static synthetic org.koin.core.scope.Scope createScope$default(org.koin.core.Koin,java.lang.String,int,java.lang.Object)
     public static synthetic org.koin.core.scope.Scope createScope$default(org.koin.core.Koin,java.lang.String,java.lang.Object,int,java.lang.Object)
     public static synthetic org.koin.core.scope.Scope createScope$default(org.koin.core.Koin,java.lang.String,org.koin.core.qualifier.Qualifier,java.lang.Object,int,java.lang.Object)
@@ -33010,19 +33053,16 @@ org.koin.core.Koin:
     public static synthetic void declare$default(org.koin.core.Koin,java.lang.Object,org.koin.core.qualifier.Qualifier,java.util.List,boolean,int,java.lang.Object)
     public final void deleteProperty(java.lang.String)
     public final void deleteScope(java.lang.String)
-    public final synthetic java.lang.Object get()
     public final java.lang.Object get(kotlin.reflect.KClass,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0)
-    public final synthetic java.lang.Object get(org.koin.core.qualifier.Qualifier)
     public final synthetic java.lang.Object get(org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0)
     public static synthetic java.lang.Object get$default(org.koin.core.Koin,kotlin.reflect.KClass,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,int,java.lang.Object)
     public static synthetic java.lang.Object get$default(org.koin.core.Koin,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,int,java.lang.Object)
     public final synthetic java.util.List getAll()
+    public static synthetic void getInstanceRegistry$annotations()
     public final synthetic org.koin.core.scope.Scope getOrCreateScope(java.lang.String)
     public final org.koin.core.scope.Scope getOrCreateScope(java.lang.String,org.koin.core.qualifier.Qualifier,java.lang.Object)
     public static synthetic org.koin.core.scope.Scope getOrCreateScope$default(org.koin.core.Koin,java.lang.String,org.koin.core.qualifier.Qualifier,java.lang.Object,int,java.lang.Object)
-    public final synthetic java.lang.Object getOrNull()
     public final java.lang.Object getOrNull(kotlin.reflect.KClass,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0)
-    public final synthetic java.lang.Object getOrNull(org.koin.core.qualifier.Qualifier)
     public final synthetic java.lang.Object getOrNull(org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0)
     public static synthetic java.lang.Object getOrNull$default(org.koin.core.Koin,kotlin.reflect.KClass,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,int,java.lang.Object)
     public static synthetic java.lang.Object getOrNull$default(org.koin.core.Koin,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,int,java.lang.Object)
@@ -33031,153 +33071,146 @@ org.koin.core.Koin:
     public final org.koin.core.registry.PropertyRegistry getPropertyRegistry()
     public static synthetic void getPropertyRegistry$annotations()
     public final org.koin.core.scope.Scope getScope(java.lang.String)
-    public final org.koin.core.scope.Scope getScopeOrNull(java.lang.String)
     public static synthetic void getScopeRegistry$annotations()
-    public final synthetic kotlin.Lazy inject()
-    public final synthetic kotlin.Lazy inject(org.koin.core.qualifier.Qualifier)
-    public final synthetic kotlin.Lazy inject(org.koin.core.qualifier.Qualifier,kotlin.LazyThreadSafetyMode)
     public final synthetic kotlin.Lazy inject(org.koin.core.qualifier.Qualifier,kotlin.LazyThreadSafetyMode,kotlin.jvm.functions.Function0)
     public static synthetic kotlin.Lazy inject$default(org.koin.core.Koin,org.koin.core.qualifier.Qualifier,kotlin.LazyThreadSafetyMode,kotlin.jvm.functions.Function0,int,java.lang.Object)
-    public final synthetic kotlin.Lazy injectOrNull()
-    public final synthetic kotlin.Lazy injectOrNull(org.koin.core.qualifier.Qualifier)
-    public final synthetic kotlin.Lazy injectOrNull(org.koin.core.qualifier.Qualifier,kotlin.LazyThreadSafetyMode)
     public final synthetic kotlin.Lazy injectOrNull(org.koin.core.qualifier.Qualifier,kotlin.LazyThreadSafetyMode,kotlin.jvm.functions.Function0)
     public static synthetic kotlin.Lazy injectOrNull$default(org.koin.core.Koin,org.koin.core.qualifier.Qualifier,kotlin.LazyThreadSafetyMode,kotlin.jvm.functions.Function0,int,java.lang.Object)
     public final void setProperty(java.lang.String,java.lang.Object)
     public final void setupLogger(org.koin.core.logger.Logger)
-    public final void unloadModules(java.util.List,boolean)
-    public static synthetic void unloadModules$default(org.koin.core.Koin,java.util.List,boolean,int,java.lang.Object)
+    public final void unloadModules(java.util.List)
 org.koin.core.KoinApplication$modules$duration$1
 org.koin.core.KoinApplication:
     public static final synthetic void access$loadModules(org.koin.core.KoinApplication,java.util.List)
+    public final void allowOverride(boolean)
     public final void close()
-    public final org.koin.core.KoinApplication environmentProperties()
-    public final org.koin.core.KoinApplication fileProperties(java.lang.String)
-    public static synthetic org.koin.core.KoinApplication fileProperties$default(org.koin.core.KoinApplication,java.lang.String,int,java.lang.Object)
-    public static final org.koin.core.KoinApplication init()
     private final void loadModules(java.util.List)
     public final org.koin.core.KoinApplication logger(org.koin.core.logger.Logger)
     public final org.koin.core.KoinApplication modules(java.util.List)
     public final org.koin.core.KoinApplication modules(org.koin.core.module.Module)
     public final varargs org.koin.core.KoinApplication modules(org.koin.core.module.Module[])
-    public final org.koin.core.KoinApplication printLogger()
     public final org.koin.core.KoinApplication printLogger(org.koin.core.logger.Level)
     public static synthetic org.koin.core.KoinApplication printLogger$default(org.koin.core.KoinApplication,org.koin.core.logger.Level,int,java.lang.Object)
     public final org.koin.core.KoinApplication properties(java.util.Map)
     public final void unloadModules(java.util.List)
     public final void unloadModules(org.koin.core.module.Module)
-org.koin.core.KoinExperimentalAPI
-org.koin.core.annotation.KoinInternal
-org.koin.core.component.KoinApiExtension
+org.koin.core.annotation.KoinExperimentalAPI
+org.koin.core.annotation.KoinInternalApi
+org.koin.core.annotation.KoinReflectAPI
 org.koin.core.component.KoinComponent$DefaultImpls
 org.koin.core.component.KoinComponentKt$inject$1
 org.koin.core.component.KoinComponentKt
-org.koin.core.context.GlobalContext:
-    public org.koin.core.Koin getOrNull()
-    public final void loadKoinModules$koin_core(org.koin.core.module.Module)
-    public final org.koin.core.KoinApplication startKoin$koin_core(org.koin.core.context.KoinContext,org.koin.core.KoinApplication)
-    public static synthetic org.koin.core.KoinApplication startKoin$koin_core$default(org.koin.core.context.GlobalContext,org.koin.core.context.KoinContext,kotlin.jvm.functions.Function1,int,java.lang.Object)
-    public static synthetic org.koin.core.KoinApplication startKoin$koin_core$default(org.koin.core.context.GlobalContext,org.koin.core.context.KoinContext,org.koin.core.KoinApplication,int,java.lang.Object)
-    public void stop()
-    public final void unloadKoinModules$koin_core(java.util.List)
-    public final void unloadKoinModules$koin_core(org.koin.core.module.Module)
-org.koin.core.context.GlobalContextExtKt:
+org.koin.core.component.KoinScopeComponent$DefaultImpls
+org.koin.core.component.KoinScopeComponent:
+    public abstract void closeScope()
+org.koin.core.component.KoinScopeComponentKt$getOrCreateScope$1
+org.koin.core.component.KoinScopeComponentKt$newScope$1
+org.koin.core.component.KoinScopeComponentKt:
+    public static final org.koin.core.scope.Scope createScope(org.koin.core.component.KoinScopeComponent,java.lang.Object)
+    public static synthetic org.koin.core.scope.Scope createScope$default(org.koin.core.component.KoinScopeComponent,java.lang.Object,int,java.lang.Object)
+    public static final kotlin.Lazy getOrCreateScope(org.koin.core.component.KoinScopeComponent)
+    public static final org.koin.core.qualifier.TypeQualifier getScopeName(java.lang.Object)
+    public static final org.koin.core.scope.Scope getScopeOrNull(org.koin.core.component.KoinScopeComponent)
+    public static final kotlin.Lazy newScope(org.koin.core.component.KoinScopeComponent)
+org.koin.core.context.DefaultContextExtKt:
     public static final void loadKoinModules(org.koin.core.module.Module)
-    public static final org.koin.core.KoinApplication startKoin(org.koin.core.context.KoinContext,org.koin.core.KoinApplication)
-    public static synthetic org.koin.core.KoinApplication startKoin$default(org.koin.core.context.KoinContext,org.koin.core.KoinApplication,int,java.lang.Object)
+    public static final org.koin.core.KoinApplication startKoin(org.koin.core.KoinApplication)
     public static final void stopKoin()
     public static final void unloadKoinModules(java.util.List)
     public static final void unloadKoinModules(org.koin.core.module.Module)
+org.koin.core.context.GlobalContext:
+    public final org.koin.core.KoinApplication getKoinApplicationOrNull()
+    public org.koin.core.Koin getOrNull()
+    public void loadKoinModules(org.koin.core.module.Module)
+    public org.koin.core.KoinApplication startKoin(org.koin.core.KoinApplication)
+    public void stopKoin()
+    public void unloadKoinModules(java.util.List)
+    public void unloadKoinModules(org.koin.core.module.Module)
+org.koin.core.context.GlobalContextKt
 org.koin.core.context.KoinContext:
     public abstract org.koin.core.Koin get()
     public abstract org.koin.core.Koin getOrNull()
-    public abstract void stop()
-org.koin.core.context.KoinContextHandlerKt
+    public abstract void loadKoinModules(org.koin.core.module.Module)
+    public abstract org.koin.core.KoinApplication startKoin(org.koin.core.KoinApplication)
+    public abstract void stopKoin()
+    public abstract void unloadKoinModules(java.util.List)
+    public abstract void unloadKoinModules(org.koin.core.module.Module)
 org.koin.core.definition.BeanDefinition:
-    public final boolean canBind(kotlin.reflect.KClass,kotlin.reflect.KClass)
+    public synthetic void <init>(org.koin.core.qualifier.Qualifier,kotlin.reflect.KClass,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function2,org.koin.core.definition.Kind,java.util.List,int,kotlin.jvm.internal.DefaultConstructorMarker)
     public final org.koin.core.qualifier.Qualifier component1()
     public final kotlin.reflect.KClass component2()
     public final org.koin.core.qualifier.Qualifier component3()
     public final kotlin.jvm.functions.Function2 component4()
     public final org.koin.core.definition.Kind component5()
     public final java.util.List component6()
-    public final org.koin.core.definition.Options component7()
-    public final org.koin.core.definition.Properties component8()
-    public final org.koin.core.definition.BeanDefinition copy(org.koin.core.qualifier.Qualifier,kotlin.reflect.KClass,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function2,org.koin.core.definition.Kind,java.util.List,org.koin.core.definition.Options,org.koin.core.definition.Properties)
-    public static synthetic org.koin.core.definition.BeanDefinition copy$default(org.koin.core.definition.BeanDefinition,org.koin.core.qualifier.Qualifier,kotlin.reflect.KClass,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function2,org.koin.core.definition.Kind,java.util.List,org.koin.core.definition.Options,org.koin.core.definition.Properties,int,java.lang.Object)
-    public final org.koin.core.definition.Callbacks getCallbacks()
+    public final org.koin.core.definition.BeanDefinition copy(org.koin.core.qualifier.Qualifier,kotlin.reflect.KClass,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function2,org.koin.core.definition.Kind,java.util.List)
+    public static synthetic org.koin.core.definition.BeanDefinition copy$default(org.koin.core.definition.BeanDefinition,org.koin.core.qualifier.Qualifier,kotlin.reflect.KClass,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function2,org.koin.core.definition.Kind,java.util.List,int,java.lang.Object)
+    public final org.koin.core.definition.Kind getKind()
     public final boolean hasType(kotlin.reflect.KClass)
     public final boolean is(kotlin.reflect.KClass,org.koin.core.qualifier.Qualifier,org.koin.core.qualifier.Qualifier)
     public final void setCallbacks(org.koin.core.definition.Callbacks)
+org.koin.core.definition.BeanDefinitionKt:
+    public static final synthetic org.koin.core.definition.BeanDefinition createDefinition(org.koin.core.definition.Kind,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function2,java.util.List,org.koin.core.qualifier.Qualifier)
+    public static synthetic org.koin.core.definition.BeanDefinition createDefinition$default(org.koin.core.definition.Kind,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function2,java.util.List,org.koin.core.qualifier.Qualifier,int,java.lang.Object)
 org.koin.core.definition.Callbacks:
     public final kotlin.jvm.functions.Function1 component1()
     public final org.koin.core.definition.Callbacks copy(kotlin.jvm.functions.Function1)
     public static synthetic org.koin.core.definition.Callbacks copy$default(org.koin.core.definition.Callbacks,kotlin.jvm.functions.Function1,int,java.lang.Object)
-    public final kotlin.jvm.functions.Function1 getOnClose()
 org.koin.core.definition.CallbacksKt
-org.koin.core.definition.Definitions:
-    public final synthetic org.koin.core.definition.BeanDefinition createFactory(org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function2,org.koin.core.definition.Options,java.util.List,org.koin.core.qualifier.Qualifier)
-    public static synthetic org.koin.core.definition.BeanDefinition createFactory$default(org.koin.core.definition.Definitions,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function2,org.koin.core.definition.Options,java.util.List,org.koin.core.qualifier.Qualifier,int,java.lang.Object)
-    public final org.koin.core.definition.BeanDefinition createSingle(kotlin.reflect.KClass,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function2,org.koin.core.definition.Options,java.util.List,org.koin.core.qualifier.Qualifier)
-    public final synthetic org.koin.core.definition.BeanDefinition createSingle(org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function2,org.koin.core.definition.Options,java.util.List,org.koin.core.qualifier.Qualifier)
-    public static synthetic org.koin.core.definition.BeanDefinition createSingle$default(org.koin.core.definition.Definitions,kotlin.reflect.KClass,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function2,org.koin.core.definition.Options,java.util.List,org.koin.core.qualifier.Qualifier,int,java.lang.Object)
-    public static synthetic org.koin.core.definition.BeanDefinition createSingle$default(org.koin.core.definition.Definitions,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function2,org.koin.core.definition.Options,java.util.List,org.koin.core.qualifier.Qualifier,int,java.lang.Object)
-org.koin.core.definition.Options:
-    public final boolean component1()
-    public final boolean component2()
-    public final boolean component3()
-    public final org.koin.core.definition.Options copy(boolean,boolean,boolean)
-    public static synthetic org.koin.core.definition.Options copy$default(org.koin.core.definition.Options,boolean,boolean,boolean,int,java.lang.Object)
-    public final boolean isExtraDefinition()
-    public final void setCreatedAtStart(boolean)
-    public final void setExtraDefinition(boolean)
-    public final void setOverride(boolean)
-org.koin.core.definition.Properties:
-    private final java.util.Map component1()
-    public final org.koin.core.definition.Properties copy(java.util.Map)
-    public static synthetic org.koin.core.definition.Properties copy$default(org.koin.core.definition.Properties,java.util.Map,int,java.lang.Object)
-    public final java.lang.Object get(java.lang.String)
-    public final java.lang.Object getOrNull(java.lang.String)
+org.koin.core.error.BrokenDefinitionException
+org.koin.core.error.DefinitionParameterException
 org.koin.core.error.MissingPropertyException
 org.koin.core.error.NoParameterFoundException
 org.koin.core.error.NoPropertyFileFoundException
+org.koin.core.error.NoScopeDefFoundException
+org.koin.core.error.ScopeAlreadyCreatedException
 org.koin.core.error.ScopeNotCreatedException
 org.koin.core.instance.FactoryInstanceFactory:
-    public void drop()
-    public boolean isCreated()
-org.koin.core.instance.InstanceContext:
-    public final org.koin.core.Koin getKoin()
+    public void drop(org.koin.core.scope.Scope)
+    public void dropAll()
+    public boolean isCreated(org.koin.core.instance.InstanceContext)
+org.koin.core.instance.InstanceBuilderKt$getArguments$1
+org.koin.core.instance.InstanceBuilderKt$newInstance$1
+org.koin.core.instance.InstanceBuilderKt$newInstance$args$1
+org.koin.core.instance.InstanceBuilderKt
 org.koin.core.instance.InstanceFactory:
     public static final java.lang.String ERROR_SEPARATOR
-    public abstract void drop()
-    public abstract boolean isCreated()
+    public abstract void drop(org.koin.core.scope.Scope)
+    public static synthetic void drop$default(org.koin.core.instance.InstanceFactory,org.koin.core.scope.Scope,int,java.lang.Object)
+    public abstract void dropAll()
+    public abstract boolean isCreated(org.koin.core.instance.InstanceContext)
+    public static synthetic boolean isCreated$default(org.koin.core.instance.InstanceFactory,org.koin.core.instance.InstanceContext,int,java.lang.Object)
+org.koin.core.instance.ScopedInstanceFactory:
+    public void <init>(org.koin.core.definition.BeanDefinition)
+    public void dropAll()
+    public final void refreshInstance(java.lang.String,java.lang.Object)
 org.koin.core.instance.SingleInstanceFactory:
-    public void drop()
+    public void drop(org.koin.core.scope.Scope)
+    public void dropAll()
 org.koin.core.logger.Logger:
     public final org.koin.core.logger.Level getLevel()
     public final void setLevel(org.koin.core.logger.Level)
 org.koin.core.logger.LoggerKt
 org.koin.core.logger.PrintLogger
 org.koin.core.module.Module:
-    public final synthetic org.koin.core.definition.BeanDefinition factory(org.koin.core.qualifier.Qualifier,boolean,kotlin.jvm.functions.Function2)
-    public static synthetic org.koin.core.definition.BeanDefinition factory$default(org.koin.core.module.Module,org.koin.core.qualifier.Qualifier,boolean,kotlin.jvm.functions.Function2,int,java.lang.Object)
-    public final boolean getCreateAtStart$koin_core()
-    public static synthetic void getDefinitions$annotations()
-    public final boolean getOverride$koin_core()
-    public static synthetic void getRootScope$annotations()
+    public final synthetic kotlin.Pair factory(org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function2)
+    public final synthetic kotlin.Pair factory(org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function2,org.koin.core.qualifier.Qualifier)
+    public static synthetic kotlin.Pair factory$default(org.koin.core.module.Module,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function2,int,java.lang.Object)
+    public static synthetic kotlin.Pair factory$default(org.koin.core.module.Module,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function2,org.koin.core.qualifier.Qualifier,int,java.lang.Object)
+    public static synthetic void getMappings$annotations()
     public static synthetic void getScopes$annotations()
-    public static synthetic void isLoaded$annotations()
+    public final boolean isLoaded()
     public final java.util.List plus(java.util.List)
     public final java.util.List plus(org.koin.core.module.Module)
     public final synthetic void scope(kotlin.jvm.functions.Function1)
     public final void scope(org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function1)
-    public final synthetic org.koin.core.definition.BeanDefinition single(org.koin.core.qualifier.Qualifier,boolean,boolean,kotlin.jvm.functions.Function2)
-    public static synthetic org.koin.core.definition.BeanDefinition single$default(org.koin.core.module.Module,org.koin.core.qualifier.Qualifier,boolean,boolean,kotlin.jvm.functions.Function2,int,java.lang.Object)
+    public final void setEagerInstances$koin_core(java.util.HashSet)
+    public final synthetic kotlin.Pair single(org.koin.core.qualifier.Qualifier,boolean,kotlin.jvm.functions.Function2)
+    public static synthetic kotlin.Pair single$default(org.koin.core.module.Module,org.koin.core.qualifier.Qualifier,boolean,kotlin.jvm.functions.Function2,int,java.lang.Object)
 org.koin.core.module.ModuleKt:
     public static final java.util.List plus(java.util.List,org.koin.core.module.Module)
-org.koin.core.parameter.DefinitionParameters:
+org.koin.core.parameter.ParametersHolder:
     public static final int MAX_PARAMS
-    public final org.koin.core.parameter.DefinitionParameters add(java.lang.Object)
     public final synthetic java.lang.Object component1()
     public final synthetic java.lang.Object component2()
     public final synthetic java.lang.Object component3()
@@ -33186,13 +33219,17 @@ org.koin.core.parameter.DefinitionParameters:
     public java.lang.Object elementAt(int,kotlin.reflect.KClass)
     public final synthetic java.lang.Object get()
     public final java.lang.Object get(int)
-    public final org.koin.core.parameter.DefinitionParameters insert(int,java.lang.Object)
+    public final synthetic java.lang.Object getOrNull()
+    public final java.util.List getValues()
+    public final java.util.List get_values()
+    public static synthetic void get_values$annotations()
+    public final org.koin.core.parameter.ParametersHolder insert(int,java.lang.Object)
     public final boolean isEmpty()
     public final boolean isNotEmpty()
     public final void set(int,java.lang.Object)
     public final int size()
-org.koin.core.parameter.DefinitionParametersKt:
-    public static final varargs org.koin.core.parameter.DefinitionParameters parametersOf(java.lang.Object[])
+org.koin.core.parameter.ParametersHolderKt:
+    public static final varargs org.koin.core.parameter.ParametersHolder parametersOf(java.lang.Object[])
 org.koin.core.qualifier.QualifierKt:
     public static final synthetic org.koin.core.qualifier.TypeQualifier _q()
     public static final org.koin.core.qualifier.Qualifier getQualifier(java.lang.Enum)
@@ -33207,129 +33244,112 @@ org.koin.core.qualifier.StringQualifier:
     public final org.koin.core.qualifier.StringQualifier copy(java.lang.String)
     public static synthetic org.koin.core.qualifier.StringQualifier copy$default(org.koin.core.qualifier.StringQualifier,java.lang.String,int,java.lang.Object)
 org.koin.core.qualifier.TypeQualifier
+org.koin.core.registry.InstanceRegistry$declareInstance$def$1
 org.koin.core.registry.InstanceRegistry:
-    public final java.lang.Object bind$koin_core(kotlin.reflect.KClass,kotlin.reflect.KClass,kotlin.jvm.functions.Function0)
     public final void close$koin_core()
-    public final void dropDefinition$koin_core(org.koin.core.definition.BeanDefinition)
-    public final java.util.List getAll$koin_core(kotlin.reflect.KClass)
+    public final synthetic void declareInstance(java.lang.Object,org.koin.core.qualifier.Qualifier,java.util.List,boolean,org.koin.core.qualifier.Qualifier)
+    public static synthetic void declareInstance$default(org.koin.core.registry.InstanceRegistry,java.lang.Object,org.koin.core.qualifier.Qualifier,java.util.List,boolean,org.koin.core.qualifier.Qualifier,int,java.lang.Object)
+    public final java.util.List getAll$koin_core(kotlin.reflect.KClass,org.koin.core.instance.InstanceContext)
+    public final java.util.Map getInstances()
     public final org.koin.core.Koin get_koin()
-    public final org.koin.core.scope.Scope get_scope()
+    public final int size()
+    private final void unloadModule(org.koin.core.module.Module)
+    public final void unloadModules$koin_core(java.util.List)
+org.koin.core.registry.PropertyRegistry$saveProperties$1
 org.koin.core.registry.PropertyRegistry:
     public final void close()
     public final void deleteProperty(java.lang.String)
     public final java.lang.Object getProperty(java.lang.String)
-    public final void loadEnvironmentProperties()
-    public final void loadPropertiesFromFile(java.lang.String)
-    private final java.util.Properties readDataFromFile(java.lang.String)
+    public final org.koin.core.Koin get_koin$koin_core()
     public final void saveProperties(java.util.Map)
-    public final void saveProperties(java.util.Properties)
     public final void saveProperty$koin_core(java.lang.String,java.lang.Object)
+org.koin.core.registry.PropertyRegistryExtKt$loadEnvironmentProperties$1
+org.koin.core.registry.PropertyRegistryExtKt$loadPropertiesFromFile$1
+org.koin.core.registry.PropertyRegistryExtKt$loadPropertiesFromFile$2
+org.koin.core.registry.PropertyRegistryExtKt$saveProperties$1
+org.koin.core.registry.PropertyRegistryExtKt
+org.koin.core.registry.ScopeRegistry$Companion:
+    public static synthetic void getRootScopeQualifier$annotations()
 org.koin.core.registry.ScopeRegistry:
-    private final void clearScopes()
+    private static final java.lang.String ROOT_SCOPE_ID
     public final void close$koin_core()
+    private final void closeAllScopes()
+    public final org.koin.core.scope.Scope createScope(java.lang.String,org.koin.core.qualifier.Qualifier,java.lang.Object)
     public static synthetic org.koin.core.scope.Scope createScope$default(org.koin.core.registry.ScopeRegistry,java.lang.String,org.koin.core.qualifier.Qualifier,java.lang.Object,int,java.lang.Object)
-    public final void deleteScope(java.lang.String)
-    public final void deleteScope(org.koin.core.scope.Scope)
-    public final java.util.Map getScopeDefinitions()
-    public final org.koin.core.scope.Scope getScopeOrNull(java.lang.String)
-    public final int size()
-    public final void unloadModules(java.lang.Iterable)
-    public final void unloadModules(org.koin.core.module.Module)
-org.koin.core.scope.KoinScopeComponent$DefaultImpls
-org.koin.core.scope.KoinScopeComponent
-org.koin.core.scope.KoinScopeComponentKt$inject$1
-org.koin.core.scope.KoinScopeComponentKt
+    public final void deleteScope$koin_core(java.lang.String)
+    public static synthetic void getRootScope$annotations()
+    public final java.util.Set getScopeDefinitions()
+org.koin.core.scope.Scope$declare$1$invoke$$inlined$declareInstance$1
+org.koin.core.scope.Scope$declare$1
 org.koin.core.scope.Scope$inject$1
 org.koin.core.scope.Scope$injectOrNull$1
 org.koin.core.scope.Scope:
-    public final synthetic java.lang.Object bind(kotlin.jvm.functions.Function0)
-    public final java.lang.Object bind(kotlin.reflect.KClass,kotlin.reflect.KClass,kotlin.jvm.functions.Function0)
-    public static synthetic java.lang.Object bind$default(org.koin.core.scope.Scope,kotlin.jvm.functions.Function0,int,java.lang.Object)
-    public final void clear$koin_core()
-    public final void close()
-    public final java.lang.String component1()
-    public final org.koin.core.scope.ScopeDefinition component2()
-    private final org.koin.core.Koin component3()
-    public final org.koin.core.scope.Scope copy(java.lang.String,org.koin.core.scope.ScopeDefinition,org.koin.core.Koin)
-    public static synthetic org.koin.core.scope.Scope copy$default(org.koin.core.scope.Scope,java.lang.String,org.koin.core.scope.ScopeDefinition,org.koin.core.Koin,int,java.lang.Object)
+    public synthetic void <init>(org.koin.core.qualifier.Qualifier,java.lang.String,boolean,org.koin.core.Koin,int,kotlin.jvm.internal.DefaultConstructorMarker)
+    public final org.koin.core.qualifier.Qualifier component1()
+    public final java.lang.String component2()
+    public final boolean component3()
+    public final org.koin.core.Koin component4$koin_core()
+    public final org.koin.core.scope.Scope copy(org.koin.core.qualifier.Qualifier,java.lang.String,boolean,org.koin.core.Koin)
+    public static synthetic org.koin.core.scope.Scope copy$default(org.koin.core.scope.Scope,org.koin.core.qualifier.Qualifier,java.lang.String,boolean,org.koin.core.Koin,int,java.lang.Object)
+    public final void create$koin_core(java.util.List)
     public final synthetic void declare(java.lang.Object,org.koin.core.qualifier.Qualifier,java.util.List,boolean)
     public static synthetic void declare$default(org.koin.core.scope.Scope,java.lang.Object,org.koin.core.qualifier.Qualifier,java.util.List,boolean,int,java.lang.Object)
-    public final void dropInstance(org.koin.core.definition.BeanDefinition)
-    public final synthetic java.lang.Object get()
-    public final java.lang.Object get(java.lang.Class)
-    public final java.lang.Object get(java.lang.Class,org.koin.core.qualifier.Qualifier)
-    public final java.lang.Object get(java.lang.Class,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0)
-    public final synthetic java.lang.Object get(org.koin.core.qualifier.Qualifier)
     public final synthetic java.lang.Object get(org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0)
-    public static synthetic java.lang.Object get$default(org.koin.core.scope.Scope,java.lang.Class,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,int,java.lang.Object)
     public static synthetic java.lang.Object get$default(org.koin.core.scope.Scope,kotlin.reflect.KClass,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,int,java.lang.Object)
     public static synthetic java.lang.Object get$default(org.koin.core.scope.Scope,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,int,java.lang.Object)
     public final synthetic java.util.List getAll()
     public final java.util.List getAll(kotlin.reflect.KClass)
-    public final boolean getClosed()
-    public final java.lang.String getId()
-    public final org.koin.core.registry.InstanceRegistry getInstanceRegistry()
-    public static synthetic void getInstanceRegistry$annotations()
+    private final java.lang.Object getFromSource(kotlin.reflect.KClass)
     public final org.koin.core.Koin getKoin()
-    public final org.koin.core.logger.Logger getLogger()
-    public final synthetic java.lang.Object getOrNull()
-    public final java.lang.Object getOrNull(kotlin.reflect.KClass)
-    public final java.lang.Object getOrNull(kotlin.reflect.KClass,org.koin.core.qualifier.Qualifier)
-    public final synthetic java.lang.Object getOrNull(org.koin.core.qualifier.Qualifier)
     public final synthetic java.lang.Object getOrNull(org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0)
     public static synthetic java.lang.Object getOrNull$default(org.koin.core.scope.Scope,kotlin.reflect.KClass,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,int,java.lang.Object)
     public static synthetic java.lang.Object getOrNull$default(org.koin.core.scope.Scope,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,int,java.lang.Object)
-    public final java.lang.String getProperty(java.lang.String)
-    public final java.lang.String getProperty(java.lang.String,java.lang.String)
-    public final java.lang.String getPropertyOrNull(java.lang.String)
+    public final java.lang.Object getProperty(java.lang.String)
+    public final java.lang.Object getProperty(java.lang.String,java.lang.Object)
+    public final java.lang.Object getPropertyOrNull(java.lang.String)
     public final org.koin.core.scope.Scope getScope(java.lang.String)
     public final synthetic java.lang.Object getSource()
-    public static synthetic void get_scopeDefinition$annotations()
-    public final java.lang.Object get_source()
+    public static synthetic void get_koin$annotations()
+    public static synthetic void get_parameterStack$annotations()
     public static synthetic void get_source$annotations()
-    public final synthetic kotlin.Lazy inject()
-    public final synthetic kotlin.Lazy inject(org.koin.core.qualifier.Qualifier)
-    public final synthetic kotlin.Lazy inject(org.koin.core.qualifier.Qualifier,kotlin.LazyThreadSafetyMode)
     public final synthetic kotlin.Lazy inject(org.koin.core.qualifier.Qualifier,kotlin.LazyThreadSafetyMode,kotlin.jvm.functions.Function0)
     public static synthetic kotlin.Lazy inject$default(org.koin.core.scope.Scope,org.koin.core.qualifier.Qualifier,kotlin.LazyThreadSafetyMode,kotlin.jvm.functions.Function0,int,java.lang.Object)
-    public final synthetic kotlin.Lazy injectOrNull()
-    public final synthetic kotlin.Lazy injectOrNull(org.koin.core.qualifier.Qualifier)
-    public final synthetic kotlin.Lazy injectOrNull(org.koin.core.qualifier.Qualifier,kotlin.LazyThreadSafetyMode)
     public final synthetic kotlin.Lazy injectOrNull(org.koin.core.qualifier.Qualifier,kotlin.LazyThreadSafetyMode,kotlin.jvm.functions.Function0)
     public static synthetic kotlin.Lazy injectOrNull$default(org.koin.core.scope.Scope,org.koin.core.qualifier.Qualifier,kotlin.LazyThreadSafetyMode,kotlin.jvm.functions.Function0,int,java.lang.Object)
+    public final boolean isRoot()
     public final varargs void linkTo(org.koin.core.scope.Scope[])
+    public final void refreshScopeInstance(kotlin.reflect.KClass,org.koin.core.qualifier.Qualifier,java.lang.Object)
+    public static synthetic void refreshScopeInstance$default(org.koin.core.scope.Scope,kotlin.reflect.KClass,org.koin.core.qualifier.Qualifier,java.lang.Object,int,java.lang.Object)
     public final void registerCallback(org.koin.core.scope.ScopeCallback)
-    public final void setSource(java.lang.Object)
+    public final void set_source(java.lang.Object)
     public final varargs void unlink(org.koin.core.scope.Scope[])
-org.koin.core.scope.ScopeCallback
-org.koin.core.scope.ScopeDefinition$declareNewDefinition$beanDefinition$1
-org.koin.core.scope.ScopeDefinition:
-    public static final java.lang.String ROOT_SCOPE_ID
-    public final org.koin.core.qualifier.Qualifier component1()
-    public final boolean component2()
-    public final org.koin.core.scope.ScopeDefinition copy(org.koin.core.qualifier.Qualifier,boolean)
-    public static synthetic org.koin.core.scope.ScopeDefinition copy$default(org.koin.core.scope.ScopeDefinition,org.koin.core.qualifier.Qualifier,boolean,int,java.lang.Object)
-    public final synthetic org.koin.core.definition.BeanDefinition declareNewDefinition(java.lang.Object,org.koin.core.qualifier.Qualifier,java.util.List,boolean)
-    public static synthetic org.koin.core.definition.BeanDefinition declareNewDefinition$default(org.koin.core.scope.ScopeDefinition,java.lang.Object,org.koin.core.qualifier.Qualifier,java.util.List,boolean,int,java.lang.Object)
-    public final org.koin.core.qualifier.Qualifier getQualifier()
-    public final void remove(org.koin.core.definition.BeanDefinition)
-    public final void removeExtras$koin_core()
-    public final int size$koin_core()
-    public final void unloadDefinition$koin_core(org.koin.core.definition.BeanDefinition)
+org.koin.core.scope.ScopeJVMKt
 org.koin.core.scope.ScopeKt
-org.koin.core.time.MeasureKt:
-    public static final void measureDuration(java.lang.String,kotlin.jvm.functions.Function0)
-    public static final java.lang.Object measureDurationForResult(java.lang.String,kotlin.jvm.functions.Function0)
 org.koin.dsl.DefinitionBindingKt:
-    public static final synthetic org.koin.core.definition.BeanDefinition bind(org.koin.core.definition.BeanDefinition)
-    public static final org.koin.core.definition.BeanDefinition binds(org.koin.core.definition.BeanDefinition,kotlin.reflect.KClass[])
-    public static final org.koin.core.definition.BeanDefinition onClose(org.koin.core.definition.BeanDefinition,kotlin.jvm.functions.Function1)
+    public static final synthetic kotlin.Pair bind(kotlin.Pair)
+    public static final kotlin.Pair binds(kotlin.Pair,kotlin.reflect.KClass[])
+    public static final kotlin.Pair onClose(kotlin.Pair,kotlin.jvm.functions.Function1)
 org.koin.dsl.KoinApplicationKt
+org.koin.dsl.ModuleExtKt$factory$1
+org.koin.dsl.ModuleExtKt$single$1
+org.koin.dsl.ModuleExtKt
+org.koin.dsl.ModuleKt:
+    public static final org.koin.core.module.Module module(boolean,boolean,kotlin.jvm.functions.Function1)
+    public static synthetic org.koin.core.module.Module module$default(boolean,boolean,kotlin.jvm.functions.Function1,int,java.lang.Object)
 org.koin.dsl.ScopeDSL
+org.koin.dsl.ScopeSetExtKt$factory$1
+org.koin.dsl.ScopeSetExtKt$scoped$1
+org.koin.dsl.ScopeSetExtKt
 org.koin.ext.InjectPropertyKt
 org.koin.ext.StringExtKt
 org.koin.java.KoinJavaComponent$inject$1
+org.koin.java.KoinJavaComponent$injectOrNull$1
 org.koin.java.KoinJavaComponent
+org.koin.mp.KoinPlatformTools:
+    public final kotlin.LazyThreadSafetyMode defaultLazyMode()
+    public final org.koin.core.logger.Logger defaultLogger(org.koin.core.logger.Level)
+    public static synthetic org.koin.core.logger.Logger defaultLogger$default(org.koin.mp.KoinPlatformTools,org.koin.core.logger.Level,int,java.lang.Object)
+    public final java.lang.String generateId()
 org.reactivestreams.FlowAdapters$FlowPublisherFromReactive
 org.reactivestreams.FlowAdapters$FlowToReactiveProcessor
 org.reactivestreams.FlowAdapters$FlowToReactiveSubscriber
@@ -33405,7 +33425,9 @@ androidx.activity.ComponentActivity$NonConfigurationInstances:
     public java.lang.Object custom
 androidx.activity.ComponentActivity:
     public int mContentLayoutId
+    public androidx.lifecycle.ViewModelProvider$Factory mDefaultFactory
     public final java.util.concurrent.atomic.AtomicInteger mNextLocalRequestCode
+    public androidx.lifecycle.ViewModelProvider$Factory getDefaultViewModelProviderFactory()
 androidx.activity.ImmLeaksCleaner:
     public void <init>(android.app.Activity)
 androidx.activity.result.ActivityResultRegistry$1:
@@ -33650,6 +33672,8 @@ androidx.appcompat.app.ActionBar$Tab:
     public abstract java.lang.CharSequence getText()
 androidx.appcompat.app.AlertController$2:
     public final synthetic androidx.appcompat.app.AlertController this$0
+    public final synthetic android.view.View val$bottom
+    public final synthetic android.view.View val$top
     public void <init>(androidx.appcompat.app.AlertController,android.view.View,android.view.View)
 androidx.appcompat.app.AlertController$3
 androidx.appcompat.app.AlertController$4
@@ -33684,6 +33708,7 @@ androidx.appcompat.app.AlertController$AlertParams:
     public int mViewSpacingTop
 androidx.appcompat.app.AlertController:
     public int getIconAttributeResId(int)
+    public static void manageScrollIndicators(android.view.View,android.view.View,android.view.View)
     public void setIcon(int)
     public void setView(int)
     public void setView(android.view.View)
@@ -33701,7 +33726,9 @@ androidx.appcompat.app.AppCompatDelegateImpl:
     public static boolean sInstalledExceptionHandler
     public final boolean shouldInheritContext(android.view.ViewParent)
 androidx.appcompat.app.LayoutIncludeDetector
-androidx.appcompat.app.ResourcesFlusher
+androidx.appcompat.app.ResourcesFlusher:
+    public static void flushLollipops(android.content.res.Resources)
+    public static void flushMarshmallows(android.content.res.Resources)
 androidx.appcompat.app.ToolbarActionBar
 androidx.appcompat.app.TwilightManager$TwilightState:
     public long todaySunrise
@@ -33782,54 +33809,13 @@ androidx.appcompat.widget.AppCompatPopupWindow:
     public boolean mOverlapAnchor
 androidx.appcompat.widget.AppCompatSpinner$DropdownPopup$1:
     public final synthetic androidx.appcompat.widget.AppCompatSpinner val$this$0
-androidx.appcompat.widget.AppCompatTextClassifierHelper:
-    public android.view.textclassifier.TextClassifier mTextClassifier
-    public android.view.textclassifier.TextClassifier getTextClassifier()
-    public void setTextClassifier(android.view.textclassifier.TextClassifier)
 androidx.appcompat.widget.AppCompatTextHelper$2:
     public final synthetic androidx.appcompat.widget.AppCompatTextHelper this$0
-androidx.appcompat.widget.AppCompatTextHelper:
-    public void autoSizeText()
-    public int getAutoSizeMaxTextSize()
-    public int getAutoSizeMinTextSize()
-    public int getAutoSizeStepGranularity()
-    public int[] getAutoSizeTextAvailableSizes()
-    public int getAutoSizeTextType()
-    public boolean isAutoSizeEnabled()
-    public void setAutoSizeTextTypeUniformWithConfiguration(int,int,int,int)
-    public void setAutoSizeTextTypeUniformWithPresetSizes(int[],int)
-    public void setAutoSizeTextTypeWithDefaults(int)
-    public void setTextSize(int,float)
-    public final void setTextSizeInternal(int,float)
-androidx.appcompat.widget.AppCompatTextViewAutoSizeHelper$Impl23:
-    public void computeAndSetTextDirection(android.text.StaticLayout$Builder,android.widget.TextView)
-androidx.appcompat.widget.AppCompatTextViewAutoSizeHelper$Impl29:
-    public void computeAndSetTextDirection(android.text.StaticLayout$Builder,android.widget.TextView)
-    public boolean isHorizontallyScrollable(android.widget.TextView)
-androidx.appcompat.widget.AppCompatTextViewAutoSizeHelper$Impl:
-    public void computeAndSetTextDirection(android.text.StaticLayout$Builder,android.widget.TextView)
-    public boolean isHorizontallyScrollable(android.widget.TextView)
 androidx.appcompat.widget.AppCompatTextViewAutoSizeHelper:
-    public android.text.TextPaint mTempTextPaint
     public static java.lang.Object accessAndReturnWithDefault(java.lang.Object,java.lang.String,java.lang.Object)
-    public void autoSizeText()
-    public final void clearAutoSizeConfiguration()
-    public android.text.StaticLayout createLayout(java.lang.CharSequence,android.text.Layout$Alignment,int,int)
-    public final android.text.StaticLayout createStaticLayoutForMeasuring(java.lang.CharSequence,android.text.Layout$Alignment,int,int)
     public final android.text.StaticLayout createStaticLayoutForMeasuringPre16(java.lang.CharSequence,android.text.Layout$Alignment,int)
     public final android.text.StaticLayout createStaticLayoutForMeasuringPre23(java.lang.CharSequence,android.text.Layout$Alignment,int)
-    public final int findLargestTextSizeWhichFits(android.graphics.RectF)
     public static java.lang.reflect.Field getTextViewField(java.lang.String)
-    public static java.lang.reflect.Method getTextViewMethod(java.lang.String)
-    public void initTempTextPaint(int)
-    public static java.lang.Object invokeAndReturnWithDefault(java.lang.Object,java.lang.String,java.lang.Object)
-    public boolean isAutoSizeEnabled()
-    public void setAutoSizeTextTypeUniformWithConfiguration(int,int,int,int)
-    public void setAutoSizeTextTypeUniformWithPresetSizes(int[],int)
-    public void setAutoSizeTextTypeWithDefaults(int)
-    public final void setRawTextSize(float)
-    public void setTextSizeInternal(int,float)
-    public final boolean suggestedSizeFitsInSpace(int,android.graphics.RectF)
 androidx.appcompat.widget.ContentFrameLayout$OnAttachListener:
     public abstract void onAttachedFromWindow()
     public abstract void onDetachedFromWindow()
@@ -33844,12 +33830,6 @@ androidx.appcompat.widget.ListPopupWindow:
     public android.view.View mPromptView
     public java.lang.Runnable mShowDropDownRunnable
     public static java.lang.reflect.Method sGetMaxAvailableHeightMethod
-    public static java.lang.reflect.Method sSetClipToWindowEnabledMethod
-    public static java.lang.reflect.Method sSetEpicenterBoundsMethod
-    public static void <clinit>()
-androidx.appcompat.widget.MenuPopupWindow:
-    public static java.lang.reflect.Method sSetTouchModalMethod
-    public static void <clinit>()
 androidx.appcompat.widget.ResourceManagerInternal$AsldcInflateDelegate
 androidx.appcompat.widget.ResourceManagerInternal$AvdcInflateDelegate
 androidx.appcompat.widget.ResourceManagerInternal$DrawableDelegate
@@ -33933,15 +33913,6 @@ androidx.appcompat.widget.ScrollingTabContainerView:
     public final boolean isCollapsed()
     public final void performCollapse()
     public final boolean performExpand()
-androidx.appcompat.widget.SearchView$PreQAutoCompleteTextViewReflector:
-    public java.lang.reflect.Method mDoAfterTextChanged
-    public java.lang.reflect.Method mDoBeforeTextChanged
-    public java.lang.reflect.Method mEnsureImeVisible
-    public void <init>()
-    public void doAfterTextChanged(android.widget.AutoCompleteTextView)
-    public void doBeforeTextChanged(android.widget.AutoCompleteTextView)
-    public void ensureImeVisible(android.widget.AutoCompleteTextView)
-    public static void preApi29Check()
 androidx.appcompat.widget.ThemeUtils:
     public static final int[] ACTIVATED_STATE_SET
     public static final int[] NOT_PRESSED_OR_FOCUSED_STATE_SET
@@ -33962,10 +33933,6 @@ androidx.appcompat.widget.TintResources:
 androidx.appcompat.widget.Toolbar:
     public androidx.appcompat.view.menu.MenuPresenter$Callback mActionMenuPresenterCallback
     public androidx.appcompat.view.menu.MenuBuilder$Callback mMenuBuilderCallback
-androidx.appcompat.widget.TooltipCompatHandler$1
-androidx.appcompat.widget.TooltipCompatHandler$2
-androidx.appcompat.widget.TooltipCompatHandler
-androidx.appcompat.widget.TooltipPopup
 androidx.appcompat.widget.VectorEnabledTintResources:
     public final java.lang.ref.WeakReference mContextRef
     public void <init>(android.content.Context,android.content.res.Resources)
@@ -33987,6 +33954,19 @@ androidx.cardview.widget.CardViewBaseImpl$1
 androidx.cardview.widget.CardViewBaseImpl
 androidx.cardview.widget.CardViewDelegate:
     public abstract void setMinWidthHeightInternal(int,int)
+androidx.cardview.widget.CardViewImpl:
+    public abstract android.content.res.ColorStateList getBackgroundColor(androidx.cardview.widget.CardViewDelegate)
+    public abstract float getElevation(androidx.cardview.widget.CardViewDelegate)
+    public abstract float getMaxElevation(androidx.cardview.widget.CardViewDelegate)
+    public abstract float getMinHeight(androidx.cardview.widget.CardViewDelegate)
+    public abstract float getMinWidth(androidx.cardview.widget.CardViewDelegate)
+    public abstract float getRadius(androidx.cardview.widget.CardViewDelegate)
+    public abstract void onCompatPaddingChanged(androidx.cardview.widget.CardViewDelegate)
+    public abstract void onPreventCornerOverlapChanged(androidx.cardview.widget.CardViewDelegate)
+    public abstract void setBackgroundColor(androidx.cardview.widget.CardViewDelegate,android.content.res.ColorStateList)
+    public abstract void setElevation(androidx.cardview.widget.CardViewDelegate,float)
+    public abstract void setMaxElevation(androidx.cardview.widget.CardViewDelegate,float)
+    public abstract void setRadius(androidx.cardview.widget.CardViewDelegate,float)
 androidx.cardview.widget.RoundRectDrawable:
     public final android.graphics.RectF mBoundsF
     public final android.graphics.Rect mBoundsI
@@ -34535,11 +34515,6 @@ androidx.core.app.ActivityCompat$OnRequestPermissionsResultCallback
 androidx.core.app.ActivityCompat$PermissionCompatDelegate
 androidx.core.app.ActivityCompat:
     public static androidx.core.app.ActivityCompat$PermissionCompatDelegate sDelegate
-androidx.core.app.ActivityRecreator$1
-androidx.core.app.ActivityRecreator$2
-androidx.core.app.ActivityRecreator$3
-androidx.core.app.ActivityRecreator$LifecycleCheckCallbacks
-androidx.core.app.ActivityRecreator
 androidx.core.app.ComponentActivity:
     public androidx.collection.SimpleArrayMap mExtraDataMap
 androidx.core.content.ContextCompat:
@@ -34552,11 +34527,8 @@ androidx.core.content.res.CamColor:
 androidx.core.content.res.ColorStateListInflaterCompat:
     public static android.content.res.ColorStateList inflate(android.content.res.Resources,int,android.content.res.Resources$Theme)
 androidx.core.content.res.ComplexColorCompat
-androidx.core.content.res.FontResourcesParserCompat$FontFileResourceEntry:
-    public java.lang.String getFileName()
 androidx.core.content.res.GradientColorInflaterCompat$ColorStops
 androidx.core.content.res.GradientColorInflaterCompat
-androidx.core.content.res.ResourcesCompat$ThemeCompat$ImplApi23
 androidx.core.content.res.ResourcesCompat:
     public static android.graphics.drawable.Drawable getDrawableForDensity(android.content.res.Resources,int,int,android.content.res.Resources$Theme)
 androidx.core.content.res.TypedArrayUtils
@@ -34575,32 +34547,14 @@ androidx.core.graphics.PathParser:
     public static void updateNodes(androidx.core.graphics.PathParser$PathDataNode[],androidx.core.graphics.PathParser$PathDataNode[])
 androidx.core.graphics.TypefaceCompat:
     public static android.graphics.Typeface getBestFontFromFamily(android.content.Context,android.graphics.Typeface,int)
-androidx.core.graphics.TypefaceCompatApi21Impl
-androidx.core.graphics.TypefaceCompatApi24Impl
-androidx.core.graphics.TypefaceCompatApi26Impl
-androidx.core.graphics.TypefaceCompatApi28Impl
-androidx.core.graphics.TypefaceCompatApi29Impl:
-    public android.graphics.Typeface createFromInputStream(android.content.Context,java.io.InputStream)
-    public androidx.core.provider.FontsContractCompat$FontInfo findBestInfo(androidx.core.provider.FontsContractCompat$FontInfo[],int)
-androidx.core.graphics.TypefaceCompatBaseImpl$1
+androidx.core.graphics.TypefaceCompatBaseImpl$1:
+    public final synthetic androidx.core.graphics.TypefaceCompatBaseImpl this$0
 androidx.core.graphics.TypefaceCompatBaseImpl$2
-androidx.core.graphics.TypefaceCompatBaseImpl$StyleExtractor
 androidx.core.graphics.TypefaceCompatBaseImpl:
     public final void addFontFamily(android.graphics.Typeface,androidx.core.content.res.FontResourcesParserCompat$FontFamilyFilesResourceEntry)
-    public android.graphics.Typeface createFromInputStream(android.content.Context,java.io.InputStream)
     public final androidx.core.content.res.FontResourcesParserCompat$FontFileResourceEntry findBestEntry(androidx.core.content.res.FontResourcesParserCompat$FontFamilyFilesResourceEntry,int)
-    public static java.lang.Object findBestFont(java.lang.Object[],int,androidx.core.graphics.TypefaceCompatBaseImpl$StyleExtractor)
-    public androidx.core.provider.FontsContractCompat$FontInfo findBestInfo(androidx.core.provider.FontsContractCompat$FontInfo[],int)
     public androidx.core.content.res.FontResourcesParserCompat$FontFamilyFilesResourceEntry getFontFamily(android.graphics.Typeface)
     public static long getUniqueKey(android.graphics.Typeface)
-androidx.core.graphics.TypefaceCompatUtil:
-    public static void closeQuietly(java.io.Closeable)
-    public static java.nio.ByteBuffer copyToDirectBuffer(android.content.Context,android.content.res.Resources,int)
-    public static boolean copyToFile(java.io.File,android.content.res.Resources,int)
-    public static boolean copyToFile(java.io.File,java.io.InputStream)
-    public static java.io.File getTempFile(android.content.Context)
-    public static java.nio.ByteBuffer mmap(java.io.File)
-    public static java.util.Map readFontInfoIntoByteBuffer(android.content.Context,androidx.core.provider.FontsContractCompat$FontInfo[],android.os.CancellationSignal)
 androidx.core.graphics.drawable.DrawableCompat:
     public static java.lang.reflect.Method sGetLayoutDirectionMethod
     public static boolean sGetLayoutDirectionMethodFetched
@@ -34624,7 +34578,6 @@ androidx.core.os.TraceCompat:
     public static java.lang.reflect.Method sIsTagEnabledMethod
     public static java.lang.reflect.Method sTraceCounterMethod
     public static long sTraceTagApp
-    public static void <clinit>()
 androidx.core.provider.CallbackWithHandler$1:
     public final synthetic androidx.core.provider.CallbackWithHandler this$0
 androidx.core.provider.CallbackWithHandler$2:
@@ -34632,17 +34585,14 @@ androidx.core.provider.CallbackWithHandler$2:
 androidx.core.provider.RequestExecutor$ReplyRunnable$1:
     public final synthetic androidx.core.provider.RequestExecutor$ReplyRunnable this$0
 androidx.core.text.ICUCompat
-androidx.core.text.PrecomputedTextCompat$Params$Builder
 androidx.core.text.PrecomputedTextCompat$Params:
     public final android.text.PrecomputedText$Params mWrapped
-    public void <init>(android.text.TextPaint,android.text.TextDirectionHeuristic,int,int)
 androidx.core.text.PrecomputedTextCompat:
     public final androidx.core.text.PrecomputedTextCompat$Params mParams
     public final android.text.Spannable mText
     public final android.text.PrecomputedText mWrapped
     public static java.util.concurrent.Executor sExecutor
     public static final java.lang.Object sLock
-    public androidx.core.text.PrecomputedTextCompat$Params getParams()
 androidx.core.text.TextDirectionHeuristicCompat:
     public abstract boolean isRtl(java.lang.CharSequence,int,int)
 androidx.core.text.TextDirectionHeuristicsCompat:
@@ -34662,11 +34612,6 @@ androidx.core.view.DisplayCutoutCompat:
     public int getSafeInsetLeft()
     public int getSafeInsetRight()
     public int getSafeInsetTop()
-androidx.core.view.KeyEventDispatcher:
-    public static boolean actionBarOnMenuKeyEventPre28(android.app.ActionBar,android.view.KeyEvent)
-    public static boolean activitySuperDispatchKeyEventPre28(android.app.Activity,android.view.KeyEvent)
-    public static boolean dialogSuperDispatchKeyEventPre28(android.app.Dialog,android.view.KeyEvent)
-    public static android.content.DialogInterface$OnKeyListener getDialogKeyListenerPre28(android.app.Dialog)
 androidx.core.view.LayoutInflaterCompat:
     public static boolean sCheckedField
     public static java.lang.reflect.Field sLayoutInflaterFactory2Field
@@ -34679,11 +34624,7 @@ androidx.core.view.NestedScrollingChild:
     public abstract void stopNestedScroll()
 androidx.core.view.NestedScrollingParent
 androidx.core.view.TintableBackgroundView
-androidx.core.view.ViewCompat$AccessibilityPaneVisibilityManager:
-    public final void checkPaneVisibility(android.view.View,boolean)
-androidx.core.view.ViewCompat$UnhandledKeyEventManager
 androidx.core.view.ViewCompat:
-    public static java.lang.reflect.Field sAccessibilityDelegateField
     public static java.lang.reflect.Field sMinHeightField
     public static boolean sMinHeightFieldFetched
     public static java.lang.reflect.Field sMinWidthField
@@ -34692,16 +34633,8 @@ androidx.core.view.ViewCompat:
     public static java.util.WeakHashMap sTransitionNameMap
     public static void compatOffsetLeftAndRight(android.view.View,int)
     public static void compatOffsetTopAndBottom(android.view.View,int)
-    public static boolean dispatchUnhandledKeyEventBeforeCallback(android.view.View,android.view.KeyEvent)
-    public static android.view.View$AccessibilityDelegate getAccessibilityDelegateThroughReflection(android.view.View)
     public static android.graphics.Rect getEmptyTempRect()
-    public static void setScreenReaderFocusable(android.view.View,boolean)
     public static void tickleInvalidationFlag(android.view.View)
-androidx.core.view.ViewConfigurationCompat:
-    public static java.lang.reflect.Method sGetScaledScrollFactorMethod
-    public static void <clinit>()
-    public static float getLegacyScrollFactor(android.view.ViewConfiguration,android.content.Context)
-    public static int getScaledHoverSlop(android.view.ViewConfiguration)
 androidx.core.view.ViewPropertyAnimatorCompat$1:
     public final synthetic androidx.core.view.ViewPropertyAnimatorCompat this$0
 androidx.core.view.ViewPropertyAnimatorCompat$2:
@@ -34709,7 +34642,6 @@ androidx.core.view.ViewPropertyAnimatorCompat$2:
 androidx.core.view.ViewPropertyAnimatorCompat$ViewPropertyAnimatorListenerApi14
 androidx.core.view.ViewPropertyAnimatorUpdateListener:
     public abstract void onAnimationUpdate(android.view.View)
-androidx.core.view.WindowInsetsCompat$BuilderImpl20
 androidx.core.view.WindowInsetsCompat$BuilderImpl29:
     public void setMandatorySystemGestureInsets(androidx.core.graphics.Insets)
     public void setSystemGestureInsets(androidx.core.graphics.Insets)
@@ -34720,35 +34652,25 @@ androidx.core.view.WindowInsetsCompat$BuilderImpl:
     public void setSystemGestureInsets(androidx.core.graphics.Insets)
     public void setTappableElementInsets(androidx.core.graphics.Insets)
 androidx.core.view.WindowInsetsCompat$Impl20:
-    public static java.lang.Class sAttachInfoClass
-    public static java.lang.reflect.Field sAttachInfoField
-    public static java.lang.reflect.Method sGetViewRootImplMethod
-    public static java.lang.reflect.Field sVisibleInsetsField
     public androidx.core.graphics.Insets getInsets(int)
-    public final androidx.core.graphics.Insets getInsets(int,boolean)
+    private androidx.core.graphics.Insets getInsets(int,boolean)
     public androidx.core.graphics.Insets getInsetsForType(int,boolean)
-    public final androidx.core.graphics.Insets getRootStableInsets()
-    public static void loadReflectionField()
-androidx.core.view.WindowInsetsCompat$Impl21:
-    public void setStableInsets(androidx.core.graphics.Insets)
+    private androidx.core.graphics.Insets getRootStableInsets()
 androidx.core.view.WindowInsetsCompat$Impl29:
     public androidx.core.graphics.Insets getSystemGestureInsets()
     public androidx.core.graphics.Insets getTappableElementInsets()
-    public void setStableInsets(androidx.core.graphics.Insets)
 androidx.core.view.WindowInsetsCompat$Impl30:
     public androidx.core.graphics.Insets getInsets(int)
 androidx.core.view.WindowInsetsCompat$Impl:
     public androidx.core.graphics.Insets getInsets(int)
     public androidx.core.graphics.Insets getSystemGestureInsets()
     public androidx.core.graphics.Insets getTappableElementInsets()
-    public void setStableInsets(androidx.core.graphics.Insets)
 androidx.core.view.WindowInsetsCompat$Type
 androidx.core.view.WindowInsetsCompat$TypeImpl30
 androidx.core.view.WindowInsetsCompat:
     public androidx.core.view.DisplayCutoutCompat getDisplayCutout()
     public androidx.core.graphics.Insets getInsets(int)
     public androidx.core.graphics.Insets getStableInsets()
-    public void setStableInsets(androidx.core.graphics.Insets)
 androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat:
     public static final androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat ACTION_ACCESSIBILITY_FOCUS
     public static final androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat ACTION_CLEAR_ACCESSIBILITY_FOCUS
@@ -34781,44 +34703,13 @@ androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityAction
     public static final androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat ACTION_SET_TEXT
     public static final androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat ACTION_SHOW_ON_SCREEN
     public static final androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat ACTION_SHOW_TOOLTIP
-androidx.core.view.accessibility.AccessibilityNodeInfoCompat:
-    public final void addSpanLocationToExtras(android.text.style.ClickableSpan,android.text.Spanned,int)
-    public final void clearExtrasSpans()
-    public final boolean getBooleanProperty(int)
-    public final android.util.SparseArray getOrCreateSpansFromViewTags(android.view.View)
-    public final android.util.SparseArray getSpansFromViewTags(android.view.View)
-    public final int idForClickableSpan(android.text.style.ClickableSpan,android.util.SparseArray)
-    public final void removeCollectedSpans(android.view.View)
-    public final void setBooleanProperty(int,boolean)
 androidx.core.view.accessibility.AccessibilityViewCommand$CommandArguments:
     public android.os.Bundle mBundle
 androidx.core.view.animation.PathInterpolatorApi14
-androidx.core.view.inputmethod.EditorInfoCompat$Api30Impl
-androidx.core.view.inputmethod.EditorInfoCompat:
-    public static java.lang.String[] getContentMimeTypes(android.view.inputmethod.EditorInfo)
-    public static boolean isCutOnSurrogate(java.lang.CharSequence,int,int)
-    public static boolean isPasswordInputType(int)
-    public static void setInitialSurroundingSubText(android.view.inputmethod.EditorInfo,java.lang.CharSequence,int)
-    public static void setInitialSurroundingText(android.view.inputmethod.EditorInfo,java.lang.CharSequence)
-    public static void setSurroundingText(android.view.inputmethod.EditorInfo,java.lang.CharSequence,int,int)
-    public static void trimLongSurroundingText(android.view.inputmethod.EditorInfo,java.lang.CharSequence,int,int)
-androidx.core.view.inputmethod.InputConnectionCompat$2
 androidx.core.view.inputmethod.InputConnectionCompat$OnCommitContentListener:
     public abstract boolean onCommitContent(androidx.core.view.inputmethod.InputContentInfoCompat,int,android.os.Bundle)
-androidx.core.view.inputmethod.InputConnectionCompat:
-    public static boolean handlePerformPrivateCommand(java.lang.String,android.os.Bundle,androidx.core.view.inputmethod.InputConnectionCompat$OnCommitContentListener)
-androidx.core.view.inputmethod.InputContentInfoCompat$InputContentInfoCompatApi25Impl:
-    public void <init>(android.net.Uri,android.content.ClipDescription,android.net.Uri)
-androidx.core.view.inputmethod.InputContentInfoCompat$InputContentInfoCompatBaseImpl
-androidx.core.view.inputmethod.InputContentInfoCompat$InputContentInfoCompatImpl:
-    public abstract android.net.Uri getContentUri()
-    public abstract android.content.ClipDescription getDescription()
-    public abstract android.net.Uri getLinkUri()
-androidx.core.view.inputmethod.InputContentInfoCompat:
-    public void <init>(android.net.Uri,android.content.ClipDescription,android.net.Uri)
 androidx.core.widget.AutoScrollHelper:
     public boolean mExclusive
-androidx.core.widget.AutoSizeableTextView
 androidx.core.widget.CheckedTextViewCompat$Api14Impl
 androidx.core.widget.CompoundButtonCompat:
     public static java.lang.reflect.Field sButtonDrawableField
@@ -34833,10 +34724,6 @@ androidx.core.widget.PopupWindowCompat:
     public static boolean sOverlapAnchorFieldAttempted
     public static java.lang.reflect.Method sSetWindowLayoutTypeMethod
     public static boolean sSetWindowLayoutTypeMethodAttempted
-androidx.core.widget.TextViewCompat$OreoCallback:
-    public void <init>(android.view.ActionMode$Callback,android.widget.TextView)
-androidx.core.widget.TextViewCompat:
-    public static android.text.TextDirectionHeuristic getTextDirectionHeuristic(android.widget.TextView)
 androidx.core.widget.TextViewOnReceiveContentListener$ApiImpl
 androidx.core.widget.TintableCheckedTextView
 androidx.core.widget.TintableCompoundButton
@@ -34859,11 +34746,12 @@ androidx.databinding.InverseBindingListener:
     public abstract void onChange()
 androidx.databinding.ViewDataBinding$IncludedLayouts
 androidx.databinding.ViewDataBinding:
-    public static final androidx.databinding.ViewDataBinding$CreateWeakListener CREATE_LIST_LISTENER
-    public static final androidx.databinding.ViewDataBinding$CreateWeakListener CREATE_MAP_LISTENER
-    public static final androidx.databinding.ViewDataBinding$CreateWeakListener CREATE_PROPERTY_LISTENER
+    public static final androidx.databinding.CreateWeakListener CREATE_LIST_LISTENER
+    public static final androidx.databinding.CreateWeakListener CREATE_MAP_LISTENER
+    public static final androidx.databinding.CreateWeakListener CREATE_PROPERTY_LISTENER
     public static final androidx.databinding.CallbackRegistry$NotifierCallback REBIND_NOTIFIER
     public androidx.databinding.ViewDataBinding mContainingBinding
+    public boolean mInStateFlowRegisterObserver
     public androidx.databinding.CallbackRegistry mRebindCallbacks
     public static synthetic boolean access$002(androidx.databinding.ViewDataBinding,boolean)
     public static int findLastMatching(android.view.ViewGroup,int)
@@ -35054,7 +34942,6 @@ androidx.datastore.preferences.protobuf.Writer:
     public abstract void writeUInt32List(int,java.util.List,boolean)
     public abstract void writeUInt64(int,long)
     public abstract void writeUInt64List(int,java.util.List,boolean)
-androidx.emoji2.text.-$$Lambda$aVrkOgYvqGr2lZJFFK92kv_FgWg
 androidx.emoji2.text.EmojiCompat$Config:
     public int[] mEmojiAsDefaultStyleExceptions
     public boolean mEmojiSpanIndicatorEnabled
@@ -35073,6 +34960,7 @@ androidx.emoji2.text.EmojiSpan:
     public final int getWidth()
 androidx.emoji2.text.FontRequestEmojiCompatConfig$FontProviderHelper:
     public void registerObserver(android.content.Context,android.net.Uri,android.database.ContentObserver)
+androidx.emoji2.text.FontRequestEmojiCompatConfig$FontRequestMetadataLoader$$InternalSyntheticLambda$2$86ff27c49f2f02cfc15b1c33bc0b5b530a86503a7eecfa8f0957b7e04f5ec92e$0
 androidx.emoji2.text.FontRequestEmojiCompatConfig$FontRequestMetadataLoader$1
 androidx.emoji2.text.FontRequestEmojiCompatConfig$FontRequestMetadataLoader:
     public androidx.emoji2.text.FontRequestEmojiCompatConfig$RetryPolicy mRetryPolicy
@@ -35143,10 +35031,10 @@ androidx.fragment.app.Fragment:
     public boolean mHasMenu
     public final java.util.concurrent.atomic.AtomicInteger mNextLocalRequestCode
     public java.lang.Runnable mPostponedDurationRunnable
-    public void onCreateOptionsMenu()
-    public boolean onOptionsItemSelected()
-    public void onOptionsMenuClosed()
-    public void onPrepareOptionsMenu()
+    public void onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater)
+    public boolean onOptionsItemSelected(android.view.MenuItem)
+    public void onOptionsMenuClosed(android.view.Menu)
+    public void onPrepareOptionsMenu(android.view.Menu)
 androidx.fragment.app.FragmentHostCallback:
     public final int mWindowAnimations
 androidx.fragment.app.FragmentLifecycleCallbacksDispatcher$FragmentLifecycleCallbacksHolder:
@@ -35197,8 +35085,6 @@ androidx.fragment.app.strictmode.FragmentTagUsageViolation:
     public final android.view.ViewGroup parentContainer
 androidx.fragment.app.strictmode.WrongFragmentContainerViolation:
     public final android.view.ViewGroup container
-androidx.lifecycle.FullLifecycleObserverAdapter$1
-androidx.lifecycle.Lifecycle$1
 androidx.lifecycle.LifecycleController$observer$1:
     public final synthetic kotlinx.coroutines.Job $parentJob
     public final synthetic androidx.lifecycle.LifecycleController this$0
@@ -35221,9 +35107,6 @@ androidx.lifecycle.ReportFragment$ActivityInitializationListener:
     public abstract void onCreate()
     public abstract void onResume()
     public abstract void onStart()
-androidx.lifecycle.ReportFragment:
-    public static androidx.lifecycle.ReportFragment get(android.app.Activity)
-    public void setProcessListener(androidx.lifecycle.ReportFragment$ActivityInitializationListener)
 androidx.lifecycle.WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$$inlined$suspendCancellableCoroutine$lambda$1:
     public final synthetic kotlin.jvm.functions.Function0 $block$inlined
     public final synthetic kotlinx.coroutines.CancellableContinuation $co
@@ -35411,28 +35294,6 @@ androidx.recyclerview.widget.ViewInfoStore$ProcessCallback:
     public abstract void processDisappeared(androidx.recyclerview.widget.RecyclerView$ViewHolder,androidx.recyclerview.widget.RecyclerView$ItemAnimator$ItemHolderInfo,androidx.recyclerview.widget.RecyclerView$ItemAnimator$ItemHolderInfo)
     public abstract void processPersistent(androidx.recyclerview.widget.RecyclerView$ViewHolder,androidx.recyclerview.widget.RecyclerView$ItemAnimator$ItemHolderInfo,androidx.recyclerview.widget.RecyclerView$ItemAnimator$ItemHolderInfo)
     public abstract void unused(androidx.recyclerview.widget.RecyclerView$ViewHolder)
-androidx.room.-$$Lambda$9psQePVjRowsgzqM7zav0SnxIuM
-androidx.room.-$$Lambda$AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$JmCZFgYqN8IAleNUA8VAUt1bG9c
-androidx.room.-$$Lambda$AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$b-KdzNDeRaI1t9yiwJWyXV5j2Yw
-androidx.room.-$$Lambda$AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$hug7CM9bxDvNgNDT4597Gsa-NPA
-androidx.room.-$$Lambda$AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$nxTh-dd7Fq8SYc_P9xauAw60ygY
-androidx.room.-$$Lambda$AutoClosingRoomOpenHelper$AutoClosingSupportSqliteStatement$BOH_ZFMRPQcgvS_zTZRrOdsODxg
-androidx.room.-$$Lambda$OXfnp_C5bscCOg9K3v5hKMB-lik
-androidx.room.-$$Lambda$QueryInterceptorDatabase$-r0VJIb-SXaJpWgpFKDtPpC-YbQ
-androidx.room.-$$Lambda$QueryInterceptorDatabase$2Bw1_mcYTrjaNcvAFu88RWoC1zc
-androidx.room.-$$Lambda$QueryInterceptorDatabase$G2uMRw08CD8CZIEmWPamLQZm-YY
-androidx.room.-$$Lambda$QueryInterceptorDatabase$NA95bwzl6ypPQuOg6ufJ2Y9ai7Y
-androidx.room.-$$Lambda$QueryInterceptorDatabase$QtTq_CaWbFOQiMXA3IbTenmcZT4
-androidx.room.-$$Lambda$QueryInterceptorDatabase$e_yUx2RhE4gIbG0uPZ5dgwePTvg
-androidx.room.-$$Lambda$QueryInterceptorDatabase$j065LbIvTXep5D6SsMORdy7nCZ0
-androidx.room.-$$Lambda$QueryInterceptorDatabase$mdMz2KzBtUSdwrthK9_RXFoyu08
-androidx.room.-$$Lambda$QueryInterceptorStatement$ELQNFMDGOEjhRlX6Wq4FB-kg4Dc
-androidx.room.-$$Lambda$QueryInterceptorStatement$Fav2IvQ8S4czZpFSCDm5mZmIxKE
-androidx.room.-$$Lambda$RoomDatabase$GuFQL6oa4rRatJAY4ELbKosygs8
-androidx.room.-$$Lambda$RoomDatabase$lM9aNaGxIIMhUsr4XoMGXDUymWg
-androidx.room.-$$Lambda$i4cXFreMvUyhhGstASkBGKwh21o
-androidx.room.-$$Lambda$s5txClRPQBekob9pkePxBQ8StEc
-androidx.room.-$$Lambda$yCt91-p62_J5dp-_omdbDa867iU
 androidx.room.AutoCloser$1
 androidx.room.AutoCloser$2
 androidx.room.AutoCloser:
@@ -35450,12 +35311,24 @@ androidx.room.AutoCloser:
     public int mRefCount
     public void <init>(long,java.util.concurrent.TimeUnit,java.util.concurrent.Executor)
     public void closeDatabaseIfOpen()
+    public void decrementCountAndScheduleClose()
     public java.lang.Object executeRefCountingFunction(androidx.arch.core.util.Function)
     public androidx.sqlite.db.SupportSQLiteDatabase getDelegateDatabase()
     public androidx.sqlite.db.SupportSQLiteDatabase incrementCountAndEnsureDbIsOpen()
     public void init(androidx.sqlite.db.SupportSQLiteOpenHelper)
+androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$$InternalSyntheticLambda$0$03c4c882cf11b81cf2c9b13bd16ac8e79e3871c294c37260d08307d9aa7d59f0$0
+androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$$InternalSyntheticLambda$0$5a2eb97a3059949373295ce4f42c1bbb89035da59b01d4f8ae1d0a0ba2f38c9f$0
+androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$$InternalSyntheticLambda$0$70e25f293017b7dae0054048cebf8e46d3af6d43883e89e3a08b24b98ba9b217$0
+androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$$InternalSyntheticLambda$0$a7aeff940d44feb3c7842d6dafe160446b34f367d311bc45f5a76c140096d49e$0
+androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$$InternalSyntheticLambda$0$c31d02b6fa73115a1997ae368efe882566afb4ef52214333dd987179cd758b43$0
+androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$$InternalSyntheticLambda$0$d65adf64daaa267b0a4f58c8d3c3a2b9bb6fc1ec231a1b81ee2c3471a0a1251a$0
+androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$$InternalSyntheticLambda$0$fce62bcfb672b4d48c9b1df3262deaf33f9bca8117c0d39d2ba185f00fce62c9$0
 androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase:
     public final androidx.room.AutoCloser mAutoCloser
+    public static synthetic java.lang.Object $r8$lambda$JmCZFgYqN8IAleNUA8VAUt1bG9c(java.lang.String,androidx.sqlite.db.SupportSQLiteDatabase)
+    public static synthetic java.lang.Boolean $r8$lambda$b-KdzNDeRaI1t9yiwJWyXV5j2Yw(androidx.sqlite.db.SupportSQLiteDatabase)
+    public static synthetic java.lang.Object $r8$lambda$hug7CM9bxDvNgNDT4597Gsa-NPA(androidx.sqlite.db.SupportSQLiteDatabase)
+    public static synthetic java.lang.Object $r8$lambda$nxTh-dd7Fq8SYc_P9xauAw60ygY(int,androidx.sqlite.db.SupportSQLiteDatabase)
     public void <init>(androidx.room.AutoCloser)
     public void beginTransaction()
     public void beginTransactionNonExclusive()
@@ -35469,13 +35342,16 @@ androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase:
     public boolean isWriteAheadLoggingEnabled()
     public static synthetic java.lang.Object lambda$execSQL$7(java.lang.String,androidx.sqlite.db.SupportSQLiteDatabase)
     public static synthetic java.lang.Boolean lambda$isWriteAheadLoggingEnabled$13(androidx.sqlite.db.SupportSQLiteDatabase)
-    public static synthetic java.lang.Object lambda$pokeOpen$0(androidx.sqlite.db.SupportSQLiteDatabase)
+    public static synthetic java.lang.Object lambda$pokeOpen$0()
     public static synthetic java.lang.Object lambda$setVersion$1(int,androidx.sqlite.db.SupportSQLiteDatabase)
     public android.database.Cursor query(androidx.sqlite.db.SupportSQLiteQuery)
     public android.database.Cursor query(androidx.sqlite.db.SupportSQLiteQuery,android.os.CancellationSignal)
     public android.database.Cursor query(java.lang.String)
     public void setTransactionSuccessful()
     public void setVersion(int)
+androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSqliteStatement$$InternalSyntheticLambda$0$efce483dbdb0a6cc7896b076f4cc047237a6c2e413d8115e59f32765fa24f71a$0
+androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSqliteStatement$$InternalSyntheticLambda$1$f1c8b9f5cf234073c06c75539345b55320cda6c207135dd9a4d39533ec353068$0
+androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSqliteStatement$$InternalSyntheticLambda$2$534f5b107d27902f077def9fa42d048b55e80215171a5e6456d9060dee76a3b3$0
 androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSqliteStatement
 androidx.room.AutoClosingRoomOpenHelper$KeepAliveCursor
 androidx.room.AutoClosingRoomOpenHelper:
@@ -35488,9 +35364,6 @@ androidx.room.DatabaseConfiguration:
     public final androidx.room.RoomDatabase$PrepackagedDatabaseCallback prepackagedDatabaseCallback
 androidx.room.EmptyResultSetException:
     public void <init>(java.lang.String)
-androidx.room.EntityInsertionAdapter:
-    public abstract void bind(androidx.sqlite.db.SupportSQLiteStatement,java.lang.Object)
-    public final void insert(java.lang.Iterable)
 androidx.room.IMultiInstanceInvalidationCallback$Stub$Proxy:
     public static androidx.room.IMultiInstanceInvalidationCallback sDefaultImpl
 androidx.room.IMultiInstanceInvalidationService$Stub$Proxy:
@@ -35503,12 +35376,23 @@ androidx.room.InvalidationLiveDataContainer:
 androidx.room.InvalidationTracker:
     public final androidx.room.InvalidationLiveDataContainer mInvalidationLiveDataContainer
     public androidx.room.MultiInstanceInvalidationClient mMultiInstanceInvalidationClient
-    public void refreshVersionsAsync()
+androidx.room.QueryInterceptorDatabase$$InternalSyntheticLambda$0$1900628d602f86ce69a3eea35683e5013c417085ea6529403c9641914093998a$0
+androidx.room.QueryInterceptorDatabase$$InternalSyntheticLambda$0$1bcdd037f5e4885de991c91c66fe14f8bb8c532a455b91f867122caa4959acb5$0
+androidx.room.QueryInterceptorDatabase$$InternalSyntheticLambda$0$840805b1e5be612ea99963715c4993cdc13ff607a9ef060dccee0ed89520674f$0
+androidx.room.QueryInterceptorDatabase$$InternalSyntheticLambda$0$85f7b0b96741a667a52972e7efd273be6767278122378fbc929e6702d78486b0$0
+androidx.room.QueryInterceptorDatabase$$InternalSyntheticLambda$0$9425620339d5d757f34a17c8174fab1a30b5d96472d3b17935abade4529be7c3$0
+androidx.room.QueryInterceptorDatabase$$InternalSyntheticLambda$0$c02322fe547e6b6f3e3f374d7385d7da605e6e62a3c9ae8b80d33384ffeca0a8$0
+androidx.room.QueryInterceptorDatabase$$InternalSyntheticLambda$0$db6aa981b1d5d3db8a927e4e6d99985d7163706ae5c7c0024e27732667e608db$0
+androidx.room.QueryInterceptorDatabase$$InternalSyntheticLambda$0$eb0dd0a566f62bff27bab94f977e8dcb21a0270bfbf76560edf08827d888c33a$0
 androidx.room.QueryInterceptorDatabase
 androidx.room.QueryInterceptorOpenHelper
 androidx.room.QueryInterceptorOpenHelperFactory
 androidx.room.QueryInterceptorProgram
+androidx.room.QueryInterceptorStatement$$InternalSyntheticLambda$0$d33a3c429c9cc6135bebb1b1f60eecd6c7c6d693973b30fbefc14956b78d78fa$0
+androidx.room.QueryInterceptorStatement$$InternalSyntheticLambda$2$09e454b6c6022b7b0cd92c44262531f629e13a640b1628c407904de07b877a86$0
 androidx.room.QueryInterceptorStatement
+androidx.room.RoomDatabase$$InternalSyntheticLambda$2$231bba65d412989b7eb8668938d6d973f01a707939385ab521f1fe46c843cde0$0
+androidx.room.RoomDatabase$$InternalSyntheticLambda$2$c127180caea1b164250449b5833d687e2d16d2d24866aae23d9b9b27246ead23$0
 androidx.room.RoomDatabase$Builder:
     public boolean mAllowDestructiveMigrationOnDowngrade
     public boolean mAllowMainThreadQueries
@@ -35531,16 +35415,10 @@ androidx.room.RoomDatabase$QueryCallback
 androidx.room.RoomDatabase:
     public java.util.concurrent.Executor mTransactionExecutor
     public boolean mWriteAheadLoggingEnabled
-    public void beginTransaction()
-    public androidx.sqlite.db.SupportSQLiteStatement compileStatement(java.lang.String)
-    public void endTransaction()
-    public final void internalBeginTransaction()
-    public final void internalEndTransaction()
-    private synthetic java.lang.Object lambda$beginTransaction$0(androidx.sqlite.db.SupportSQLiteDatabase)
-    public synthetic java.lang.Object lambda$beginTransaction$0$RoomDatabase(androidx.sqlite.db.SupportSQLiteDatabase)
-    private synthetic java.lang.Object lambda$endTransaction$1(androidx.sqlite.db.SupportSQLiteDatabase)
-    public synthetic java.lang.Object lambda$endTransaction$1$RoomDatabase(androidx.sqlite.db.SupportSQLiteDatabase)
-    public void setTransactionSuccessful()
+    public static synthetic java.lang.Object $r8$lambda$GuFQL6oa4rRatJAY4ELbKosygs8(androidx.room.RoomDatabase,androidx.sqlite.db.SupportSQLiteDatabase)
+    public static synthetic java.lang.Object $r8$lambda$lM9aNaGxIIMhUsr4XoMGXDUymWg(androidx.room.RoomDatabase,androidx.sqlite.db.SupportSQLiteDatabase)
+    private synthetic java.lang.Object lambda$beginTransaction$0()
+    private synthetic java.lang.Object lambda$endTransaction$1()
 androidx.room.RxRoom:
     public static final java.lang.Object NOTHING
 androidx.room.SQLiteCopyOpenHelper$1
@@ -35549,19 +35427,9 @@ androidx.room.SQLiteCopyOpenHelper:
     public final androidx.sqlite.db.SupportSQLiteOpenHelper createFrameworkOpenHelper(java.io.File)
     public synchronized androidx.sqlite.db.SupportSQLiteDatabase getReadableDatabase()
 androidx.room.SQLiteCopyOpenHelperFactory
-androidx.room.SharedSQLiteStatement:
-    public volatile androidx.sqlite.db.SupportSQLiteStatement mStmt
-    public androidx.sqlite.db.SupportSQLiteStatement acquire()
-    public void assertNotMainThread()
-    public final androidx.sqlite.db.SupportSQLiteStatement createNewStatement()
-    public abstract java.lang.String createQuery()
-    public final androidx.sqlite.db.SupportSQLiteStatement getStmt(boolean)
-    public void release(androidx.sqlite.db.SupportSQLiteStatement)
 androidx.room.migration.Migration:
     public final int endVersion
     public final int startVersion
-androidx.room.util.CursorUtil:
-    public static int findColumnIndexBySuffix(java.lang.String[],java.lang.String)
 androidx.room.util.TableInfo$Column:
     public boolean isPrimaryKey()
 androidx.savedstate.R$id
@@ -35575,8 +35443,6 @@ androidx.sqlite.db.SupportSQLiteOpenHelper$Configuration$Builder:
     public boolean mUseNoBackupDirectory
 androidx.sqlite.db.SupportSQLiteOpenHelper:
     public abstract androidx.sqlite.db.SupportSQLiteDatabase getReadableDatabase()
-androidx.sqlite.db.SupportSQLiteStatement:
-    public abstract long executeInsert()
 androidx.sqlite.db.framework.FrameworkSQLiteDatabase$1:
     public final synthetic androidx.sqlite.db.framework.FrameworkSQLiteDatabase this$0
 androidx.sqlite.db.framework.FrameworkSQLiteDatabase$2:
@@ -35588,8 +35454,6 @@ androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper:
     public synchronized androidx.sqlite.db.SupportSQLiteDatabase getReadableSupportDatabase()
 androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper:
     public androidx.sqlite.db.SupportSQLiteDatabase getReadableDatabase()
-androidx.sqlite.db.framework.FrameworkSQLiteStatement:
-    public long executeInsert()
 androidx.startup.R$string
 androidx.transition.AnimatorUtils$AnimatorPauseListenerCompat
 androidx.transition.ChangeBounds$10
@@ -35638,8 +35502,6 @@ androidx.transition.ViewGroupOverlayApi18:
 androidx.transition.ViewGroupOverlayImpl:
     public abstract void add(android.view.View)
     public abstract void remove(android.view.View)
-androidx.transition.ViewGroupUtils:
-    public static void hiddenSuppressLayout(android.view.ViewGroup,boolean)
 androidx.transition.ViewGroupUtilsApi14$1
 androidx.transition.ViewGroupUtilsApi14
 androidx.transition.ViewOverlayApi14$OverlayViewGroup
@@ -35649,29 +35511,11 @@ androidx.transition.ViewOverlayImpl
 androidx.transition.ViewUtils:
     public static final android.util.Property CLIP_BOUNDS
     public static androidx.transition.ViewOverlayImpl getOverlay(android.view.View)
-androidx.transition.ViewUtilsApi19:
-    public static boolean sTryHiddenTransitionAlpha
-    public static void <clinit>()
-    public float getTransitionAlpha(android.view.View)
-    public void setTransitionAlpha(android.view.View,float)
 androidx.transition.ViewUtilsApi21:
     public static boolean sTryHiddenSetAnimationMatrix
-    public static boolean sTryHiddenTransformMatrixToGlobal
-    public static boolean sTryHiddenTransformMatrixToLocal
-    public static void <clinit>()
-    public void transformMatrixToGlobal(android.view.View,android.graphics.Matrix)
-    public void transformMatrixToLocal(android.view.View,android.graphics.Matrix)
-androidx.transition.ViewUtilsApi22:
-    public static boolean sTryHiddenSetLeftTopRightBottom
-    public static void <clinit>()
-    public void setLeftTopRightBottom(android.view.View,int,int,int,int)
-androidx.transition.ViewUtilsApi23:
-    public void setTransitionVisibility(android.view.View,int)
 androidx.transition.ViewUtilsBase:
     public static boolean sSetFrameFetched
     public static java.lang.reflect.Method sSetFrameMethod
-    public static java.lang.reflect.Field sViewFlagsField
-    public static boolean sViewFlagsFieldFetched
     public final void fetchSetFrame()
 androidx.transition.WindowIdApi14
 androidx.vectordrawable.graphics.drawable.AndroidResources
@@ -35937,8 +35781,6 @@ com.bumptech.glide.manager.RequestManagerFragment:
     public final boolean isDescendant(android.app.Fragment)
 com.bumptech.glide.manager.RequestManagerRetriever$RequestManagerFactory:
     public abstract com.bumptech.glide.RequestManager build(com.bumptech.glide.Glide,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode,android.content.Context)
-com.bumptech.glide.manager.RequestManagerRetriever:
-    public final void findAllFragmentsWithViewsPreO(android.app.FragmentManager,androidx.collection.ArrayMap)
 com.bumptech.glide.manager.RequestManagerTreeNode:
     public abstract java.util.Set getDescendants()
 com.bumptech.glide.manager.RequestTracker:
@@ -35990,27 +35832,19 @@ com.example.core.base.util.DataStore$setDataStoreText$2:
     public int label
 com.example.core.base.util.EndlessRecyclerViewScrollListener:
     public final int startingPageIndex
-com.example.data.db.movie.MovieDao:
-    public abstract io.reactivex.Completable insertMovies(java.util.List)
 com.example.data.db.movie.MovieDao_Impl$1:
     public final synthetic com.example.data.db.movie.MovieDao_Impl this$0
-    public void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.data.model.movie.MovieEntity)
-    public synthetic bridge void bind(androidx.sqlite.db.SupportSQLiteStatement,java.lang.Object)
-    public java.lang.String createQuery()
 com.example.data.db.movie.MovieDao_Impl$2:
     public final synthetic com.example.data.db.movie.MovieDao_Impl this$0
-    public java.lang.String createQuery()
-com.example.data.db.movie.MovieDao_Impl$3
 com.example.data.db.movie.MovieDao_Impl:
     public final androidx.room.SharedSQLiteStatement __preparedStmtOfDeleteAllMovies
-    public static synthetic androidx.room.EntityInsertionAdapter access$100(com.example.data.db.movie.MovieDao_Impl)
-    public io.reactivex.Completable insertMovies(java.util.List)
 com.example.data.model.movie.MovieResponse:
+    public final int display
+    public final java.lang.String lastBuildDate
+    public final java.util.List movies
+    public final int start
+    public final int total
     public final int getStart()
-com.example.data.repository.search.local.MovieLocalDataSource:
-    public abstract io.reactivex.Completable insertMovies(java.util.List)
-com.example.data.repository.search.local.MovieLocalDataSourceImpl:
-    public io.reactivex.Completable insertMovies(java.util.List)
 com.example.move.R$id
 com.example.move.R$layout
 com.example.move.databinding.ActivityMoveBinding:
@@ -36542,7 +36376,8 @@ com.google.android.material.floatingactionbutton.FloatingActionButton:
     public static void <clinit>()
     public static synthetic int access$000(com.google.android.material.floatingactionbutton.FloatingActionButton)
     public static int resolveAdjustedSize(int,int)
-com.google.android.material.floatingactionbutton.FloatingActionButtonImpl$5
+com.google.android.material.floatingactionbutton.FloatingActionButtonImpl$5:
+    public final synthetic com.google.android.material.floatingactionbutton.FloatingActionButtonImpl this$0
 com.google.android.material.floatingactionbutton.FloatingActionButtonImpl$DisabledElevationAnimation:
     public final synthetic com.google.android.material.floatingactionbutton.FloatingActionButtonImpl this$0
 com.google.android.material.floatingactionbutton.FloatingActionButtonImpl$InternalVisibilityChangedListener:
@@ -36567,6 +36402,7 @@ com.google.android.material.internal.CollapsingTextHelper:
     public float fadeModeStartFraction
     public final float calculateFadeModeTextAlpha(float)
     public final void drawMultilineTransition(android.graphics.Canvas,float,float)
+    public final void ensureExpandedTexture()
 com.google.android.material.internal.StateListAnimator:
     public final void cancel()
     public void jumpToCurrentState()
@@ -36746,14 +36582,8 @@ com.gun0912.tedpermission.R$string
 com.gun0912.tedpermission.R$style
 com.gun0912.tedpermission.normal.TedPermission:
     public static final java.lang.String TAG
-io.reactivex.Completable:
-    public final io.reactivex.Single andThen(io.reactivex.SingleSource)
-    public static io.reactivex.Completable fromCallable(java.util.concurrent.Callable)
-    public final void subscribe(io.reactivex.CompletableObserver)
-    public abstract void subscribeActual(io.reactivex.CompletableObserver)
-    public static java.lang.NullPointerException toNpe(java.lang.Throwable)
-io.reactivex.CompletableObserver
-io.reactivex.CompletableSource
+io.reactivex.CompletableSource:
+    public abstract void subscribe(io.reactivex.CompletableObserver)
 io.reactivex.Observable$1
 io.reactivex.ObservableSource:
     public abstract void subscribe(io.reactivex.Observer)
@@ -36778,8 +36608,6 @@ io.reactivex.android.schedulers.HandlerScheduler$ScheduledRunnable:
     public boolean isDisposed()
 io.reactivex.disposables.Disposable:
     public abstract boolean isDisposed()
-io.reactivex.disposables.Disposables:
-    public static io.reactivex.disposables.Disposable empty()
 io.reactivex.functions.BiPredicate
 io.reactivex.functions.LongConsumer:
     public abstract void accept(long)
@@ -36807,14 +36635,12 @@ io.reactivex.internal.functions.ObjectHelper:
     public static final io.reactivex.functions.BiPredicate EQUALS
 io.reactivex.internal.observers.ConsumerSingleObserver:
     public boolean isDisposed()
-io.reactivex.internal.operators.completable.CompletableFromCallable
 io.reactivex.internal.operators.flowable.FlowableConcatMap$1
 io.reactivex.internal.operators.flowable.FlowableConcatMap$ConcatMapSupport:
     public abstract void innerComplete()
 io.reactivex.internal.operators.flowable.FlowableCreate
-io.reactivex.internal.operators.observable.ObservableIgnoreElementsCompletable$IgnoreObservable
-io.reactivex.internal.operators.observable.ObservableIgnoreElementsCompletable:
-    public void subscribeActual(io.reactivex.CompletableObserver)
+io.reactivex.internal.operators.observable.ObservableIgnoreElementsCompletable$IgnoreObservable:
+    public boolean isDisposed()
 io.reactivex.internal.operators.observable.ObservableSingleMaybe:
     public final io.reactivex.ObservableSource source
 io.reactivex.internal.operators.observable.ObservableSingleSingle$SingleElementObserver:
@@ -36823,8 +36649,8 @@ io.reactivex.internal.operators.observable.ObservableSubscribeOn$SubscribeOnObse
     public boolean isDisposed()
 io.reactivex.internal.operators.single.SingleCreate$Emitter:
     public boolean isDisposed()
-io.reactivex.internal.operators.single.SingleDelayWithCompletable$OtherObserver
-io.reactivex.internal.operators.single.SingleDelayWithCompletable
+io.reactivex.internal.operators.single.SingleDelayWithCompletable$OtherObserver:
+    public boolean isDisposed()
 io.reactivex.internal.operators.single.SingleDoAfterTerminate$DoAfterTerminateObserver:
     public boolean isDisposed()
 io.reactivex.internal.operators.single.SingleError
@@ -36867,7 +36693,6 @@ io.reactivex.plugins.RxJavaPlugins:
     public static volatile io.reactivex.functions.Function onScheduleHandler
     public static volatile io.reactivex.functions.Function onSingleAssembly
     public static volatile io.reactivex.functions.BiFunction onSingleSubscribe
-    public static io.reactivex.CompletableObserver onSubscribe(io.reactivex.Completable,io.reactivex.CompletableObserver)
 io.reactivex.schedulers.Schedulers:
     public static final io.reactivex.Scheduler COMPUTATION
     public static final io.reactivex.Scheduler NEW_THREAD
@@ -36876,13 +36701,9 @@ io.reactivex.schedulers.Schedulers:
 kotlin.ExceptionsKt
 kotlin.KotlinNothingValueException
 kotlin.LazyKt
-kotlin.LazyKt__LazyJVMKt$WhenMappings
 kotlin.LazyKt__LazyKt
 kotlin.Result:
     public static final boolean isSuccess-impl(java.lang.Object)
-kotlin.SafePublicationLazyImpl:
-    public static final kotlin.SafePublicationLazyImpl$Companion Companion
-    public final java.lang.Object final
 kotlin.collections.ArraysKt
 kotlin.collections.ArraysKt___ArraysJvmKt:
     public static final void sortWith(java.lang.Object[],java.util.Comparator)
@@ -36933,23 +36754,12 @@ kotlin.text.StringsKt__StringsKt:
     public static final java.lang.String substringBefore(java.lang.String,java.lang.String,java.lang.String)
     public static synthetic java.lang.String substringBefore$default(java.lang.String,char,java.lang.String,int)
     public static synthetic java.lang.String substringBefore$default(java.lang.String,java.lang.String,java.lang.String,int)
-kotlin.time.AbstractLongTimeSource$LongTimeMark:
-    public final long offset
-    public final long startedAt
-    public final kotlin.time.AbstractLongTimeSource timeSource
-kotlin.time.AbstractLongTimeSource:
-    public final kotlin.time.DurationUnit unit
 kotlin.time.Duration:
     public final long rawValue
 kotlin.time.DurationJvmKt:
     public static final java.lang.ThreadLocal[] precisionFormats
 kotlin.time.DurationUnitKt
 kotlin.time.DurationUnitKt__DurationUnitKt
-kotlin.time.TimeSource:
-    public static final kotlin.time.TimeSource$Companion Companion
-kotlin.time.TimedValue:
-    public final long duration
-    public final java.lang.Object value
 kotlinx.coroutines.AbstractTimeSource
 kotlinx.coroutines.AbstractTimeSourceKt:
     public static kotlinx.coroutines.AbstractTimeSource timeSource
@@ -37278,29 +37088,64 @@ okio.ByteString:
     public okio.ByteString sha1()
 okio.SegmentedByteString:
     public okio.ByteString sha1()
+org.koin.androidx.scope.LifecycleScopeDelegate$2:
+    public final synthetic org.koin.core.logger.Logger $logger
+    public final synthetic org.koin.androidx.scope.LifecycleScopeDelegate this$0
+org.koin.androidx.scope.LifecycleScopeDelegate:
+    public final kotlin.jvm.functions.Function1 createScope
+    public final org.koin.core.Koin koin
+    public final androidx.lifecycle.LifecycleOwner lifecycleOwner
+    public static final synthetic void access$set_scope$p(org.koin.core.scope.Scope)
+org.koin.androidx.scope.LifecycleViewModelScopeDelegate$3$onCreate$$inlined$viewModels$default$1
+org.koin.androidx.scope.LifecycleViewModelScopeDelegate$3$onCreate$$inlined$viewModels$default$2
+org.koin.androidx.scope.LifecycleViewModelScopeDelegate$3:
+    public final synthetic org.koin.core.logger.Logger $logger
+    public final synthetic org.koin.androidx.scope.LifecycleViewModelScopeDelegate this$0
+org.koin.androidx.scope.LifecycleViewModelScopeDelegate:
+    public org.koin.core.scope.Scope _scope
+org.koin.androidx.scope.ScopeHandlerViewModel
 org.koin.core.Koin:
     public final org.koin.core.registry.PropertyRegistry propertyRegistry
+    public final org.koin.core.scope.Scope getScopeOrNull(java.lang.String)
+org.koin.core.KoinApplication:
+    public boolean allowOverride
+org.koin.core.component.KoinScopeComponentKt
+org.koin.core.context.GlobalContext:
+    public static org.koin.core.KoinApplication _koinApplication
+org.koin.core.context.KoinContext:
+    public abstract void loadKoinModules(java.util.List)
+    public abstract org.koin.core.KoinApplication startKoin(kotlin.jvm.functions.Function1)
 org.koin.core.definition.BeanDefinition:
-    public org.koin.core.definition.Callbacks callbacks
-org.koin.core.error.ClosedScopeException:
-    public void <init>(java.lang.String)
-org.koin.core.instance.InstanceContext:
-    public final org.koin.core.Koin koin
+    public final org.koin.core.definition.Callbacks getCallbacks()
+org.koin.core.definition.Callbacks:
+    public final kotlin.jvm.functions.Function1 getOnClose()
 org.koin.core.instance.InstanceFactory:
     public static final org.koin.core.instance.InstanceFactory$Companion Companion
+org.koin.core.instance.ScopedInstanceFactory$get$1
+org.koin.core.instance.ScopedInstanceFactory
 org.koin.core.logger.Logger:
     public void <init>()
     public synthetic void <init>(org.koin.core.logger.Level,int)
-org.koin.core.parameter.DefinitionParameters:
-    public static final org.koin.core.parameter.DefinitionParameters$Companion Companion
-org.koin.core.registry.InstanceRegistry$WhenMappings
+org.koin.core.parameter.ParametersHolder:
+    public static final org.koin.core.parameter.ParametersHolder$Companion Companion
+org.koin.core.registry.InstanceRegistry:
+    public final void dropScopeInstances$koin_core(org.koin.core.scope.Scope)
 org.koin.core.registry.PropertyRegistry:
     public final org.koin.core.Koin _koin
-    public final java.util.Map _values
+org.koin.core.registry.ScopeRegistry:
+    public final void deleteScope$koin_core(org.koin.core.scope.Scope)
+    public final org.koin.core.scope.Scope getScopeOrNull(java.lang.String)
+org.koin.core.scope.Scope$close$1
 org.koin.core.scope.Scope:
-    public final java.util.ArrayList _callbacks
-    public boolean _closed
-    public final org.koin.core.logger.Logger logger
+    public java.lang.Object _source
+    public static final synthetic void access$clearData(org.koin.core.scope.Scope)
+    public static final synthetic void access$set_closed$p(org.koin.core.scope.Scope,boolean)
+    public final void clearData()
+    public final void close()
+    public final boolean getClosed()
+    public final org.koin.core.logger.Logger getLogger()
+    public final boolean isNotClosed()
+org.koin.core.scope.ScopeCallback
 retrofit2.CompletableFutureCallAdapterFactory$BodyCallAdapter$BodyCallback:
     public final synthetic retrofit2.CompletableFutureCallAdapterFactory$BodyCallAdapter this$0
 retrofit2.CompletableFutureCallAdapterFactory$ResponseCallAdapter$ResponseCallback:

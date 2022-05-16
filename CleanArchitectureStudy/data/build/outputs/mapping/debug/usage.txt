@@ -1,0 +1,80 @@
+androidx.databinding.library.baseAdapters.BR
+com.example.data.BR
+com.example.data.BuildConfig
+com.example.data.DataBinderMapperImpl$InnerBrLookup:
+    private void <init>()
+com.example.data.DataBinderMapperImpl$InnerLayoutIdLookup:
+    private void <init>()
+com.example.data.DataBindingTriggerClass
+com.example.data.api.ApiClient
+com.example.data.api.ApiInterface$DefaultImpls
+com.example.data.api.ApiInterface
+com.example.data.db.movie.MovieDao:
+    public abstract io.reactivex.Completable deleteAllMovies()
+    public abstract io.reactivex.Single getAllMovies()
+    public abstract io.reactivex.Single getMoviesByTitle(java.lang.String)
+    public abstract io.reactivex.Completable insertMovies(java.util.List)
+com.example.data.db.movie.MovieDao_Impl$1
+com.example.data.db.movie.MovieDao_Impl$2
+com.example.data.db.movie.MovieDao_Impl$3
+com.example.data.db.movie.MovieDao_Impl$4
+com.example.data.db.movie.MovieDao_Impl$5
+com.example.data.db.movie.MovieDao_Impl$6
+com.example.data.db.movie.MovieDao_Impl:
+    private final androidx.room.RoomDatabase __db
+    private final androidx.room.EntityInsertionAdapter __insertionAdapterOfMovieEntity
+    private final androidx.room.SharedSQLiteStatement __preparedStmtOfDeleteAllMovies
+    public void <init>(androidx.room.RoomDatabase)
+    static synthetic androidx.room.RoomDatabase access$000(com.example.data.db.movie.MovieDao_Impl)
+    static synthetic androidx.room.EntityInsertionAdapter access$100(com.example.data.db.movie.MovieDao_Impl)
+    static synthetic androidx.room.SharedSQLiteStatement access$200(com.example.data.db.movie.MovieDao_Impl)
+    public io.reactivex.Completable deleteAllMovies()
+    public io.reactivex.Single getAllMovies()
+    public io.reactivex.Single getMoviesByTitle(java.lang.String)
+    public io.reactivex.Completable insertMovies(java.util.List)
+com.example.data.db.movie.MovieDatabase:
+    public abstract com.example.data.db.movie.MovieDao movieDao()
+com.example.data.db.movie.MovieDatabase_Impl:
+    private volatile com.example.data.db.movie.MovieDao _movieDao
+    public com.example.data.db.movie.MovieDao movieDao()
+com.example.data.mapper.MapperKt
+com.example.data.model.movie.MovieEntity:
+    private final java.lang.String actor
+    private final java.lang.String director
+    private final java.lang.String image
+    private final java.lang.String link
+    private final java.lang.String pubDate
+    private final java.lang.String subtitle
+    private final java.lang.String title
+    private final java.lang.String userRating
+    public void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+    public final java.lang.String component1()
+    public final java.lang.String component2()
+    public final java.lang.String component3()
+    public final java.lang.String component4()
+    public final java.lang.String component5()
+    public final java.lang.String component6()
+    public final java.lang.String component7()
+    public final java.lang.String component8()
+    public final com.example.data.model.movie.MovieEntity copy(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+    public static synthetic com.example.data.model.movie.MovieEntity copy$default(com.example.data.model.movie.MovieEntity,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.Object)
+    public boolean equals(java.lang.Object)
+    public final java.lang.String getActor()
+    public final java.lang.String getDirector()
+    public final java.lang.String getImage()
+    public final java.lang.String getLink()
+    public final java.lang.String getPubDate()
+    public final java.lang.String getSubtitle()
+    public final java.lang.String getTitle()
+    public final java.lang.String getUserRating()
+    public int hashCode()
+    public java.lang.String toString()
+com.example.data.model.movie.MovieResponse
+com.example.data.repository.search.MovieRepositoryImpl
+com.example.data.repository.search.local.MovieLocalDataSource
+com.example.data.repository.search.local.MovieLocalDataSourceImpl
+com.example.data.repository.search.remote.MovieRemoteDataSource$DefaultImpls
+com.example.data.repository.search.remote.MovieRemoteDataSource
+com.example.data.repository.search.remote.MovieRemoteDataSourceImpl
+com.example.data.utils.PreferenceManager
+com.example.domain.BR

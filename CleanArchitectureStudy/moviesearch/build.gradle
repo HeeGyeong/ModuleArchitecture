@@ -13,8 +13,8 @@ dependencies {
     implementation project(':core')
 
     // koin
-    implementation("org.koin:koin-android:$koinVersion")
-    implementation "org.koin:koin-androidx-viewmodel:$koinVersion"
+    implementation "io.insert-koin:koin-android:$koinVersion"
+//    implementation "io.insert-koin:koin-androidx-viewmodel:$koinViewModelVersion"
     // Room
     implementation "androidx.room:room-runtime:$roomVersion"
     // Gson

@@ -4,24 +4,7 @@
             "outputFile": "/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml",
             "map": [
                 {
-                    "source": "/Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/36082087862ec702802f306d6949e2ad/core-1.7.0/res/values-ur/values-ur.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "90",
-                        "startColumns": "4",
-                        "startOffsets": "7592",
-                        "endColumns": "100",
-                        "endOffsets": "7688"
-                    }
-                },
-                {
-                    "source": "/Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/746df9fd8b96e02597b983c492175aaf/material-1.5.0/res/values-ur/values-ur.xml",
+                    "source": "/Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/5423c65485a974611bfb437c61e9a2e1/transformed/material-1.5.0/res/values-ur/values-ur.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,24 +23,24 @@
                     }
                 },
                 {
-                    "source": "/Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/b33b489d5a5d983d119b00ce0e0b04c2/navigation-ui-2.4.2/res/values-ur/values-ur.xml",
+                    "source": "/Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/adacc4bbdca3c037c01e5031782c646c/transformed/core-1.7.0/res/values-ur/values-ur.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,167",
-                        "endColumns": "111,114",
-                        "endOffsets": "162,277"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "86,87",
-                        "startColumns": "4,4",
-                        "startOffsets": "7199,7311",
-                        "endColumns": "111,114",
-                        "endOffsets": "7306,7421"
+                        "startLines": "90",
+                        "startColumns": "4",
+                        "startOffsets": "7592",
+                        "endColumns": "100",
+                        "endOffsets": "7688"
                     }
                 },
                 {
-                    "source": "/Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/8bbdc3767cada498966792e658361a36/appcompat-1.4.1/res/values-ur/values-ur.xml",
+                    "source": "/Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/d2be0a07ac682004ffbddd9c163a1cf7/transformed/appcompat-1.4.1/res/values-ur/values-ur.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -71,6 +54,23 @@
                         "startOffsets": "264,378,484,593,679,783,903,980,1055,1147,1241,1336,1430,1531,1625,1721,1815,1907,1999,2084,2192,2298,2400,2511,2612,2728,2893,7506",
                         "endColumns": "113,105,108,85,103,119,76,74,91,93,94,93,100,93,95,93,91,91,84,107,105,101,110,100,115,164,97,85",
                         "endOffsets": "373,479,588,674,778,898,975,1050,1142,1236,1331,1425,1526,1620,1716,1810,1902,1994,2079,2187,2293,2395,2506,2607,2723,2888,2986,7587"
+                    }
+                },
+                {
+                    "source": "/Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/9d6718cb44028028b596e8f8527d7bb3/transformed/navigation-ui-2.4.2/res/values-ur/values-ur.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,167",
+                        "endColumns": "111,114",
+                        "endOffsets": "162,277"
+                    },
+                    "to": {
+                        "startLines": "86,87",
+                        "startColumns": "4,4",
+                        "startOffsets": "7199,7311",
+                        "endColumns": "111,114",
+                        "endOffsets": "7306,7421"
                     }
                 }
             ]

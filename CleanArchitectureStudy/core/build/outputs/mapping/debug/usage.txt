@@ -1,0 +1,36 @@
+androidx.databinding.library.baseAdapters.BR
+com.example.core.BR
+com.example.core.BuildConfig
+com.example.core.DataBinderMapperImpl$InnerBrLookup:
+    private void <init>()
+com.example.core.DataBinderMapperImpl$InnerLayoutIdLookup:
+    private void <init>()
+com.example.core.DataBindingTriggerClass
+com.example.core.base.BaseActivity
+com.example.core.base.BaseApplication$Companion
+com.example.core.base.BaseApplication$onCreate$1
+com.example.core.base.BaseApplication
+com.example.core.base.BaseFragment
+com.example.core.base.BaseViewModel$FromActivity$1
+com.example.core.base.BaseViewModel$FromActivity$2
+com.example.core.base.BaseViewModel$FromActivity
+com.example.core.base.BaseViewModel$getDataStore$2
+com.example.core.base.BaseViewModel$getDataStore2$1$invokeSuspend$$inlined$collect$1
+com.example.core.base.BaseViewModel$getDataStore2$1
+com.example.core.base.BaseViewModel$setDataStore$1
+com.example.core.base.BaseViewModel
+com.example.core.base.navi.Navigation
+com.example.core.base.navi.NavigationInterface
+com.example.core.base.util.DataStore$dataStorePermission$1
+com.example.core.base.util.DataStore$dataStoreText$1
+com.example.core.base.util.DataStore$setDataStorePermission$2
+com.example.core.base.util.DataStore$setDataStoreText$2
+com.example.core.base.util.DataStore$special$$inlined$map$1$2$1
+com.example.core.base.util.DataStore$special$$inlined$map$1$2
+com.example.core.base.util.DataStore$special$$inlined$map$1
+com.example.core.base.util.DataStore$special$$inlined$map$2$2$1
+com.example.core.base.util.DataStore$special$$inlined$map$2$2
+com.example.core.base.util.DataStore$special$$inlined$map$2
+com.example.core.base.util.DataStore
+com.example.core.base.util.EndlessRecyclerViewScrollListener
+com.example.core.base.util.NetworkManager

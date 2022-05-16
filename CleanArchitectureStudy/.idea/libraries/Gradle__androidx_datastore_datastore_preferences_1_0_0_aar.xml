@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.datastore:datastore-preferences:1.0.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/3f2b86159a6c62d0d5b85031ec8a3717/datastore-preferences-1.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/3f2b86159a6c62d0d5b85031ec8a3717/datastore-preferences-1.0.0/res" />
-      <root url="file://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/3f2b86159a6c62d0d5b85031ec8a3717/datastore-preferences-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/2b7ad40bcbe24ca0d371a7e442aaf5b8/transformed/datastore-preferences-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/2b7ad40bcbe24ca0d371a7e442aaf5b8/transformed/datastore-preferences-1.0.0/res" />
+      <root url="file://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/2b7ad40bcbe24ca0d371a7e442aaf5b8/transformed/datastore-preferences-1.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

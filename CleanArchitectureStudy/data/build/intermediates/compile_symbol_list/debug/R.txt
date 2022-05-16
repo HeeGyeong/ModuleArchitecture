@@ -26,7 +26,13 @@ int anim design_bottom_sheet_slide_in 0x0
 int anim design_bottom_sheet_slide_out 0x0
 int anim design_snackbar_in 0x0
 int anim design_snackbar_out 0x0
+int anim fragment_close_enter 0x0
+int anim fragment_close_exit 0x0
+int anim fragment_fade_enter 0x0
+int anim fragment_fade_exit 0x0
 int anim fragment_fast_out_extra_slow_in 0x0
+int anim fragment_open_enter 0x0
+int anim fragment_open_exit 0x0
 int anim mtrl_bottom_sheet_slide_in 0x0
 int anim mtrl_bottom_sheet_slide_out 0x0
 int anim mtrl_card_lowers_interpolator 0x0
@@ -3027,6 +3033,7 @@ int string abc_searchview_description_voice 0x0
 int string abc_shareactionprovider_share_with 0x0
 int string abc_shareactionprovider_share_with_application 0x0
 int string abc_toolbar_collapse_description 0x0
+int string androidx_startup 0x0
 int string app_name 0x0
 int string appbar_scrolling_view_behavior 0x0
 int string bottom_sheet_behavior 0x0

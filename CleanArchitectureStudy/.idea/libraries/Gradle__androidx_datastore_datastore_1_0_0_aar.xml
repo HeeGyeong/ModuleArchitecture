@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.datastore:datastore:1.0.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/b61a0ce20dda99710546c111637f9329/datastore-1.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/b61a0ce20dda99710546c111637f9329/datastore-1.0.0/res" />
-      <root url="file://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/b61a0ce20dda99710546c111637f9329/datastore-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/5d73f89ab0fdce9b437d2e102f6a1a30/transformed/datastore-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/5d73f89ab0fdce9b437d2e102f6a1a30/transformed/datastore-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/5d73f89ab0fdce9b437d2e102f6a1a30/transformed/datastore-1.0.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

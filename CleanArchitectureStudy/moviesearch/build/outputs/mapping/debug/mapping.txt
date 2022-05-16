@@ -1,0 +1,156 @@
+# compiler: R8
+# compiler_version: 3.1.66
+# pg_map_id: c387b99
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"1.0"}
+androidx.databinding.DataBindingComponent -> a.a:
+com.example.moviesearch.DataBinderMapperImpl -> com.example.moviesearch.DataBinderMapperImpl:
+    android.util.SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP -> a
+    26:31:void <clinit>() -> <clinit>
+    21:21:void <init>() -> <init>
+    35:56:androidx.databinding.ViewDataBinding getDataBinder(androidx.databinding.DataBindingComponent,android.view.View,int) -> a
+    61:73:androidx.databinding.ViewDataBinding getDataBinder(androidx.databinding.DataBindingComponent,android.view.View[],int) -> a
+    93:98:java.util.List collectDependencies() -> collectDependencies
+    87:88:java.lang.String convertBrIdToString(int) -> convertBrIdToString
+    78:82:int getLayoutId(java.lang.String) -> getLayoutId
+com.example.moviesearch.DataBinderMapperImpl$InnerBrLookup -> com.example.moviesearch.DataBinderMapperImpl$a:
+    android.util.SparseArray sKeys -> a
+    102:108:void <clinit>() -> <clinit>
+com.example.moviesearch.DataBinderMapperImpl$InnerLayoutIdLookup -> com.example.moviesearch.DataBinderMapperImpl$b:
+    java.util.HashMap sKeys -> a
+    112:117:void <clinit>() -> <clinit>
+com.example.moviesearch.ViewDataBindingAdaptersKt -> b.a:
+    24:27:void setAdapterItems(androidx.recyclerview.widget.RecyclerView,java.util.List) -> a
+    31:32:void setMovieRating(android.widget.RatingBar,java.lang.String) -> a
+    36:39:void setUrlImage(android.widget.ImageView,java.lang.String) -> a
+    43:44:void setHtmlText(android.widget.TextView,java.lang.String) -> a
+    50:57:void setEndlessScroll(androidx.recyclerview.widget.RecyclerView,com.example.moviesearch.view.MovieSearchViewModel) -> a
+com.example.moviesearch.ViewDataBindingAdaptersKt$setEndlessScroll$scrollListener$1 -> b.a$a:
+    com.example.moviesearch.view.MovieSearchViewModel $viewModel -> a
+    51:51:void <init>(com.example.moviesearch.view.MovieSearchViewModel,androidx.recyclerview.widget.RecyclerView$LayoutManager) -> <init>
+    53:53:void onLoadMore(int,int,androidx.recyclerview.widget.RecyclerView) -> onLoadMore
+com.example.moviesearch.databinding.ActivityMovieSearchBinding -> c.a:
+    androidx.recyclerview.widget.RecyclerView rvMovies -> e
+    android.widget.Button btnSearch -> a
+    com.example.moviesearch.view.MovieSearchViewModel mVm -> f
+    android.widget.ProgressBar pbLoading -> d
+    android.widget.EditText etInput -> b
+    android.widget.Button moveBtn -> c
+    47:54:void <init>(java.lang.Object,android.view.View,int,android.widget.Button,android.widget.EditText,androidx.constraintlayout.widget.Guideline,android.widget.Button,android.widget.ProgressBar,androidx.recyclerview.widget.RecyclerView) -> <init>
+    void setVm(com.example.moviesearch.view.MovieSearchViewModel) -> a
+com.example.moviesearch.databinding.ActivityMovieSearchBindingImpl -> c.b:
+    long mDirtyFlags -> j
+    androidx.constraintlayout.widget.ConstraintLayout mboundView0 -> g
+    android.util.SparseIntArray sViewsWithIds -> l
+    androidx.databinding.InverseBindingListener etInputandroidTextAttrChanged -> i
+    androidx.databinding.ViewDataBinding$IncludedLayouts sIncludes -> k
+    android.view.View$OnClickListener mCallback1 -> h
+    15:19:void <clinit>() -> <clinit>
+    68:69:void <init>(androidx.databinding.DataBindingComponent,android.view.View) -> <init>
+    29:296:void <init>(androidx.databinding.DataBindingComponent,android.view.View,java.lang.Object[]) -> <init>
+    122:128:void setVm(com.example.moviesearch.view.MovieSearchViewModel) -> a
+    152:158:boolean onChangeVmIsLoading(androidx.lifecycle.LiveData,int) -> a
+    282:294:void _internalCallbackOnClick(int,android.view.View) -> a
+    143:149:boolean onChangeVmMovieList(androidx.lifecycle.LiveData,int) -> b
+    161:167:boolean onChangeVmQuery(androidx.lifecycle.MutableLiveData,int) -> c
+    172:276:void executeBindings() -> executeBindings
+    101:106:boolean hasPendingBindings() -> hasPendingBindings
+    93:97:void invalidateAll() -> invalidateAll
+    132:140:boolean onFieldChange(int,java.lang.Object,int) -> onFieldChange
+    111:118:boolean setVariable(int,java.lang.Object) -> setVariable
+com.example.moviesearch.databinding.ActivityMovieSearchBindingImpl$1 -> c.b$a:
+    com.example.moviesearch.databinding.ActivityMovieSearchBindingImpl this$0 -> a
+    29:29:void <init>(com.example.moviesearch.databinding.ActivityMovieSearchBindingImpl) -> <init>
+    34:64:void onChange() -> onChange
+com.example.moviesearch.databinding.ItemMovieBinding -> c.c:
+    android.widget.RatingBar rbRating -> b
+    android.widget.TextView tvActor -> c
+    android.widget.TextView tvReleaseDate -> e
+    android.widget.TextView tvDirector -> d
+    android.widget.ImageView ivPoster -> a
+    android.widget.TextView tvTitle -> f
+    com.example.domain.model.Movie mMovie -> g
+    45:52:void <init>(java.lang.Object,android.view.View,int,android.widget.ImageView,android.widget.RatingBar,android.widget.TextView,android.widget.TextView,android.widget.TextView,android.widget.TextView) -> <init>
+    void setMovie(com.example.domain.model.Movie) -> a
+com.example.moviesearch.databinding.ItemMovieBindingImpl -> c.d:
+    long mDirtyFlags -> i
+    androidx.appcompat.widget.LinearLayoutCompat mboundView0 -> h
+    androidx.databinding.ViewDataBinding$IncludedLayouts sIncludes -> j
+    android.util.SparseIntArray sViewsWithIds -> k
+    15:17:void <clinit>() -> <clinit>
+    27:28:void <init>(androidx.databinding.DataBindingComponent,android.view.View) -> <init>
+    30:146:void <init>(androidx.databinding.DataBindingComponent,android.view.View,java.lang.Object[]) -> <init>
+    82:88:void setMovie(com.example.domain.model.Movie) -> a
+    99:142:void executeBindings() -> executeBindings
+    61:66:boolean hasPendingBindings() -> hasPendingBindings
+    53:57:void invalidateAll() -> invalidateAll
+    92:94:boolean onFieldChange(int,java.lang.Object,int) -> onFieldChange
+    71:78:boolean setVariable(int,java.lang.Object) -> setVariable
+com.example.moviesearch.generated.callback.OnClickListener -> d.a:
+    int mSourceId -> b
+    com.example.moviesearch.generated.callback.OnClickListener$Listener mListener -> a
+    5:8:void <init>(com.example.moviesearch.generated.callback.OnClickListener$Listener,int) -> <init>
+    11:12:void onClick(android.view.View) -> onClick
+com.example.moviesearch.generated.callback.OnClickListener$Listener -> d.a$a:
+com.example.moviesearch.view.MovieAdapter -> e.a:
+    kotlin.jvm.functions.Function1 itemClick -> a
+    androidx.recyclerview.widget.DiffUtil$ItemCallback diffUtil -> b
+    58:58:void <clinit>() -> <clinit>
+    21:34:com.example.moviesearch.view.MovieAdapter$ViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> a
+    30:68:void onCreateViewHolder$lambda-2$lambda-1(com.example.moviesearch.view.MovieAdapter$ViewHolder,com.example.moviesearch.view.MovieAdapter,android.view.View) -> a
+    38:39:void onBindViewHolder(com.example.moviesearch.view.MovieAdapter$ViewHolder,int) -> a
+    15:15:void onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int) -> onBindViewHolder
+    15:15:androidx.recyclerview.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> onCreateViewHolder
+com.example.moviesearch.view.MovieAdapter$Companion -> e.a$b:
+    57:57:void <init>() -> <init>
+com.example.moviesearch.view.MovieAdapter$Companion$diffUtil$1 -> e.a$a:
+    58:58:void <init>() -> <init>
+    60:60:boolean areContentsTheSame(com.example.domain.model.Movie,com.example.domain.model.Movie) -> a
+    58:58:boolean areContentsTheSame(java.lang.Object,java.lang.Object) -> areContentsTheSame
+    58:58:boolean areItemsTheSame(java.lang.Object,java.lang.Object) -> areItemsTheSame
+    63:63:boolean areItemsTheSame(com.example.domain.model.Movie,com.example.domain.model.Movie) -> b
+com.example.moviesearch.view.MovieAdapter$ViewHolder -> e.a$c:
+    com.example.moviesearch.databinding.ItemMovieBinding binding -> a
+    41:42:void <init>(com.example.moviesearch.databinding.ItemMovieBinding) -> <init>
+    45:48:void bind(com.example.domain.model.Movie) -> a
+com.example.moviesearch.view.MovieSearchActivity -> com.example.moviesearch.view.MovieSearchActivity:
+    kotlin.Lazy viewModel$delegate -> a
+    15:73:void <init>() -> <init>
+    17:17:com.example.moviesearch.view.MovieSearchViewModel getViewModel() -> a
+    46:46:void initViewModelCallback$lambda-2$lambda-1(com.example.moviesearch.view.MovieSearchViewModel,com.example.moviesearch.view.MovieSearchActivity,com.example.moviesearch.view.MovieSearchViewModel$MessageSet) -> a
+    41:57:void initViewModelCallback() -> b
+    20:23:void onCreate(android.os.Bundle) -> onCreate
+com.example.moviesearch.view.MovieSearchActivity$special$$inlined$viewModel$default$1 -> com.example.moviesearch.view.MovieSearchActivity$a:
+    androidx.activity.ComponentActivity $this_viewModel -> a
+    42:42:org.koin.androidx.viewmodel.ViewModelOwner invoke() -> a
+    42:42:java.lang.Object invoke() -> invoke
+com.example.moviesearch.view.MovieSearchActivity$special$$inlined$viewModel$default$2 -> com.example.moviesearch.view.MovieSearchActivity$b:
+    org.koin.core.qualifier.Qualifier $qualifier -> b
+    org.koin.core.scope.Scope $scope -> d
+    kotlin.jvm.functions.Function0 $owner -> a
+    kotlin.jvm.functions.Function0 $parameters -> c
+    47:75:androidx.lifecycle.ViewModelProvider$Factory invoke() -> a
+    46:46:java.lang.Object invoke() -> invoke
+com.example.moviesearch.view.MovieSearchActivity$special$$inlined$viewModel$default$3 -> com.example.moviesearch.view.MovieSearchActivity$c:
+    androidx.activity.ComponentActivity $this_viewModels -> a
+    47:47:androidx.lifecycle.ViewModelStore invoke() -> a
+    47:47:java.lang.Object invoke() -> invoke
+com.example.moviesearch.view.MovieSearchViewModel -> e.b:
+    79:79:void requestPagingMovie(int) -> a
+    101:101:boolean checkNetworkState() -> a
+    34:34:androidx.lifecycle.LiveData getMovieList() -> b
+    30:30:androidx.lifecycle.MutableLiveData getQuery() -> c
+    38:38:androidx.lifecycle.LiveData getToastMsg() -> d
+    52:52:void requestMovie() -> e
+com.example.moviesearch.view.MovieSearchViewModel$MessageSet -> e.b$a:
+    com.example.moviesearch.view.MovieSearchViewModel$MessageSet LAST_PAGE -> a
+    com.example.moviesearch.view.MovieSearchViewModel$MessageSet SUCCESS -> e
+    com.example.moviesearch.view.MovieSearchViewModel$MessageSet ERROR -> d
+    com.example.moviesearch.view.MovieSearchViewModel$MessageSet NETWORK_NOT_CONNECTED -> c
+    com.example.moviesearch.view.MovieSearchViewModel$MessageSet EMPTY_QUERY -> b
+    com.example.moviesearch.view.MovieSearchViewModel$MessageSet[] $VALUES -> h
+    com.example.moviesearch.view.MovieSearchViewModel$MessageSet LOCAL_SUCCESS -> g
+    com.example.moviesearch.view.MovieSearchViewModel$MessageSet NO_RESULT -> f
+    131:137:void <clinit>() -> <clinit>
+    130:130:void <init>(java.lang.String,int) -> <init>
+    com.example.moviesearch.view.MovieSearchViewModel$MessageSet[] $values() -> a

@@ -1,4 +1,4 @@
-#Thu Apr 21 21:45:21 KST 2022
+#Mon May 16 22:54:03 KST 2022
 base.0=/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

@@ -1,0 +1,82 @@
+androidx.databinding.library.baseAdapters.BR
+com.example.core.BR
+com.example.data.BR
+com.example.domain.BR
+com.example.moviesearch.BR:
+    public void <init>()
+com.example.moviesearch.BuildConfig
+com.example.moviesearch.DataBinderMapperImpl$InnerBrLookup:
+    private void <init>()
+com.example.moviesearch.DataBinderMapperImpl$InnerLayoutIdLookup:
+    private void <init>()
+com.example.moviesearch.DataBinderMapperImpl:
+    private static final int LAYOUT_ACTIVITYMOVIESEARCH
+    private static final int LAYOUT_ITEMMOVIE
+com.example.moviesearch.DataBindingTriggerClass
+com.example.moviesearch.databinding.ActivityMovieSearchBinding:
+    public static com.example.moviesearch.databinding.ActivityMovieSearchBinding bind(android.view.View)
+    public static com.example.moviesearch.databinding.ActivityMovieSearchBinding bind(android.view.View,java.lang.Object)
+    public com.example.moviesearch.view.MovieSearchViewModel getVm()
+    public static com.example.moviesearch.databinding.ActivityMovieSearchBinding inflate(android.view.LayoutInflater)
+    public static com.example.moviesearch.databinding.ActivityMovieSearchBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)
+    public static com.example.moviesearch.databinding.ActivityMovieSearchBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean,java.lang.Object)
+    public static com.example.moviesearch.databinding.ActivityMovieSearchBinding inflate(android.view.LayoutInflater,java.lang.Object)
+com.example.moviesearch.databinding.ItemMovieBinding:
+    public static com.example.moviesearch.databinding.ItemMovieBinding bind(android.view.View)
+    public static com.example.moviesearch.databinding.ItemMovieBinding bind(android.view.View,java.lang.Object)
+    public com.example.domain.model.Movie getMovie()
+    public static com.example.moviesearch.databinding.ItemMovieBinding inflate(android.view.LayoutInflater)
+    public static com.example.moviesearch.databinding.ItemMovieBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)
+    public static com.example.moviesearch.databinding.ItemMovieBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean,java.lang.Object)
+    public static com.example.moviesearch.databinding.ItemMovieBinding inflate(android.view.LayoutInflater,java.lang.Object)
+com.example.moviesearch.initializer.MovieSearchInitializer
+com.example.moviesearch.view.MovieAdapter$Companion:
+    public final androidx.recyclerview.widget.DiffUtil$ItemCallback getDiffUtil()
+com.example.moviesearch.view.MovieAdapter:
+    public static final synthetic androidx.recyclerview.widget.DiffUtil$ItemCallback access$getDiffUtil$cp()
+com.example.moviesearch.view.MovieSearchViewModel:
+    private final com.example.core.base.navi.Navigation navigation
+    private java.lang.String testString
+    public void <init>(com.example.domain.usecase.movie.GetMoviesUseCase,com.example.domain.usecase.movie.GetPagingMoviesUseCase,com.example.domain.usecase.movie.GetLocalMoviesUseCase,com.example.core.base.util.NetworkManager,com.example.core.base.navi.Navigation)
+    public final java.lang.String getCurrentQuery()
+    public final java.lang.String getTestString()
+    public final java.lang.String queryTest()
+    public final void setCurrentQuery(java.lang.String)
+    public final void setTestString(java.lang.String)
+    public final java.lang.String unitTest()
+com.example.moviesearch.BR
+com.example.moviesearch.databinding.ActivityMovieSearchBinding:
+    public final androidx.constraintlayout.widget.Guideline guideline
+com.example.moviesearch.generated.callback.OnClickListener$Listener:
+    public abstract void _internalCallbackOnClick(int,android.view.View)
+com.example.moviesearch.view.MovieAdapter:
+    public static final com.example.moviesearch.view.MovieAdapter$Companion Companion
+    public void <init>(kotlin.jvm.functions.Function1)
+com.example.moviesearch.view.MovieSearchActivity$WhenMappings
+com.example.moviesearch.view.MovieSearchActivity$initAdapter$1
+com.example.moviesearch.view.MovieSearchActivity:
+    public com.example.moviesearch.view.MovieAdapter movieAdapter
+    public final void initAdapter()
+    public static final void onCreate$lambda-0(com.example.moviesearch.view.MovieSearchActivity,android.view.View)
+com.example.moviesearch.view.MovieSearchViewModel:
+    public final androidx.lifecycle.MutableLiveData _movieList
+    public final androidx.lifecycle.MutableLiveData _toastMsg
+    public java.lang.String currentQuery
+    public final com.example.domain.usecase.movie.GetLocalMoviesUseCase getLocalMoviesUseCase
+    public final com.example.domain.usecase.movie.GetMoviesUseCase getMoviesUseCase
+    public final com.example.domain.usecase.movie.GetPagingMoviesUseCase getPagingMoviesUseCase
+    public final com.example.core.base.util.NetworkManager networkManager
+    public final androidx.lifecycle.MutableLiveData query
+    public final void requestLocalMovies()
+    public static final void requestLocalMovies$lambda-10(com.example.moviesearch.view.MovieSearchViewModel,java.util.List)
+    public static final void requestLocalMovies$lambda-11(com.example.moviesearch.view.MovieSearchViewModel,java.lang.Throwable)
+    public static final void requestLocalMovies$lambda-8(com.example.moviesearch.view.MovieSearchViewModel,org.reactivestreams.Subscription)
+    public static final void requestLocalMovies$lambda-9(com.example.moviesearch.view.MovieSearchViewModel)
+    public static final void requestMovie$lambda-0(com.example.moviesearch.view.MovieSearchViewModel,org.reactivestreams.Subscription)
+    public static final void requestMovie$lambda-1(com.example.moviesearch.view.MovieSearchViewModel)
+    public static final void requestMovie$lambda-2(com.example.moviesearch.view.MovieSearchViewModel,java.util.List)
+    public static final void requestMovie$lambda-3(com.example.moviesearch.view.MovieSearchViewModel,java.lang.Throwable)
+    public static final void requestPagingMovie$lambda-4(com.example.moviesearch.view.MovieSearchViewModel,io.reactivex.disposables.Disposable)
+    public static final void requestPagingMovie$lambda-5(com.example.moviesearch.view.MovieSearchViewModel)
+    public static final void requestPagingMovie$lambda-6(com.example.moviesearch.view.MovieSearchViewModel,java.util.List)
+    public static final void requestPagingMovie$lambda-7(com.example.moviesearch.view.MovieSearchViewModel,java.lang.Throwable)

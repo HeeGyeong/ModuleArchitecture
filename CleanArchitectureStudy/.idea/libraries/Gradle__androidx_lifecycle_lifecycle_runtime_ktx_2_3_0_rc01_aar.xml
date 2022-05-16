@@ -1,9 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.lifecycle:lifecycle-runtime-ktx:2.3.0-rc01@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/9cfaa3f2fa05f25afc1d8d561b0242e8/lifecycle-runtime-ktx-2.3.0-rc01/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/9cfaa3f2fa05f25afc1d8d561b0242e8/lifecycle-runtime-ktx-2.3.0-rc01/res" />
-      <root url="file://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/9cfaa3f2fa05f25afc1d8d561b0242e8/lifecycle-runtime-ktx-2.3.0-rc01/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/ca46f356067e1332a6dbf54911aee944/transformed/lifecycle-runtime-ktx-2.3.0-rc01/res" />
+      <root url="jar://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/e711b716614e8d5e61d84a51ff57b5e1/transformed/lifecycle-runtime-ktx-2.3.0-rc01/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/e711b716614e8d5e61d84a51ff57b5e1/transformed/lifecycle-runtime-ktx-2.3.0-rc01/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/e711b716614e8d5e61d84a51ff57b5e1/transformed/lifecycle-runtime-ktx-2.3.0-rc01/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

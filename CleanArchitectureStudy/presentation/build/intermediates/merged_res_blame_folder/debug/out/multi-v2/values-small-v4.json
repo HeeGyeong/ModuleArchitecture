@@ -4,7 +4,7 @@
             "outputFile": "/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/build/intermediates/incremental/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "/Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/746df9fd8b96e02597b983c492175aaf/material-1.5.0/res/values-small-v4/values-small-v4.xml",
+                    "source": "/Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/5423c65485a974611bfb437c61e9a2e1/transformed/material-1.5.0/res/values-small-v4/values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

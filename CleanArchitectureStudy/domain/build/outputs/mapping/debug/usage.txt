@@ -1,0 +1,13 @@
+androidx.databinding.library.baseAdapters.BR
+com.example.domain.BR
+com.example.domain.BuildConfig
+com.example.domain.DataBinderMapperImpl$InnerBrLookup:
+    private void <init>()
+com.example.domain.DataBinderMapperImpl$InnerLayoutIdLookup:
+    private void <init>()
+com.example.domain.DataBindingTriggerClass
+com.example.domain.model.Movie
+com.example.domain.repository.MovieRepository
+com.example.domain.usecase.movie.GetLocalMoviesUseCase
+com.example.domain.usecase.movie.GetMoviesUseCase
+com.example.domain.usecase.movie.GetPagingMoviesUseCase

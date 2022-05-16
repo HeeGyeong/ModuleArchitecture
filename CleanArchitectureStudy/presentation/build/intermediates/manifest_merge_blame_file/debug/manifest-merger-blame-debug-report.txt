@@ -33,7 +33,7 @@
 19        android:allowBackup="true"
 19-->/Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/presentation/src/main/AndroidManifest.xml:15:9-35
 20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-20-->[androidx.core:core:1.7.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/36082087862ec702802f306d6949e2ad/core-1.7.0/AndroidManifest.xml:24:18-86
+20-->[androidx.core:core:1.7.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/adacc4bbdca3c037c01e5031782c646c/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 21        android:debuggable="true"
 22        android:extractNativeLibs="false"
 23        android:icon="@mipmap/ic_launcher"
@@ -88,67 +88,67 @@
 52            android:windowSoftInputMode="adjustNothing" />
 52-->[:move] /Users/youheegyeong/ModuleArchitecture/CleanArchitectureStudy/move/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-56
 53        <activity
-53-->[io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:10:9-14:67
+53-->[io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/e3d2403a8462aecdb365b4dca6d9dedf/transformed/tedpermission-3.3.0/AndroidManifest.xml:10:9-14:67
 54            android:name="com.gun0912.tedpermission.TedPermissionActivity"
-54-->[io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:11:13-75
+54-->[io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/e3d2403a8462aecdb365b4dca6d9dedf/transformed/tedpermission-3.3.0/AndroidManifest.xml:11:13-75
 55            android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|screenLayout|fontScale|uiMode|orientation|screenSize|layoutDirection"
-55-->[io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:12:13-144
+55-->[io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/e3d2403a8462aecdb365b4dca6d9dedf/transformed/tedpermission-3.3.0/AndroidManifest.xml:12:13-144
 56            android:screenOrientation="unspecified"
-56-->[io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:13:13-52
+56-->[io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/e3d2403a8462aecdb365b4dca6d9dedf/transformed/tedpermission-3.3.0/AndroidManifest.xml:13:13-52
 57            android:theme="@style/Theme.Transparent.Permission" />
-57-->[io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:14:13-64
+57-->[io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/e3d2403a8462aecdb365b4dca6d9dedf/transformed/tedpermission-3.3.0/AndroidManifest.xml:14:13-64
 58
 59        <provider
-59-->[io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:16:9-19:40
+59-->[io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/e3d2403a8462aecdb365b4dca6d9dedf/transformed/tedpermission-3.3.0/AndroidManifest.xml:16:9-19:40
 60            android:name="com.gun0912.tedpermission.provider.TedPermissionProvider"
-60-->[io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:17:13-84
+60-->[io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/e3d2403a8462aecdb365b4dca6d9dedf/transformed/tedpermission-3.3.0/AndroidManifest.xml:17:13-84
 61            android:authorities="com.android.application.tedpermissionprovider"
-61-->[io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:18:13-73
+61-->[io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/e3d2403a8462aecdb365b4dca6d9dedf/transformed/tedpermission-3.3.0/AndroidManifest.xml:18:13-73
 62            android:exported="false" />
-62-->[io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/fd5839639eac4130e74757e9c5952ed9/tedpermission-3.3.0/AndroidManifest.xml:19:13-37
+62-->[io.github.ParkSangGwon:tedpermission:3.3.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/e3d2403a8462aecdb365b4dca6d9dedf/transformed/tedpermission-3.3.0/AndroidManifest.xml:19:13-37
 63
 64        <uses-library
-64-->[androidx.window:window:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/c18ff5fe07aaa8aa8d640b79780be5ef/window-1.0.0/AndroidManifest.xml:25:9-27:40
+64-->[androidx.window:window:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/57df4ce2d08a22f066cf859cac9a3e30/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
 65            android:name="androidx.window.extensions"
-65-->[androidx.window:window:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/c18ff5fe07aaa8aa8d640b79780be5ef/window-1.0.0/AndroidManifest.xml:26:13-54
+65-->[androidx.window:window:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/57df4ce2d08a22f066cf859cac9a3e30/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
 66            android:required="false" />
-66-->[androidx.window:window:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/c18ff5fe07aaa8aa8d640b79780be5ef/window-1.0.0/AndroidManifest.xml:27:13-37
+66-->[androidx.window:window:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/57df4ce2d08a22f066cf859cac9a3e30/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
 67        <uses-library
-67-->[androidx.window:window:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/c18ff5fe07aaa8aa8d640b79780be5ef/window-1.0.0/AndroidManifest.xml:28:9-30:40
+67-->[androidx.window:window:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/57df4ce2d08a22f066cf859cac9a3e30/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
 68            android:name="androidx.window.sidecar"
-68-->[androidx.window:window:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/c18ff5fe07aaa8aa8d640b79780be5ef/window-1.0.0/AndroidManifest.xml:29:13-51
+68-->[androidx.window:window:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/57df4ce2d08a22f066cf859cac9a3e30/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
 69            android:required="false" />
-69-->[androidx.window:window:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/c18ff5fe07aaa8aa8d640b79780be5ef/window-1.0.0/AndroidManifest.xml:30:13-37
+69-->[androidx.window:window:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/57df4ce2d08a22f066cf859cac9a3e30/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
 70
 71        <service
-71-->[androidx.room:room-runtime:2.4.2] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/d8ac9e3cd79fbfce8a66947316cceb7d/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+71-->[androidx.room:room-runtime:2.4.2] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/ea026cc092deeba5c0a77622813dd84b/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
 72            android:name="androidx.room.MultiInstanceInvalidationService"
-72-->[androidx.room:room-runtime:2.4.2] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/d8ac9e3cd79fbfce8a66947316cceb7d/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+72-->[androidx.room:room-runtime:2.4.2] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/ea026cc092deeba5c0a77622813dd84b/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
 73            android:directBootAware="true"
-73-->[androidx.room:room-runtime:2.4.2] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/d8ac9e3cd79fbfce8a66947316cceb7d/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+73-->[androidx.room:room-runtime:2.4.2] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/ea026cc092deeba5c0a77622813dd84b/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
 74            android:exported="false" />
-74-->[androidx.room:room-runtime:2.4.2] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/d8ac9e3cd79fbfce8a66947316cceb7d/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+74-->[androidx.room:room-runtime:2.4.2] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/ea026cc092deeba5c0a77622813dd84b/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
 75
 76        <provider
-76-->[androidx.emoji2:emoji2:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/3378fea79defdcaaa9659164ba3cae69/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+76-->[androidx.emoji2:emoji2:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/0598df94f460c67e853f90789c9d40d1/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
 77            android:name="androidx.startup.InitializationProvider"
-77-->[androidx.emoji2:emoji2:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/3378fea79defdcaaa9659164ba3cae69/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+77-->[androidx.emoji2:emoji2:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/0598df94f460c67e853f90789c9d40d1/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
 78            android:authorities="com.android.application.androidx-startup"
-78-->[androidx.emoji2:emoji2:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/3378fea79defdcaaa9659164ba3cae69/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+78-->[androidx.emoji2:emoji2:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/0598df94f460c67e853f90789c9d40d1/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
 79            android:exported="false" >
-79-->[androidx.emoji2:emoji2:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/3378fea79defdcaaa9659164ba3cae69/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+79-->[androidx.emoji2:emoji2:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/0598df94f460c67e853f90789c9d40d1/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
 80            <meta-data
-80-->[androidx.emoji2:emoji2:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/3378fea79defdcaaa9659164ba3cae69/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+80-->[androidx.emoji2:emoji2:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/0598df94f460c67e853f90789c9d40d1/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
 81                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-81-->[androidx.emoji2:emoji2:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/3378fea79defdcaaa9659164ba3cae69/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+81-->[androidx.emoji2:emoji2:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/0598df94f460c67e853f90789c9d40d1/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
 82                android:value="androidx.startup" />
-82-->[androidx.emoji2:emoji2:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/3378fea79defdcaaa9659164ba3cae69/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+82-->[androidx.emoji2:emoji2:1.0.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/0598df94f460c67e853f90789c9d40d1/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
 83            <meta-data
-83-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/7521be55f61a482be341ee33faa93b27/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+83-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/c4217aea2ca3d9a23241dc893df048d3/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
 84                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-84-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/7521be55f61a482be341ee33faa93b27/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+84-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/c4217aea2ca3d9a23241dc893df048d3/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
 85                android:value="androidx.startup" />
-85-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/7521be55f61a482be341ee33faa93b27/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+85-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/youheegyeong/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/c4217aea2ca3d9a23241dc893df048d3/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
 86        </provider>
 87    </application>
 88
