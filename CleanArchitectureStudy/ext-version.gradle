@@ -8,8 +8,7 @@ ext {
     versionName = "1.0.0"
 
     kotlinVersion = "1.5.0"
-    koinVersion = "3.1.6"
-    koinViewModelVersion = "2.2.3"
+    koinVersion = "3.2.0"
     roomVersion = "2.4.2"
     gsonVersion = "2.9.0"
     coroutineVersion = "2.3.0-rc01"

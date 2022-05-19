@@ -6,6 +6,8 @@ import com.example.data.db.movie.MovieDatabase
 import com.example.data.repository.search.local.MovieLocalDataSource
 import com.example.data.repository.search.local.MovieLocalDataSourceImpl
 import org.koin.core.module.Module
+import org.koin.core.module.dsl.singleOf
+import org.koin.dsl.bind
 import org.koin.dsl.module
 
 /**
@@ -14,7 +16,8 @@ import org.koin.dsl.module
  * Room 에 대한 선언도 이곳에서 처리한다.
  */
 val localDataModule: Module = module {
-    single<MovieLocalDataSource> { MovieLocalDataSourceImpl(get()) }
+    singleOf(::MovieLocalDataSourceImpl) bind MovieLocalDataSource::class
+
     single<MovieDao> { get<MovieDatabase>().movieDao() }
 
     // singleTon 으로 Room 선언.

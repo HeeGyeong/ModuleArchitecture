@@ -17,7 +17,6 @@ dependencies {
     implementation "androidx.navigation:navigation-ui-ktx:$navigationVersion"
     // koin
     implementation "io.insert-koin:koin-android:$koinVersion"
-//    implementation "io.insert-koin:koin-androidx-viewmodel:$koinViewModelVersion"
     // Room
     implementation "androidx.room:room-runtime:$roomVersion"
     // Gson

@@ -5,6 +5,7 @@ import com.example.move.view.MoveViewModel
 import com.example.moviesearch.view.MovieSearchViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.core.module.Module
+import org.koin.core.module.dsl.singleOf
 import org.koin.dsl.module
 
 /**
@@ -14,7 +15,11 @@ import org.koin.dsl.module
  * viewModel 의 경우 koin 이 viewModel 을 viewModelFactory 에 등록하고 바인딩 한다.
  */
 val viewModelModule: Module = module {
-    viewModel { MainViewModel(get()) }
-    viewModel { MoveViewModel(get()) }
-    viewModel { MovieSearchViewModel(get(), get(), get(), get(), get()) }
+//    viewModel { MainViewModel(get()) }
+//    viewModel { MoveViewModel(get()) }
+//    viewModel { MovieSearchViewModel(get(), get(), get(), get(), get()) }
+
+    singleOf(::MainViewModel)
+    singleOf(::MoveViewModel)
+    singleOf(::MovieSearchViewModel)
 }
