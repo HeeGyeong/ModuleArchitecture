@@ -2,12 +2,21 @@ package com.example.cleanarchitecturestudy.view
 
 import android.Manifest
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.lifecycle.lifecycleScope
+import com.example.cleanarchitecturestudy.BuildConfig
 import com.example.cleanarchitecturestudy.R
 import com.example.cleanarchitecturestudy.databinding.ActivityMainBinding
-import com.example.cleanarchitecturestudy.module.*
+import com.example.cleanarchitecturestudy.module.apiModule
+import com.example.cleanarchitecturestudy.module.localDataModule
+import com.example.cleanarchitecturestudy.module.navigationModule
+import com.example.cleanarchitecturestudy.module.networkModule
+import com.example.cleanarchitecturestudy.module.remoteDataModule
+import com.example.cleanarchitecturestudy.module.repositoryModule
+import com.example.cleanarchitecturestudy.module.useCaseModule
+import com.example.cleanarchitecturestudy.module.viewModelModule
 import com.example.core.base.BaseActivity
 import com.example.core.base.BaseViewModel
 import com.gun0912.tedpermission.PermissionListener
@@ -41,6 +50,18 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         )
 
         permissionCheck()
+        buildLog()
+    }
+
+    private fun buildLog() {
+        Log.d("BuildConfigCheck", "BuildConfig.FLAVOR ? ${BuildConfig.FLAVOR}")
+        Log.d("BuildConfigCheck", "BuildConfig.APPLICATION_ID ? ${BuildConfig.APPLICATION_ID}")
+        Log.d("BuildConfigCheck", "BuildConfig.BUILD_TYPE ? ${BuildConfig.BUILD_TYPE}")
+        Log.d("BuildConfigCheck", "BuildConfig.DEBUG ? ${BuildConfig.DEBUG}")
+
+        val packageData = packageManager.getPackageInfo(packageName, 0)
+        Log.d("BuildConfigCheck", "packageData.versionName ? ${packageData.versionName}")
+        Log.d("BuildConfigCheck", "packageData.versionCode ? ${packageData.versionCode}")
     }
 
     fun btnClick(view: View) {
@@ -102,5 +123,4 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
             }
         }
     }
-
 }

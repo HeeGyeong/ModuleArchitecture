@@ -25,11 +25,12 @@ if (isLibraryPlugin || isApplicationPlugin) {
 
         buildTypes {
             debug {
-                if(isApplicationPlugin){
-                    shrinkResources true
+                debuggable true
+
+                if (!isLibraryPlugin) {
+                    applicationIdSuffix '.dev'
+                    resValue "string", "app_name", "clean_Dev"
                 }
-                minifyEnabled true
-                proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             }
 
             release {
@@ -38,6 +39,17 @@ if (isLibraryPlugin || isApplicationPlugin) {
                 }
                 minifyEnabled true
                 proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+                if (!isLibraryPlugin) {
+                    resValue "string", "app_name", "clean"
+                }
+            }
+
+            staging {
+                initWith debug
+                if (!isLibraryPlugin) {
+                    applicationIdSuffix '.staging'
+                    resValue "string", "app_name", "clean_Staging"
+                }
             }
         }
 

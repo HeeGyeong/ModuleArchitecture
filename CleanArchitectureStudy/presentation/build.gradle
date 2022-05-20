@@ -6,6 +6,25 @@ android {
     defaultConfig {
         applicationId "com.android.application"
     }
+
+    flavorDimensions "sample"
+    productFlavors {
+        demo {
+            applicationIdSuffix '.demo'
+            versionNameSuffix '-demoo'
+
+            versionCode 10000
+            versionName "10.0.0"
+        }
+
+        pro {
+            applicationIdSuffix '.pro'
+            versionNameSuffix '-proo'
+
+            versionCode 20000
+            versionName "20.0.0"
+        }
+    }
 }
 
 apply from : '../android.gradle'
