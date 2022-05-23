@@ -25,9 +25,11 @@ class MoveActivity : BaseActivity<ActivityMoveBinding>(R.layout.activity_move) {
         when (view.id) {
             R.id.main_btn -> {
                 viewModel.changeToActivity(this, BaseViewModel.FromActivity.MOVE.activity("MAIN"))
+                finish()
             }
             R.id.search_btn -> {
                 viewModel.changeToActivity(this, BaseViewModel.FromActivity.MOVE.activity("MOVIE"))
+                finish()
             }
             R.id.set_data_store -> {
                 viewModel.setDataStore("insert Move")

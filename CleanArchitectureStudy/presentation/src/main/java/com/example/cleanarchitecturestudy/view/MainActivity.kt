@@ -76,6 +76,8 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
                 viewModel.changeToActivity(this, BaseViewModel.FromActivity.MOVE.activity("MOVE"))
             }
         }
+
+        finish()
     }
 
     /**

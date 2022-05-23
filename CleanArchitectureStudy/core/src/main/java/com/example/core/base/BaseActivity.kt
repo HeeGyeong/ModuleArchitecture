@@ -6,6 +6,7 @@ import androidx.annotation.LayoutRes
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
+import com.example.core.base.util.BackPressUtil
 import io.reactivex.disposables.CompositeDisposable
 
 /**
@@ -18,11 +19,13 @@ abstract class BaseActivity<B : ViewDataBinding>(
 ) : AppCompatActivity() {
     lateinit var binding: B
     private val compositeDisposable = CompositeDisposable()
+    private var backPressHandler: BackPressUtil? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, layoutId)
         binding.lifecycleOwner = this
+        backPressHandler = BackPressUtil(this)
     }
 
     protected fun showToast(msg: String) {
@@ -32,5 +35,9 @@ abstract class BaseActivity<B : ViewDataBinding>(
     override fun onDestroy() {
         super.onDestroy()
         compositeDisposable.clear()
+    }
+
+    override fun onBackPressed() {
+        backPressHandler!!.onBackPressed()
     }
 }
