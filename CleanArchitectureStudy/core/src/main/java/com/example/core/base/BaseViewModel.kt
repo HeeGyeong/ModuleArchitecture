@@ -33,9 +33,14 @@ abstract class BaseViewModel(private val navigation: Navigation) : ViewModel() {
     }
 
     // Navigator 를 사용한 Activity 이동
-    fun changeToActivity(context: Context, fromActivity: String?) {
-        Log.d("changeToActivity", "baseActivity changeToActivity $context -> $fromActivity")
-        navigation(context, fromActivity)
+    fun changeToActivity(
+        context: Context, action: ActivityAction?, fromActivity: String?, data: Any? = null
+    ) {
+        Log.d(
+            "changeToActivity",
+            "baseActivity changeToActivity $context -> $fromActivity ::: ACTION ? $action , data ? $data"
+        )
+        navigation(context, action, fromActivity, data)
     }
 
     /**
@@ -75,8 +80,10 @@ abstract class BaseViewModel(private val navigation: Navigation) : ViewModel() {
     }
 
     // enum class 를 사용하는 이유는, 호출 부분에서 행동을 제한하기 위해서이다.
-    enum class FromActivity(val activity: (String?) -> String?) {
-        MOVE({ it }),
-        BACK({ it })
+    enum class ActivityAction {
+        MOVE,
+        BACK,
+        BUNDLE,
+        DATA
     }
 }

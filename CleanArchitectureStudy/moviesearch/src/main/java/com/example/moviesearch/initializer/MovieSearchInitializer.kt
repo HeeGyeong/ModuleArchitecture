@@ -2,6 +2,7 @@ package com.example.moviesearch.initializer
 
 import android.content.Context
 import android.content.Intent
+import android.os.Bundle
 import com.example.moviesearch.view.MovieSearchActivity
 
 /**
@@ -12,5 +13,23 @@ import com.example.moviesearch.view.MovieSearchActivity
 class MovieSearchInitializer {
     fun startActivity(context: Context) {
         context.startActivity(Intent(context, MovieSearchActivity::class.java))
+    }
+
+    fun startActivity(context: Context, data: String) {
+        context.startActivity(
+            Intent().run {
+                putExtra("text", data)
+                setClass(context, MovieSearchActivity::class.java)
+            }
+        )
+    }
+
+    fun startActivity(context: Context, bundle: Bundle) {
+        context.startActivity(
+            Intent().run {
+                putExtras(bundle)
+                setClass(context, MovieSearchActivity::class.java)
+            }
+        )
     }
 }

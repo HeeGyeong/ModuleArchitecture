@@ -22,11 +22,18 @@ class MovieSearchActivity : BaseActivity<ActivityMovieSearchBinding>(R.layout.ac
         binding.vm = viewModel
         initViewModelCallback()
         initAdapter()
+        initDataCheck()
 
         binding.moveBtn.setOnClickListener {
             Log.d("moveBtnClick", "moveBtn onClick")
-            viewModel.changeToActivity(this, BaseViewModel.FromActivity.MOVE.activity("MAIN")!!)
+            viewModel.changeToActivity(this, BaseViewModel.ActivityAction.MOVE, "MAIN")
             finish()
+        }
+    }
+
+    private fun initDataCheck() {
+        if (intent.getStringExtra("text") != null) {
+            viewModel.query.value = intent.getStringExtra("text")
         }
     }
 

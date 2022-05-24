@@ -2,8 +2,10 @@ package com.example.cleanarchitecturestudy.coordinator
 
 import android.content.Context
 import android.content.Intent
+import android.os.Bundle
 import android.util.Log
 import com.example.cleanarchitecturestudy.view.MainActivity
+import com.example.core.base.BaseViewModel
 import com.example.core.base.navi.NavigationInterface
 import com.example.move.initializer.MoveInitializer
 import com.example.moviesearch.initializer.MovieSearchInitializer
@@ -16,17 +18,39 @@ import com.example.moviesearch.initializer.MovieSearchInitializer
  * 다른 케이스의 경우 외두 Module 이기 때문에 해당 Module 을 사용할 수 있는 Initializer 를 통해 접근 하도록 하였다.
  */
 class Coordinator : NavigationInterface {
-    override fun changeActivity(context: Context, fromActivity: String?) {
-        Log.d("Coordinator", "NavigationController $context -> $fromActivity")
+    override fun changeActivity(
+        context: Context,
+        action: BaseViewModel.ActivityAction?,
+        fromActivity: String?,
+        data: Any?,
+    ) {
+        Log.d("Coordinator", "NavigationController $action to $fromActivity , data ? $data")
         when (fromActivity) {
             "MAIN" -> {
-                context.startActivity(Intent(context, MainActivity::class.java))
+                if (action == BaseViewModel.ActivityAction.MOVE) {
+                    context.startActivity(Intent(context, MainActivity::class.java))
+                }
             }
             "MOVIE" -> {
-                MovieSearchInitializer().startActivity(context)
+                when (action) {
+                    BaseViewModel.ActivityAction.MOVE -> {
+                        MovieSearchInitializer().startActivity(context)
+                    }
+                    BaseViewModel.ActivityAction.DATA -> {
+                        MovieSearchInitializer().startActivity(context, data as String)
+                    }
+                    BaseViewModel.ActivityAction.BUNDLE -> {
+                        MovieSearchInitializer().startActivity(context, data as Bundle)
+                    }
+                    else -> {
+                        Log.d("Coordinator", "in else .. what u want ? $action")
+                    }
+                }
             }
             "MOVE" -> {
-                MoveInitializer().startActivity(context)
+                if (action == BaseViewModel.ActivityAction.MOVE) {
+                    MoveInitializer().startActivity(context)
+                }
             }
             else -> {
                 Log.d("Coordinator", "in else .. what u want ? $fromActivity")

@@ -12,7 +12,7 @@
             android:id="@+id/search_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
+            android:layout_marginStart="10dp"
             android:backgroundTint="@color/black"
             android:onClick="btnClick"
             android:text="SEARCH"
@@ -24,13 +24,37 @@
             android:id="@+id/move_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
+            android:layout_marginStart="10dp"
             android:backgroundTint="@color/black"
             android:onClick="btnClick"
             android:text="MOVE"
             android:textColor="@color/white"
             app:layout_constraintLeft_toRightOf="@id/search_btn"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/search_btn_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="@color/black"
+            android:onClick="btnClick"
+            android:text="SEARCH_DEFAULT"
+            android:textColor="@color/white"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/search_btn" />
+
+        <Button
+            android:id="@+id/search_btn_default_bundle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="@color/black"
+            android:onClick="btnClick"
+            android:text="SEARCH_BUNDLE"
+            android:textColor="@color/white"
+            app:layout_constraintLeft_toRightOf="@id/search_btn_default"
+            app:layout_constraintTop_toBottomOf="@id/search_btn" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

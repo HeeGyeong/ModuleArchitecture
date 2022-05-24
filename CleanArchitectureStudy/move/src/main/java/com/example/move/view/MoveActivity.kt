@@ -24,11 +24,11 @@ class MoveActivity : BaseActivity<ActivityMoveBinding>(R.layout.activity_move) {
     fun btnClick(view: View) {
         when (view.id) {
             R.id.main_btn -> {
-                viewModel.changeToActivity(this, BaseViewModel.FromActivity.MOVE.activity("MAIN"))
+                viewModel.changeToActivity(this, BaseViewModel.ActivityAction.MOVE, "MAIN")
                 finish()
             }
             R.id.search_btn -> {
-                viewModel.changeToActivity(this, BaseViewModel.FromActivity.MOVE.activity("MOVIE"))
+                viewModel.changeToActivity(this, BaseViewModel.ActivityAction.MOVE, "MOVIE")
                 finish()
             }
             R.id.set_data_store -> {

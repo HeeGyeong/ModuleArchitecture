@@ -68,12 +68,25 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         when (view.id) {
             R.id.search_btn -> {
                 viewModel.setDataStore("insert Search_btn")
-                viewModel.changeToActivity(this, BaseViewModel.FromActivity.MOVE.activity("MOVIE"))
+                viewModel.changeToActivity(this, BaseViewModel.ActivityAction.MOVE, "MOVIE")
             }
 
             R.id.move_btn -> {
                 viewModel.setDataStore("insert move_btn")
-                viewModel.changeToActivity(this, BaseViewModel.FromActivity.MOVE.activity("MOVE"))
+                viewModel.changeToActivity(this, BaseViewModel.ActivityAction.MOVE, "MOVE")
+            }
+
+            R.id.search_btn_default -> {
+                viewModel.setDataStore("insert search_btn_default")
+                viewModel.changeToActivity(this, BaseViewModel.ActivityAction.DATA, "MOVIE", "GOOD")
+            }
+
+            R.id.search_btn_default_bundle -> {
+                val bundle = Bundle().also {
+                    it.putString("text", "BAD")
+                }
+                viewModel.setDataStore("insert search_btn_default")
+                viewModel.changeToActivity(this, BaseViewModel.ActivityAction.BUNDLE, "MOVIE", bundle)
             }
         }
 
