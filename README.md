@@ -28,4 +28,4 @@ Koin을 사용하고 있으며, Gradle Version 7.2 사용과 동시에 Koin Vers
 ## Blog
 Modular Architecture에 대한 설명은 다음 블로그에 작성해 두었습니다.
 
-[Tistory Blog](https://heegs.tistory.com/69?category=915533, "Modular Architecture Example")
+[Tistory Blog](https://heegs.tistory.com/69?category=915533 "Modular Architecture Example")
