@@ -1,7 +1,6 @@
 package com.example.core.base.navi
 
 import android.content.Context
-import com.example.core.base.BaseViewModel
 
 /**
  * 화면 이동할 때 사용할 Navigation class
@@ -11,8 +10,7 @@ import com.example.core.base.BaseViewModel
 open class Navigation(private val naviInterface: NavigationInterface) {
     operator fun invoke(
         context: Context,
-        action: BaseViewModel.ActivityAction?,
         fromActivity: String?,
         data: Any?
-    ) = naviInterface.changeActivity(context, action, fromActivity, data)
+    ) = naviInterface.changeActivity(context, fromActivity, data)
 }

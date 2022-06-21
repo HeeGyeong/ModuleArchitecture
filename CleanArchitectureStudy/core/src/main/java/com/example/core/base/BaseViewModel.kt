@@ -34,13 +34,13 @@ abstract class BaseViewModel(private val navigation: Navigation) : ViewModel() {
 
     // Navigator 를 사용한 Activity 이동
     fun changeToActivity(
-        context: Context, action: ActivityAction?, fromActivity: String?, data: Any? = null
+        context: Context, fromActivity: String?, data: Any? = null
     ) {
         Log.d(
             "changeToActivity",
-            "baseActivity changeToActivity $context -> $fromActivity ::: ACTION ? $action , data ? $data"
+            "baseActivity changeToActivity $context -> $fromActivity ::: data ? $data"
         )
-        navigation(context, action, fromActivity, data)
+        navigation(context, fromActivity, data)
     }
 
     /**
@@ -77,13 +77,5 @@ abstract class BaseViewModel(private val navigation: Navigation) : ViewModel() {
     override fun onCleared() {
         compositeDisposable.dispose()
         super.onCleared()
-    }
-
-    // enum class 를 사용하는 이유는, 호출 부분에서 행동을 제한하기 위해서이다.
-    enum class ActivityAction {
-        MOVE,
-        BACK,
-        BUNDLE,
-        DATA
     }
 }

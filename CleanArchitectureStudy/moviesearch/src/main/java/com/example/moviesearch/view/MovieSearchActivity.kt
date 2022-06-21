@@ -4,15 +4,14 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.util.Log
-import android.widget.Toast
 import androidx.lifecycle.Observer
 import com.example.core.base.BaseActivity
-import com.example.core.base.BaseViewModel
 import com.example.moviesearch.R
 import com.example.moviesearch.databinding.ActivityMovieSearchBinding
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
-class MovieSearchActivity : BaseActivity<ActivityMovieSearchBinding>(R.layout.activity_movie_search) {
+class MovieSearchActivity :
+    BaseActivity<ActivityMovieSearchBinding>(R.layout.activity_movie_search) {
     private lateinit var movieAdapter: MovieAdapter
     private val viewModel: MovieSearchViewModel by viewModel()
 
@@ -26,7 +25,7 @@ class MovieSearchActivity : BaseActivity<ActivityMovieSearchBinding>(R.layout.ac
 
         binding.moveBtn.setOnClickListener {
             Log.d("moveBtnClick", "moveBtn onClick")
-            viewModel.changeToActivity(this, BaseViewModel.ActivityAction.MOVE, "MAIN")
+            viewModel.changeToActivity(this, "MAIN")
             finish()
         }
     }
@@ -39,7 +38,7 @@ class MovieSearchActivity : BaseActivity<ActivityMovieSearchBinding>(R.layout.ac
 
     private fun initAdapter() {
         movieAdapter = MovieAdapter { movie ->
-            Log.d("clickSample" , "check movie ? .. $movie")
+            Log.d("clickSample", "check movie ? .. $movie")
             Intent(Intent.ACTION_VIEW, Uri.parse(movie.link)).run(this::startActivity)
         }
         binding.rvMovies.adapter = movieAdapter
@@ -54,7 +53,11 @@ class MovieSearchActivity : BaseActivity<ActivityMovieSearchBinding>(R.layout.ac
                     when (toastMsg.value) {
                         MovieSearchViewModel.MessageSet.LAST_PAGE -> showToast(getString(R.string.last_page_msg))
                         MovieSearchViewModel.MessageSet.EMPTY_QUERY -> showToast(getString(R.string.search_input_query_msg))
-                        MovieSearchViewModel.MessageSet.NETWORK_NOT_CONNECTED -> showToast(getString(R.string.network_error_msg))
+                        MovieSearchViewModel.MessageSet.NETWORK_NOT_CONNECTED -> showToast(
+                            getString(
+                                R.string.network_error_msg
+                            )
+                        )
                         MovieSearchViewModel.MessageSet.SUCCESS -> showToast(getString(R.string.load_movie_success_msg))
                         MovieSearchViewModel.MessageSet.NO_RESULT -> showToast(getString(R.string.no_movie_error_msg))
                         MovieSearchViewModel.MessageSet.ERROR -> showToast(getString(R.string.error_msg))

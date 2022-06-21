@@ -1,11 +1,8 @@
 package com.example.cleanarchitecturestudy.coordinator
 
 import android.content.Context
-import android.content.Intent
-import android.os.Bundle
 import android.util.Log
-import com.example.cleanarchitecturestudy.view.MainActivity
-import com.example.core.base.BaseViewModel
+import com.example.cleanarchitecturestudy.initalizer.MainInitializer
 import com.example.core.base.navi.NavigationInterface
 import com.example.move.initializer.MoveInitializer
 import com.example.moviesearch.initializer.MovieSearchInitializer
@@ -20,37 +17,19 @@ import com.example.moviesearch.initializer.MovieSearchInitializer
 class Coordinator : NavigationInterface {
     override fun changeActivity(
         context: Context,
-        action: BaseViewModel.ActivityAction?,
         fromActivity: String?,
         data: Any?,
     ) {
-        Log.d("Coordinator", "NavigationController $action to $fromActivity , data ? $data")
+        Log.d("Coordinator", "NavigationController $fromActivity , data ? $data")
         when (fromActivity) {
             "MAIN" -> {
-                if (action == BaseViewModel.ActivityAction.MOVE) {
-                    context.startActivity(Intent(context, MainActivity::class.java))
-                }
+                MainInitializer().startActivity(context, data)
             }
             "MOVIE" -> {
-                when (action) {
-                    BaseViewModel.ActivityAction.MOVE -> {
-                        MovieSearchInitializer().startActivity(context)
-                    }
-                    BaseViewModel.ActivityAction.DATA -> {
-                        MovieSearchInitializer().startActivity(context, data as String)
-                    }
-                    BaseViewModel.ActivityAction.BUNDLE -> {
-                        MovieSearchInitializer().startActivity(context, data as Bundle)
-                    }
-                    else -> {
-                        Log.d("Coordinator", "in else .. what u want ? $action")
-                    }
-                }
+                MovieSearchInitializer().startActivity(context, data)
             }
             "MOVE" -> {
-                if (action == BaseViewModel.ActivityAction.MOVE) {
-                    MoveInitializer().startActivity(context)
-                }
+                MoveInitializer().startActivity(context, data)
             }
             else -> {
                 Log.d("Coordinator", "in else .. what u want ? $fromActivity")

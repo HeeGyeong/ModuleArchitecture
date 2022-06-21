@@ -5,7 +5,6 @@ import android.view.View
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.findNavController
 import com.example.core.base.BaseActivity
-import com.example.core.base.BaseViewModel
 import com.example.move.R
 import com.example.move.databinding.ActivityMoveBinding
 import kotlinx.coroutines.launch
@@ -24,11 +23,11 @@ class MoveActivity : BaseActivity<ActivityMoveBinding>(R.layout.activity_move) {
     fun btnClick(view: View) {
         when (view.id) {
             R.id.main_btn -> {
-                viewModel.changeToActivity(this, BaseViewModel.ActivityAction.MOVE, "MAIN")
+                viewModel.changeToActivity(this, "MAIN")
                 finish()
             }
             R.id.search_btn -> {
-                viewModel.changeToActivity(this, BaseViewModel.ActivityAction.MOVE, "MOVIE")
+                viewModel.changeToActivity(this, "MOVIE")
                 finish()
             }
             R.id.set_data_store -> {

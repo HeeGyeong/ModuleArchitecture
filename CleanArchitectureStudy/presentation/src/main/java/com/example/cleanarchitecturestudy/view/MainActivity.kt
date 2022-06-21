@@ -9,16 +9,8 @@ import androidx.lifecycle.lifecycleScope
 import com.example.cleanarchitecturestudy.BuildConfig
 import com.example.cleanarchitecturestudy.R
 import com.example.cleanarchitecturestudy.databinding.ActivityMainBinding
-import com.example.cleanarchitecturestudy.module.apiModule
-import com.example.cleanarchitecturestudy.module.localDataModule
-import com.example.cleanarchitecturestudy.module.navigationModule
-import com.example.cleanarchitecturestudy.module.networkModule
-import com.example.cleanarchitecturestudy.module.remoteDataModule
-import com.example.cleanarchitecturestudy.module.repositoryModule
-import com.example.cleanarchitecturestudy.module.useCaseModule
-import com.example.cleanarchitecturestudy.module.viewModelModule
+import com.example.cleanarchitecturestudy.module.*
 import com.example.core.base.BaseActivity
-import com.example.core.base.BaseViewModel
 import com.gun0912.tedpermission.PermissionListener
 import com.gun0912.tedpermission.normal.TedPermission
 import kotlinx.coroutines.launch
@@ -68,17 +60,17 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         when (view.id) {
             R.id.search_btn -> {
                 viewModel.setDataStore("insert Search_btn")
-                viewModel.changeToActivity(this, BaseViewModel.ActivityAction.MOVE, "MOVIE")
+                viewModel.changeToActivity(this, "MOVIE")
             }
 
             R.id.move_btn -> {
                 viewModel.setDataStore("insert move_btn")
-                viewModel.changeToActivity(this, BaseViewModel.ActivityAction.MOVE, "MOVE")
+                viewModel.changeToActivity(this, "MOVE")
             }
 
             R.id.search_btn_default -> {
                 viewModel.setDataStore("insert search_btn_default")
-                viewModel.changeToActivity(this, BaseViewModel.ActivityAction.DATA, "MOVIE", "GOOD")
+                viewModel.changeToActivity(this, "MOVIE", "GOOD")
             }
 
             R.id.search_btn_default_bundle -> {
@@ -86,7 +78,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
                     it.putString("text", "BAD")
                 }
                 viewModel.setDataStore("insert search_btn_default")
-                viewModel.changeToActivity(this, BaseViewModel.ActivityAction.BUNDLE, "MOVIE", bundle)
+                viewModel.changeToActivity(this, "MOVIE", bundle)
             }
         }
 
@@ -101,7 +93,8 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
             if (!viewModel.getPermission()) {
                 val permissionListener: PermissionListener = object : PermissionListener {
                     override fun onPermissionGranted() {
-                        Toast.makeText(this@MainActivity,
+                        Toast.makeText(
+                            this@MainActivity,
                             "권한 설정 완료",
                             Toast.LENGTH_SHORT
                         ).show()

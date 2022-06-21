@@ -10,7 +10,7 @@ import com.example.move.view.MoveActivity
  * 외부에서 해당 모듈을 접근 할 떄, 직접 호출이 아닌 Initializer 를 통해서만 접근하도록 하기 위해서 사용한다.
  */
 class MoveInitializer {
-    fun startActivity(context: Context) {
+    fun startActivity(context: Context, data: Any? = null) {
         context.startActivity(Intent(context, MoveActivity::class.java))
     }
 }
