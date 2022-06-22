@@ -7,6 +7,7 @@ Clean Architecture를 기반으로 작성하였으며, Coordinator Pattern을 �
 
 각 화면은 모든 화면을 참조하고 있는 Presentation Module을 통해서만 이동하게 되어있으며, Presentation Module은 Initializer를 통해서 다른 화면을 호출하게 됩니다.
 즉, 각 Activity Module은 Initializer를 통해서만 접근이 가능하고, 각 Initializer는 Presentation Module에서 접근이 가능합니다.
+Initializer에서 전달 받은 Data를 컨트롤하여 Activity에 사용할 수 있도록 하였습니다.
 
 
 그 외 Data, Domain Module은 Clean Architecture와 동일한 역할을 하도록 구현되어있습니다.
