@@ -1,5 +1,9 @@
 # Modular Architecture Sample
 
+## Description
+Clean Architecture에서 조금 더 확장하여 View 단위 별로 Module로 나누어 만들어본 Sample Code 입니다.
+
+Core 모듈은 각 Module에서 공통적으로 사용하는 클래스를 따로 빼내어 관리하기 위하여 만들어두었습니다.
 
 ## Architecture 
 Clean Architecture를 기반으로 작성하였으며, Coordinator Pattern을 사용하여 화면 단위로 Module이 나뉘어져 있습니다.
@@ -22,6 +26,9 @@ android.gradle에서는 compile, buildTools, targetSdk 등 기본적인 android 
 2022.05. Gradle Version 7.2 대응 작업.
 
 2022.05. Build Type, ProductFlavors 추가.
+
+Build Type은 Project 범위의 Gradle을 확인하고,
+ProductFlavors는 App 범위의 Module인 Presentation Gradle을 확인하며 알 수 있습니다.
 
 ## DI
 Koin을 사용하고 있으며, Gradle Version 7.2 사용과 동시에 Koin Version 3.2로 최신화 하였습니다.
