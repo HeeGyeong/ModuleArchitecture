@@ -53,6 +53,8 @@ dependencies {
     implementation("androidx.datastore:datastore-preferences:$datastoreVersion")
     // optional - RxJava2 support
     implementation("androidx.datastore:datastore-preferences-rxjava2:1.0.0")
+    // BioMetric
+    implementation 'androidx.biometric:biometric:1.1.0'
 
 
     // other library
