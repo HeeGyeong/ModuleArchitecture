@@ -20,7 +20,14 @@ import androidx.lifecycle.lifecycleScope
 import com.example.cleanarchitecturestudy.BuildConfig
 import com.example.cleanarchitecturestudy.R
 import com.example.cleanarchitecturestudy.databinding.ActivityMainBinding
-import com.example.cleanarchitecturestudy.module.*
+import com.example.cleanarchitecturestudy.module.apiModule
+import com.example.cleanarchitecturestudy.module.localDataModule
+import com.example.cleanarchitecturestudy.module.navigationModule
+import com.example.cleanarchitecturestudy.module.networkModule
+import com.example.cleanarchitecturestudy.module.remoteDataModule
+import com.example.cleanarchitecturestudy.module.repositoryModule
+import com.example.cleanarchitecturestudy.module.useCaseModule
+import com.example.cleanarchitecturestudy.module.viewModelModule
 import com.example.core.base.BaseActivity
 import com.gun0912.tedpermission.PermissionListener
 import com.gun0912.tedpermission.normal.TedPermission
@@ -55,11 +62,11 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
         permissionCheck()
         buildLog()
-        initBioMetric()
+        biometricPrompt = setBiometricPrompt()
     }
 
-    private var biometricPrompt: BiometricPrompt? = null
-    private var promptInfo: BiometricPrompt.PromptInfo? = null
+    private lateinit var biometricPrompt: BiometricPrompt
+    private lateinit var promptInfo: BiometricPrompt.PromptInfo
     private val biometricResult =
         registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
             Log.d("BiometricLog", "registerForActivityResult : $result")
@@ -72,18 +79,18 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
             }
         }
 
-    private fun initBioMetric() {
-        biometricPrompt = setBiometricPrompt()
-        promptInfo = setPromptInfo()
-    }
+    private lateinit var executor: Executor
 
-    private var executor: Executor? = null
+    /**
+     * 생체 인증 결과 Callback
+     */
     private fun setBiometricPrompt(): BiometricPrompt {
         executor = ContextCompat.getMainExecutor(this)
 
         biometricPrompt =
-            BiometricPrompt(this, executor!!, object : BiometricPrompt.AuthenticationCallback() {
+            BiometricPrompt(this, executor, object : BiometricPrompt.AuthenticationCallback() {
 
+                // 인증 에러
                 override fun onAuthenticationError(errorCode: Int, errString: CharSequence) {
                     super.onAuthenticationError(errorCode, errString)
                     Toast.makeText(
@@ -105,28 +112,40 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
             })
 
-        return biometricPrompt as BiometricPrompt
+        return biometricPrompt
     }
 
-    private fun setPromptInfo(): BiometricPrompt.PromptInfo {
-        val promptBuilder: BiometricPrompt.PromptInfo.Builder = BiometricPrompt.PromptInfo.Builder()
+    /**
+     * 생체 인증 화면 설정
+     */
+    private fun setPromptInfo(usePattern: Boolean): BiometricPrompt.PromptInfo {
+        Log.d("dataCheckLog", "call setPromptInfo")
+        // setDescription을 설정하지 않으면 Default 값으로 나옴.
+        val promptBuilder = BiometricPrompt.PromptInfo.Builder()
+            .setTitle("Biometric Title")
+            .setSubtitle("Biometric subTitle")
+            .setDescription("Biometric description")
 
-        promptBuilder.setTitle("Biometric Title")
-        promptBuilder.setSubtitle("Biometric subTitle")
-        promptBuilder.setDescription("Biometric description")
+        // DEVICE_CREDENTIAL 사용 시 패턴으로 인증 가능.
+        if (usePattern) {
+            // BIOMETRIC_STRONG, DEVICE_CREDENTIAL은 Android 10(API 29) 이하에서는 지원되지 않음
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+                // BIOMETRIC_STRONG 사용 시 지문 인증만, BIOMETRIC_WEAK 사용 시 지문/얼굴 인증 사용 가능
+                promptBuilder.setAllowedAuthenticators(BiometricManager.Authenticators.BIOMETRIC_STRONG or BiometricManager.Authenticators.DEVICE_CREDENTIAL)
+            }
 
-        // 특정 버전 이상에는 setNegativeButtonText가 필요하지 않아 에러가 발생합니다.
-        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.R) {
-            promptBuilder.setNegativeButtonText("Biometric negativeBtnText")
+            // DEVICE_CREDENTIAL 사용 시 setNegativeButtonText는 설정하면 안됨.
+            // 따라서, DEVICE_CREDENTIAL 사용 시 지원하지 않는 Android 10 이하에서는 설정을 해주어야 한다.
+            if (Build.VERSION.SDK_INT < Build.VERSION_CODES.R) {
+                promptBuilder.setNegativeButtonText("Biometric negativeBtnText")
+            }
+        } else {
+            promptBuilder.setNegativeButtonText("취소")
         }
 
-        // 안면 인식의 경우 Android 11 이상부터 사용이 가능합니다.
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
-            promptBuilder.setAllowedAuthenticators(BiometricManager.Authenticators.BIOMETRIC_STRONG or BiometricManager.Authenticators.DEVICE_CREDENTIAL)
-        }
 
         promptInfo = promptBuilder.build()
-        return promptInfo as BiometricPrompt.PromptInfo
+        return promptInfo
     }
 
     private fun buildLog() {
@@ -140,6 +159,9 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         Log.d("BuildConfigCheck", "packageData.versionCode ? ${packageData.versionCode}")
     }
 
+    /**
+     * 생체 인증을 사용 여부 확인
+     */
     private fun checkUseBiometric() {
         val biometricManager = BiometricManager.from(this@MainActivity)
         when (biometricManager.canAuthenticate(BiometricManager.Authenticators.BIOMETRIC_WEAK)) {
@@ -172,17 +194,22 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
             }
         }
 
-        goAuthenticate()
+        startAuthenticate()
     }
 
-    // 생체 인증 호출
-    private fun goAuthenticate() {
-        Log.d("BiometricLog", "promptInfo : $promptInfo")
-        promptInfo?.let {
-            biometricPrompt?.authenticate(it)  //인증 실행
+    /**
+     * 생체 인증 호출
+     */
+    private fun startAuthenticate() {
+        promptInfo = setPromptInfo(usePattern)
+        promptInfo.let {
+            biometricPrompt.authenticate(it)  //인증 실행
         }
     }
 
+    /**
+     * 생체 인증 등록 화면으로 이동
+     */
     private fun startSettingPage() {
         // R 버전 이하에서는 FingerPrint를 사용하기 때문에, 다른 Setting 화면 호출 필요.
         val enrollIntent = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
@@ -201,6 +228,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
     }
 
     var goNext = true
+    var usePattern = false
     fun btnClick(view: View) {
         when (view.id) {
             R.id.search_btn -> {
@@ -226,8 +254,15 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
                 viewModel.changeToActivity(this, "MOVIE", bundle)
             }
 
-            R.id.biometric_btn -> {
+            R.id.biometric -> {
                 goNext = false
+                usePattern = false
+                checkUseBiometric()
+            }
+
+            R.id.biometric_use_pattern -> {
+                goNext = false
+                usePattern = true
                 checkUseBiometric()
             }
         }
