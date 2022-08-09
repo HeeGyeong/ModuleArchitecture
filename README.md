@@ -33,6 +33,13 @@ ProductFlavors는 App 범위의 Module인 Presentation Gradle을 확인하며 �
 ## DI
 Koin을 사용하고 있으며, Gradle Version 7.2 사용과 동시에 Koin Version 3.2로 최신화 하였습니다.
 
+## Biometric
+Biometric 1.1.0 버전을 사용하여 생체 인증을 구현하였습니다.
+
+버전에 따라 패턴 인증을 사용할 수 있도록 구분해 두었으며, 패턴을 사용하지 않을 경우 지문 인증, 얼굴 인증을 사용할 수 있도록 해두었습니다.
+
+관련된 내용은 [블로그](https://heegs.tistory.com/132 "How to use Biometric")에 작성해 두었으며, 주석으로 추가해두어 코드만 확인해도 무관합니다.
+
 ## Blog
 Modular Architecture에 대한 설명은 다음 블로그에 작성해 두었습니다.
 
