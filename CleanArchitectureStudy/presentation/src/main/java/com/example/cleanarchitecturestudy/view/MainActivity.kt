@@ -301,7 +301,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
                         Toast.makeText(
                             this@MainActivity,
                             getString(R.string.permission_denied)
-                                    + "권한 거부\n$deniedPermissions",
+                                    + "\n$deniedPermissions",
                             Toast.LENGTH_SHORT
                         ).show()
                         viewModel.setPermission()
