@@ -1,20 +1,25 @@
 <resources>
-    <string name="search_input_query_msg">검색어를 입력해주세요</string>
-    <string name="network_error_msg">네트워크를 연결해주세요.</string>
-    <string name="load_movie_success_msg">영화를 불러왔습니다.</string>
-    <string name="no_movie_error_msg">해당 영화는 존재하지 않습니다.</string>
-    <string name="last_page_msg">마지막 페이지 입니다</string>
-    <string name="wait_toast">잠시만 기다려주세요.</string>
-    <string name="auto_login_msg">자동 로그인</string>
-    <string name="id_pw_not_correct_error_msg">아이디 또는 패스워드가 틀렸습니다</string>
-    <string name="id_empty_error_msg">아이디를 입력해주세요</string>
-    <string name="pw_empty_error_msg">비밀번호를 입력해주세요</string>
-    <string name="login_success_msg">로그인 성공</string>
-    <string name="movie_search_input_hint">영화를 입력해주세요</string>
-    <string name="movie_search_text">검색</string>
-    <string name="login_id_hint">아이디(id 치세요)</string>
-    <string name="login_pw_hint">패스워드(pass 치세요)</string>
-    <string name="login_login_text">로그인</string>
-    <string name="error_msg">에러</string>
-    <string name="local_db_msg">네트워크가 불안정하여 로컬DB 에서 불러옵니다</string>
+    <string name="ok">확인</string>
+    <string name="cancel">취소</string>
+
+    <string name="biometric_auth_success">생체 인증 성공</string>
+    <string name="biometric_auth_fail">생체 인증 실패</string>
+
+    <string name="biometric_prompt_title">Biometric Title</string>
+    <string name="biometric_prompt_sub">Biometric subTitle</string>
+    <string name="biometric_prompt_description">Biometric description</string>
+
+    <string name="biometric_dialog_title">지문이 등록되어있지 않습니다.</string>
+    <string name="biometric_dialog_msg">지문 등록이 필요합니다. 지문등록 설정화면으로 이동하시겠습니까?</string>
+
+    <string name="permission_granted">권한 설정 완료</string>
+    <string name="permission_denied">권한 거부</string>
+
+    <string name="ted_msg">권한 설정 합시다.</string>
+    <string name="ted_title">권한 설정 받는 중</string>
+    <string name="ted_confirm">알겠습니다.</string>
+    <string name="ted_denied_title">권한 설정 거절.</string>
+    <string name="ted_denied_msg">권한 설정을 하려면 Setting을 눌러서 직접 변경해주세요.</string>
+    <string name="ted_denied_close">닫기</string>
+    <string name="ted_goto_setting">설정하러 가봅시다.</string>
 </resources>

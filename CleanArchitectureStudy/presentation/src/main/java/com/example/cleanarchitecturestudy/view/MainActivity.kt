@@ -102,12 +102,20 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
                 override fun onAuthenticationSucceeded(result: BiometricPrompt.AuthenticationResult) {
                     super.onAuthenticationSucceeded(result)
-                    Toast.makeText(this@MainActivity, "생체 인증 성공", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(
+                        this@MainActivity,
+                        getString(R.string.biometric_auth_success),
+                        Toast.LENGTH_SHORT
+                    ).show()
                 }
 
                 override fun onAuthenticationFailed() {
                     super.onAuthenticationFailed()
-                    Toast.makeText(this@MainActivity, "생체 인증 실패", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(
+                        this@MainActivity,
+                        getString(R.string.biometric_auth_fail),
+                        Toast.LENGTH_SHORT
+                    ).show()
                 }
 
             })
@@ -122,9 +130,9 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         Log.d("dataCheckLog", "call setPromptInfo")
         // setDescription을 설정하지 않으면 Default 값으로 나옴.
         val promptBuilder = BiometricPrompt.PromptInfo.Builder()
-            .setTitle("Biometric Title")
-            .setSubtitle("Biometric subTitle")
-            .setDescription("Biometric description")
+            .setTitle(getString(R.string.biometric_prompt_title))
+            .setSubtitle(getString(R.string.biometric_prompt_sub))
+            .setDescription(getString(R.string.biometric_prompt_description))
 
         // DEVICE_CREDENTIAL 사용 시 패턴으로 인증 가능.
         if (usePattern) {
@@ -137,10 +145,10 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
             // DEVICE_CREDENTIAL 사용 시 setNegativeButtonText는 설정하면 안됨.
             // 따라서, DEVICE_CREDENTIAL 사용 시 지원하지 않는 Android 10 이하에서는 설정을 해주어야 한다.
             if (Build.VERSION.SDK_INT < Build.VERSION_CODES.R) {
-                promptBuilder.setNegativeButtonText("Biometric negativeBtnText")
+                promptBuilder.setNegativeButtonText(getString(R.string.cancel))
             }
         } else {
-            promptBuilder.setNegativeButtonText("취소")
+            promptBuilder.setNegativeButtonText(getString(R.string.cancel))
         }
 
 
@@ -182,8 +190,8 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
                 Log.d("BiometricLog", "BIOMETRIC_ERROR_NONE_ENROLLED :: 생체 인증 정보가 없음")
 
                 val dialogBuilder = AlertDialog.Builder(this@MainActivity)
-                dialogBuilder.setTitle("지문이 등록되어있지 않습니다.")
-                    .setMessage("지문 등록이 필요합니다. 지문등록 설정화면으로 이동하시겠습니까?")
+                dialogBuilder.setTitle(getString(R.string.biometric_dialog_title))
+                    .setMessage(getString(R.string.biometric_dialog_msg))
                     .setPositiveButton("확인") { _, _ -> startSettingPage() }
                     .setNegativeButton("취소") { dialog, _ -> dialog.cancel() }
                 dialogBuilder.show()
@@ -283,7 +291,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
                     override fun onPermissionGranted() {
                         Toast.makeText(
                             this@MainActivity,
-                            "권한 설정 완료",
+                            getString(R.string.permission_granted),
                             Toast.LENGTH_SHORT
                         ).show()
                         viewModel.setPermission()
@@ -292,7 +300,8 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
                     override fun onPermissionDenied(deniedPermissions: List<String>) {
                         Toast.makeText(
                             this@MainActivity,
-                            "권한 거부\n$deniedPermissions",
+                            getString(R.string.permission_denied)
+                                    + "권한 거부\n$deniedPermissions",
                             Toast.LENGTH_SHORT
                         ).show()
                         viewModel.setPermission()
@@ -301,15 +310,15 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
                 TedPermission.create()
                     .setPermissionListener(permissionListener)
-                    .setRationaleMessage("권한 설정 합시다.")
-                    .setRationaleTitle("권한 설정 받는 중")
-                    .setRationaleConfirmText("알겠습니다")
+                    .setRationaleMessage(getString(R.string.ted_msg))
+                    .setRationaleTitle(getString(R.string.ted_title))
+                    .setRationaleConfirmText(getString(R.string.ted_confirm))
 
-                    .setDeniedTitle("권한 설정을 거절.")
-                    .setDeniedMessage("권한 설정 하려면 Setting 눌러서 직접 해주세요")
-                    .setDeniedCloseButtonText("닫기")
+                    .setDeniedTitle(getString(R.string.ted_denied_title))
+                    .setDeniedMessage(getString(R.string.ted_denied_msg))
+                    .setDeniedCloseButtonText(getString(R.string.ted_denied_close))
 
-                    .setGotoSettingButtonText("설정하러 가봅시다")
+                    .setGotoSettingButtonText(getString(R.string.ted_goto_setting))
                     .setPermissions(
                         Manifest.permission.READ_EXTERNAL_STORAGE,
                         Manifest.permission.READ_CONTACTS,
